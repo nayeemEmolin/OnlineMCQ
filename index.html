@@ -40,6 +40,106 @@ body{background:var(--bg);color:var(--ink)}
 .topbar-tools{display:flex;align-items:center;gap:12px}.inside-test .topbar-tools .theme-toggle{display:none}.practice-top-actions{display:flex;align-items:center;gap:8px}.theme-toggle .theme-icon{font-size:16px}
 @media(max-width:560px){.topbar-tools{gap:6px;align-items:flex-end;flex-direction:column}.topbar-tools .fine{font-size:11px}.theme-toggle{padding:8px 9px;font-size:12px}.practice-top-actions{flex-direction:column;align-items:stretch}.exam-actions .theme-toggle{font-size:0;padding:9px}.exam-actions .theme-toggle .theme-icon{font-size:17px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+/* Responsive refinement: laptop, tablet and phone */
+@media (max-width: 900px){
+  .wrap{max-width:100%;padding:18px}
+  .hero{grid-template-columns:1fr;gap:20px}
+  .hero-visual{max-width:none}
+  .grid3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .section{padding:21px}
+  .practice-panel{max-width:100%}
+}
+@media (max-width: 600px){
+  body{font-size:15px;line-height:1.6}
+  .wrap{padding:12px}
+  .topbar{align-items:flex-start;gap:10px;margin:4px 0 16px}
+  .logo{gap:9px;min-width:0}
+  .logo>div:last-child{min-width:0}
+  .logo small{font-size:12px;line-height:1.4}
+  .topbar-tools{flex:0 0 auto}
+  .topbar-tools .fine{max-width:110px;text-align:right;line-height:1.35}
+  .hero{padding:20px 17px;border-radius:17px;gap:16px}
+  .hero h1{font-size:clamp(29px,8.5vw,39px);line-height:1.2}
+  .hero p{font-size:15px;line-height:1.65}
+  .hero-visual{padding:15px}
+  .hero-visual .big{font-size:34px}
+  .mini-grid{gap:7px}
+  .mini{padding:9px}
+  .section{padding:15px;border-radius:16px;margin-top:14px}
+  .section h2{font-size:20px;line-height:1.35}
+  .lead{font-size:14px;line-height:1.55}
+  .grid2,.grid3{grid-template-columns:1fr;gap:9px}
+  .info{padding:14px}
+  .facts{gap:8px;margin:13px 0}
+  .fact{padding:10px}
+  .fact b{font-size:18px}
+  .fact span{font-size:11px;line-height:1.4}
+  .subject-table th,.subject-table td{padding:8px 6px;font-size:13px}
+  .target{padding:13px;gap:8px}
+  .target strong{font-size:22px}
+  .topic-grid{gap:9px}
+  .subject-accordion>summary{gap:8px;font-size:14px;padding:12px}
+  .subject-count{font-size:13px}
+  .subject-topics{padding:0 8px 10px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .subject-topics .topic-table{min-width:430px;font-size:12px}
+  .subject-topics .topic-table th,.subject-topics .topic-table td{padding:8px}
+  .distribution-total{font-size:14px;padding:11px 12px}
+  .table-scroll{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .aggregate-table{min-width:380px;font-size:12px}
+  .topline{align-items:stretch;flex-direction:column;gap:8px}
+  .practice-top-actions{flex-direction:row;align-items:center;justify-content:space-between}
+  .practice-top-actions .btn{padding:9px 12px}
+  .practice-panel{width:100%}
+  .practice-question{padding:16px}
+  .practice-controls{gap:8px}
+  .practice-controls .btn{flex:1 1 0;padding:10px 8px}
+  .exam-head{top:0;gap:8px;padding:9px 10px;border-radius:0 0 14px 14px}
+  .exam-summary{width:100%;min-width:0}
+  .exam-head .brand{font-size:10px;letter-spacing:.12em}
+  .exam-metrics{gap:5px;margin-top:6px}
+  .exam-metric{min-width:0;flex:1;padding:5px 7px;gap:6px;font-size:10px}
+  .exam-metric strong{font-size:14px}
+  .exam-head .muted{font-size:10px;line-height:1.35}
+  .exam-actions{width:100%;display:grid;grid-template-columns:minmax(85px,1fr) 42px auto;gap:6px;align-items:center}
+  .exam-time-chip{min-width:0;padding:5px 7px}
+  .exam-time-chip>span{font-size:10px}
+  .exam-time-chip .timer{font-size:18px}
+  .exam-actions .theme-toggle{width:42px;height:38px;padding:8px;font-size:0}
+  .exam-actions .theme-toggle .theme-icon{font-size:17px}
+  .exam-actions .btn{padding:8px 10px;font-size:12px;white-space:nowrap}
+  .question{padding:13px;margin-bottom:10px;border-radius:13px;scroll-margin-top:170px}
+  .qtop{font-size:12px}
+  .qtitle{font-size:16px;line-height:1.55;overflow-wrap:anywhere}
+  .options{grid-template-columns:1fr;gap:7px}
+  .option{min-height:46px;padding:10px 11px;font-size:15px}
+  .option span:last-child{overflow-wrap:anywhere}
+  .feedback{padding:11px;font-size:13px;line-height:1.6;overflow-wrap:anywhere}
+  .result,.result-top{padding:15px;border-radius:15px}
+  .result-top{scroll-margin-top:190px}
+  .result{scroll-margin-top:190px}
+  .score{font-size:38px}
+  .stats{gap:6px;margin:11px 0}
+  .stat{padding:7px 9px;font-size:12px}
+  .subject-results{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+  .subject-result{min-width:0;padding:10px;font-size:13px;overflow-wrap:anywhere}
+  .result-top .actions .btn,.result .actions .btn{width:100%}
+  .footer{padding:16px 8px}
+}
+@media (max-width: 360px){
+  .wrap{padding:9px}
+  .mark{width:38px;height:38px;font-size:16px}
+  .brand{font-size:10px;letter-spacing:.1em}
+  .logo small{font-size:11px}
+  .topbar-tools .theme-toggle{padding:7px 8px;font-size:11px}
+  .topbar-tools .fine{font-size:10px;max-width:90px}
+  .hero{padding:17px 14px}
+  .hero h1{font-size:28px}
+  .exam-head{padding:8px}
+  .exam-actions{grid-template-columns:minmax(80px,1fr) 38px auto}
+  .exam-actions .theme-toggle{width:38px}
+  .exam-actions .btn{font-size:11px;padding:8px}
+  .subject-results{grid-template-columns:1fr 1fr}
+}
 </style>
 </head>
 <body><main class="wrap">
