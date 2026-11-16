@@ -37,7 +37,7 @@ body{background:var(--bg);color:var(--ink)}
 .start-overlay{background:var(--overlay)}.startbox{background:var(--surface);color:var(--ink)}.startbox p,.startbox ul{color:var(--text-soft)}
 .topic-card summary,.subject-accordion>summary{color:var(--ink)}.topic-table{background:var(--surface)}.subject-topics .topic-table{background:var(--surface);color:var(--ink)}.subject-topics .topic-table th{color:var(--muted)}.subject-topics .topic-table td{color:var(--ink)}.subject-topics .topic-table tfoot td{color:var(--gold);background:var(--surface-strong)}.topic-table tfoot td,.aggregate-table tfoot td,.distribution-total{color:var(--cyan);background:var(--surface-strong)}.subject-accordion:hover{background:var(--surface-strong)}
 .theme-toggle{white-space:nowrap;display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:9px 12px;border-radius:11px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;font-size:13px;font-weight:700;line-height:1.2;cursor:pointer;transition:.18s}.theme-toggle:hover{border-color:var(--cyan);transform:translateY(-1px)}.theme-toggle:focus-visible,.btn:focus-visible,.option:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
-.topbar-tools{display:flex;align-items:center;gap:12px}.practice-top-actions{display:flex;align-items:center;gap:8px}.theme-toggle .theme-icon{font-size:16px}
+.topbar-tools{display:flex;align-items:center;gap:12px}.inside-test .topbar-tools .theme-toggle{display:none}.practice-top-actions{display:flex;align-items:center;gap:8px}.theme-toggle .theme-icon{font-size:16px}
 @media(max-width:560px){.topbar-tools{gap:6px;align-items:flex-end;flex-direction:column}.topbar-tools .fine{font-size:11px}.theme-toggle{padding:8px 9px;font-size:12px}.practice-top-actions{flex-direction:column;align-items:stretch}.exam-actions .theme-toggle{font-size:0;padding:9px}.exam-actions .theme-toggle .theme-icon{font-size:17px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
@@ -150,7 +150,7 @@ const labels=['A','B','C','D'],bnDigits='০১২৩৪৫৬৭৮৯';
 let answers=Array(Q.length).fill(null),practiceIndex=0,submitted=false,timerSeconds=3000,timerId=null,activeMode='';
 const $=id=>document.getElementById(id);
 function bn(n){return String(n).replace(/[0-9]/g,d=>bnDigits[d])}
-function setScreen(id){document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));$(id).classList.add('active');window.scrollTo({top:0,behavior:'smooth'})}
+function setScreen(id){document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));$(id).classList.add('active');document.body.classList.toggle('inside-test',id!=='landing');window.scrollTo({top:0,behavior:'smooth'})}
 function answerLabel(q,i){return labels[i]+'. '+q.opts[i]}
 function beginPractice(){activeMode='practice';practiceIndex=0;answers=Array(Q.length).fill(null);setScreen('practiceScreen');renderPractice()}
 function renderPractice(){const q=Q[practiceIndex],chosen=answers[practiceIndex];$('practiceProgress').textContent='প্রশ্ন '+bn(practiceIndex+1)+' / '+bn(Q.length)+' · '+q.subject;
