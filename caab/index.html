@@ -276,4 +276,5 @@ const themeMeta=document.querySelector('meta[name="theme-color"]');function setT
 $('practicePrev').onclick=()=>{if(practiceIndex>0){practiceIndex--;renderPractice();window.scrollTo({top:0,behavior:'smooth'})}};
 $('practiceNext').onclick=()=>{if(practiceIndex<Q.length-1){if(answers[practiceIndex]===null){alert('আগে একটি উত্তর নির্বাচন করুন।');return}practiceIndex++;renderPractice();window.scrollTo({top:0,behavior:'smooth'})}else{let done=answers.filter(x=>x!==null).length;alert('প্র্যাকটিস শেষ! উত্তর দিয়েছেন '+bn(done)+' / '+bn(Q.length)+'টি।');setScreen('landing')}};
 document.querySelectorAll('[data-home]').forEach(b=>b.onclick=()=>{if(activeMode==='exam'&&!submitted&&answers.some(x=>x!==null)&&!confirm('পরীক্ষা ছেড়ে ল্যান্ডিং পেজে ফিরবেন? আপনার উত্তর হারিয়ে যাবে।'))return;clearInterval(timerId);setScreen('landing')});
-</script></body></html>
+</script><script src="abbreviations.js"></script>
+</body></html>
