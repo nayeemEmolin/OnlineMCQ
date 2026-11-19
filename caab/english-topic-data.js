@@ -133,8 +133,105 @@ idioms:["Idioms have conventional meanings beyond their literal words. Identify 
 vocabulary:["Read the instruction carefully: synonym, antonym or contextual meaning. Use the whole sentence to resolve multiple meanings.","Prefixes, suffixes and roots can help infer meaning, but context decides which sense fits.","Distinguish near-synonyms by tone and usage; identify the required part of speech before selecting an answer."],
 spelling:["Check repeated consonants, silent letters, suffix changes and common letter sequences. Read each option letter by letter.","British and American variants may both be correct; use the requested variety consistently.","When proofreading, check the complete word rather than relying only on a mnemonic; many spelling rules have exceptions."]
 };
-function chapterNote(topic,ci,title){const text=noteText[topic.id][ci%noteText[topic.id].length];return '<h3>Core rule</h3><p>'+text+'</p><h3>Exam method</h3><p>Read the full sentence before choosing. Identify the target grammar or vocabulary feature, eliminate options that violate the rule, and confirm that the chosen form fits the meaning and context.</p><div class="important"><b>Focus:</b> '+title+'. In competitive exams, check form, meaning and sentence context together.</div>'}
-topics.forEach((t,ti)=>{t.chapters=t.chapters.map((title,ci)=>({title:(ci+1)+". "+title,lead:noteText[t.id][ci%noteText[t.id].length],notes:chapterNote(t,ci,title),qs:genericQuestions(t,ci)}))});
+const chapterGuides={
+tense:[
+"Use the present simple for habits, facts and fixed schedules. Add -s/-es with he, she, it; after does, use the base verb. Example: She works every day.",
+"Use am/is/are + verb-ing for an action happening now or a temporary situation. Example: They are reviewing the file now.",
+"Use the past simple for a completed past event, often with yesterday, last week or ago. After did, use the base verb.",
+"Use was/were + verb-ing for an action in progress at a past time. A shorter past-simple event may interrupt it: I was reading when the phone rang.",
+"Use have/has + past participle for experience, a recent result or an unfinished time period. Do not normally combine it with a finished time such as yesterday.",
+"Use had + past participle for the earlier of two past events. Example: The meeting had started before we arrived.",
+"Choose among will, be going to and future continuous/perfect by meaning. Use will have + past participle for an action completed by a future deadline.",
+"After when, before, until, after and as soon as, use the present simple for a future meaning: I will call when I arrive.",
+"Zero conditional states a general result; first conditional a real possibility; second conditional an unreal present/future; third conditional an unreal past.",
+"Reported speech may backshift tense and change pronouns/time words. Fronted never/rarely triggers inversion; each takes a singular verb, while neither…nor often agrees with the nearer subject."
+],
+pronoun:[
+"Subject pronouns do the action; object pronouns follow verbs and prepositions. Example: The panel invited Rina and me.",
+"Possessive determiners come before nouns (my file); possessive pronouns stand alone (the file is mine).",
+"Match a reflexive pronoun to its subject: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. Use by oneself for alone.",
+"Use who for a person as subject, whom as object in formal usage, whose for possession, and which/that mainly for things.",
+"Each, everyone, somebody, nobody and neither are normally singular in formal exam grammar. Check the verb and any later pronoun carefully.",
+"Most regular nouns add -s; add -es after s, x, z, ch or sh; consonant + y changes to -ies; vowel + y adds -s.",
+"Learn irregular plurals as pairs: child/children, mouse/mice, criterion/criteria, analysis/analyses. Do not add a regular plural ending again.",
+"Information, advice, furniture, equipment and news are uncountable in standard usage. Use a singular verb and avoid an ordinary plural -s.",
+"Use many/few/fewer with countable plural nouns; much/little/less with uncountable nouns. A lot of works with both.",
+"A few/a little mean some; few/little stress insufficiency. Example: We have a few minutes, but little time for a long discussion."
+],
+preposition:[
+"Use at for clock times, on for days/dates and in for months, years and longer periods. Example: at 9, on Monday, in July.",
+"Use in for an enclosed area, on for a surface and at for a point or location. Meaning can change with context.",
+"Movement prepositions show path: into = to the inside, across = from one side to another, through = inside from end to end, towards = in the direction of.",
+"Learn verb + preposition as a unit: depend on, apply for, listen to, insist on, comply with, suffer from.",
+"Common adjective patterns include interested in, capable of, responsible for, familiar with, similar to and proud of.",
+"Common noun patterns include reason for, solution to, demand for, access to, effect on and interest in.",
+"Collocations are conventional word partnerships: make a decision, do research, take responsibility, pay attention and give advice.",
+"Despite/in spite of take a noun or gerund; because of/owing to introduce a cause. Do not put a full clause directly after despite.",
+"A preposition is followed by a noun, object pronoun or gerund: look forward to meeting; interested in learning.",
+"Distinguish by (deadline) from until (continuing endpoint), since (starting point) from for (duration), and between (distinct items) from among (a group)."
+],
+sentence:[
+"A basic clause often follows subject + verb + object/complement. Identify the finite verb first, then locate its subject and complements.",
+"A phrase has no complete subject–finite-verb relationship; a clause does. A dependent clause has a subject and verb but cannot stand alone.",
+"A simple sentence has one independent clause; a compound sentence joins independent clauses; a complex sentence includes a dependent clause.",
+"Use a suitable conjunction or punctuation to join clauses. A comma alone cannot normally join two independent clauses.",
+"Keep coordinated items in the same grammatical form: reading, writing and speaking. Parallelism also applies to paired constructions.",
+"Place modifiers beside the word they describe. An opening participial phrase should logically modify the subject that follows.",
+"Adjective order is commonly opinion, size, age/shape, colour, origin, material and purpose. Use only the adjectives needed.",
+"Use comparative + than for two items and a superlative for a group. Avoid double forms such as more better; note irregular better/best.",
+"Adjectives describe nouns; adverbs modify verbs/adjectives. -ing forms often describe a cause; -ed forms often describe a person's feeling.",
+"Use so + adjective/adverb + that; such + noun phrase + that; too + adjective; adjective + enough. Example: old enough to apply."
+],
+translation:[
+"Translate routines and general truths with the present simple. Bengali verb-final order normally becomes English subject + verb + object.",
+"Use the past simple for a completed action at a finished time. Keep the past form irregular where needed: go/went, see/saw.",
+"Use will + base verb for a future decision or prediction. In a future time clause, the verb after when/as soon as is usually present simple.",
+"Use am/is/are + -ing for an action in progress now; use was/were + -ing for one in progress at a past time.",
+"Use present perfect for present relevance or experience; present perfect continuous for ongoing duration. Use since for a starting point and for for a duration.",
+"After can, should, must and may, use the base verb without to. Translate obligation, advice, ability and permission by meaning.",
+"Passive voice uses be + past participle. Choose the tense on be: is made, was made, has been made.",
+"Conditionals preserve the relationship between condition and result. Avoid will in the ordinary if-clause of a first conditional.",
+"Indirect questions use statement word order: Do you know where he lives? Do not use question inversion inside the embedded clause.",
+"Translate the intended meaning, not Bengali word order. Check articles, countability, prepositions, agreement and natural English collocations."
+],
+idioms:[
+"An idiom's meaning is conventional, not literal. Use the whole expression and the sentence context to identify the intended sense.",
+"Work and study idioms often describe effort, preparation or difficulty. Check whether the phrase is positive, negative or neutral.",
+"Success/failure idioms can signal an outcome, a missed opportunity or persistence. Match the phrase to the event described.",
+"People and emotion idioms describe relationships, agreement, worry or happiness; do not translate their words literally.",
+"Phrasal verbs with get, give and keep have several meanings. Use the object and surrounding context to select the right sense.",
+"Look, turn and take combine with particles to create distinct meanings: look into = investigate; look after = care for.",
+"Put, set and bring phrasal verbs often mean postpone, establish, propose or cause. Learn each complete verb phrase.",
+"Come, go, call and carry combine with particles to mean arrive, continue, cancel, conduct or develop.",
+"Formal expressions such as in accordance with and on behalf of have fixed prepositions and a formal register.",
+"Some phrasal verbs are separable; with a pronoun object, the object normally goes between verb and particle: turn it off."
+],
+vocabulary:[
+"Synonyms are close in meaning, not always interchangeable. Check tone, register and the part of speech required by the sentence.",
+"An antonym is an opposite in the relevant context. Read the target word and the sentence before choosing.",
+"Verbs often have several senses. Identify the object and context: a verb may mean produce, obtain, reduce or withdraw.",
+"Know common abstract nouns and their near-synonyms; distinguish a process, a quality, a result and a person.",
+"Confusing pairs differ in meaning or use: economic/economical, credible/creditable, affect/effect. Check grammatical role.",
+"Prefixes and roots can suggest meaning: anti- = against, bene- = good, mal- = bad, pre- = before. Verify with context.",
+"Use surrounding clues such as contrast, example, cause and definition to infer an unfamiliar word's contextual meaning.",
+"Learn word families and parts of speech: decide, decision, decisive; succeed, success, successful.",
+"One-word substitutions compress a definition into a single noun or adjective. Match every key feature of the definition.",
+"Competitive vocabulary often tests precision, connotation and register. Eliminate choices that are merely related, not equivalent."
+],
+spelling:[
+"Some words double the final consonant before a suffix: begin/beginning, occur/occurred. Memorize high-frequency exceptions.",
+"The i-before-e mnemonic has exceptions. Learn common forms such as receive, believe, weird and foreign individually.",
+"Silent letters occur in words such as knowledge, Wednesday, debt and doubt. Pronunciation alone may not reveal spelling.",
+"Homophones sound alike but differ in spelling and meaning: their/there, principal/principle, stationery/stationary.",
+"Academic and everyday nouns frequently misspelled include accommodation, committee, occurrence and questionnaire.",
+"Choose the correct noun ending: -tion/-sion, -ance/-ence. The related word family can provide a clue.",
+"British/American pairs include centre/center and organise/organize. Follow the variety requested and remain consistent.",
+"Memorize common forms such as definitely, separate, necessary, privilege and maintenance; do not rely on sound alone.",
+"Plural spelling can change: city/cities, box/boxes, leaf/leaves; some nouns have irregular forms.",
+"Proofread letter by letter. Check repeated consonants, vowels, silent letters and suffixes rather than relying on visual familiarity."
+]};
+function chapterNote(topic,ci,title){const text=chapterGuides[topic.id][ci];const support=noteText[topic.id][ci%noteText[topic.id].length];return '<h3>Core rule</h3><p>'+text+'</p><h3>Quick reminder</h3><p>'+support+'</p><div class="important"><b>Focus:</b> '+title+'. Read the complete sentence, identify the tested rule, and check meaning before selecting an option.</div>'}
+topics.forEach((t,ti)=>{t.chapters=t.chapters.map((title,ci)=>({title:(ci+1)+". "+title,lead:chapterGuides[t.id][ci],notes:chapterNote(t,ci,title),qs:genericQuestions(t,ci)}))});
 window.ENGLISH_TOPICS=topics;
 window.ENGLISH_TOPIC_MCQ=topics.reduce((n,t)=>n+t.chapters.reduce((m,c)=>m+c.qs.length,0),0);
 })();
