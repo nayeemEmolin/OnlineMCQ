@@ -38,7 +38,7 @@ function genericQuestions(topic,ci){
    else if(ci===6){text="By next month, "+s+" ___ "+o+".";c="will have "+v[2];w=["will "+v[0],v[1],have+" "+v[2]];why="Use future perfect for an action completed by a future time."}
    else if(ci===7){const ts=people[(i+8)%15][0];text="I will contact you when the officer ___.";c=v[4];w=["will "+v[0],v[1],"would "+v[0]];why="A future time clause after when normally uses the present simple."}
    else if(ci===8){text="If "+s+" ___ harder, "+s+" would pass the test.";c=v[1];w=[v[0],"will "+v[0],"would "+v[0]];why="The second conditional uses a past form in the if-clause and would + base verb in the result."}
-   else if(i%3===0){text=["Never ___ such a careful report before.","Rarely ___ a more useful guide.","Not until the bell rang ___ the candidates leave."][i%3];c=["have I seen","have I read","did the candidates"][i%3];w=[["I have seen","has I seen","did I saw"][i%3],"I had seen","I will see"];why="A negative adverbial at the beginning triggers auxiliary–subject inversion."}
+   else if(i%3===0){const forms=[["Never ___ such a careful report before.","have I seen"],["Rarely ___ a more useful guide.","have I read"],["Not until the bell rang ___ the candidates leave.","did the candidates"],["Seldom ___ such a reliable system.","have we used"],["Hardly ___ the office when the phone rang.","had she entered"]][Math.floor(i/3)];text=forms[0];c=forms[1];w=["I have seen","has I seen","did I saw"];why="A negative adverbial at the beginning triggers auxiliary–subject inversion."}
    else if(i%3===1){text=(i%2?"Each of the applicants":"Neither the manager nor the assistants")+" ___ ready.";c=i%2?"is":"are";w=[i%2?"are":"is","has","were"];why="Each of takes a singular verb; with neither…nor, the verb commonly agrees with the nearer subject."}
    else {text="Mina said, “I "+(i%2?"have completed the form":"am ready")+".” Choose the reported form.";c=i%2?"she had completed the form":"she was ready";w=[i%2?"she has completed the form":"she is ready","I had completed the form","she will complete the form"];why="Reported speech may backshift tense and change pronouns to match the original speaker."}
    add(text,c,w,why)
@@ -92,7 +92,7 @@ function genericQuestions(topic,ci){
    else {text=subjects[i]+" is not experienced ___ to manage the operation alone.";c="enough";w=["too","so","such"];why="Enough follows an adjective: experienced enough."}
    add(text,c,w,why)
   }
- } else if(topic.id==="translation"){} else if(topic.id==="translation"){
+ } else if(topic.id==="translation"){
   const trans=[
 ["সে প্রতিদিন বই পড়ে।","She reads a book every day.","She read a book every day.","She is read a book every day.","She has read a book every day.","A regular habit takes the present simple; a third-person singular subject takes -s."],
 ["আমি গতকাল তাকে দেখেছিলাম।","I saw him yesterday.","I have seen him yesterday.","I had saw him yesterday.","I see him yesterday.","A finished past-time expression takes the past simple."],
