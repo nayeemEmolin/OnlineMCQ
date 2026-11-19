@@ -248,8 +248,9 @@
   const pattern = new RegExp("(^|[^\\p{L}\\p{N}])(" + keys.map(esc).join("|") + ")(?=$|[^\\p{L}\\p{N}])", "gu");
   const seen = new WeakMap();
   const ignore = el => !el || el.id === "caabAbbrWidget" ||
-    /^(SCRIPT|STYLE|TEXTAREA|INPUT|SELECT|OPTION|BUTTON|ABBR)$/i.test(el.tagName) ||
-    el.closest("#caabAbbrWidget,script,style,textarea,input,select,option,nav,button,abbr");
+    /^(SCRIPT|STYLE|TEXTAREA|INPUT|SELECT|OPTION|ABBR)$/i.test(el.tagName) ||
+    (el.closest("button") && !el.closest(".opt,.option,[data-option],[data-practice-option]")) ||
+    el.closest("#caabAbbrWidget,script,style,textarea,input,select,option,nav,abbr");
   function wrapText(node) {
     if (!node.parentElement || ignore(node.parentElement) || !pattern.test(node.nodeValue)) { pattern.lastIndex=0; return; }
     pattern.lastIndex=0;
