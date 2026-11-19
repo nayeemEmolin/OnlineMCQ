@@ -188,4 +188,5 @@ function choose(btn){const card=btn.closest('.qcard');if(card.dataset.answered)r
 function reset(i){const c=document.getElementById('chapter-'+i);c.querySelectorAll('.qcard').forEach(card=>{delete card.dataset.answered;card.querySelectorAll('.opt').forEach(b=>{b.disabled=false;b.classList.remove('correct','wrong')});const f=card.querySelector('.feedback');f.className='feedback';f.innerHTML='' });document.getElementById('score-'+i).textContent='০ / '+lessons[i].qs.length;document.getElementById('progress-'+i).style.width='0%'}
 document.getElementById('themeBtn').onclick=()=>{const dark=document.body.dataset.theme!=='dark';document.body.dataset.theme=dark?'dark':'light';document.getElementById('themeBtn').textContent=dark?'☀️ লাইট মোড':'🌙 ডার্ক মোড';localStorage.setItem('caab-book-theme',dark?'dark':'light')};const saved=localStorage.getItem('caab-book-theme');if(saved){document.body.dataset.theme=saved;document.getElementById('themeBtn').textContent=saved==='dark'?'☀️ লাইট মোড':'🌙 ডার্ক মোড'}render();
 </script>
+<script src="abbreviations.js"></script>
 </body></html>
