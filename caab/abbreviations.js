@@ -356,6 +356,25 @@
     "MAYDAY":"Distress call (গুরুতর তাৎক্ষণিক বিপদ বার্তা)",
     "PAN-PAN":"Urgency call (distress-এর নিচের জরুরি অবস্থা বার্তা)",
 
+    "FinTech":"Financial Technology (প্রযুক্তিনির্ভর আর্থিক সেবা)",
+    "RegTech":"Regulatory Technology (প্রযুক্তিনির্ভর regulatory compliance)",
+    "MFS":"Mobile Financial Services (মোবাইলভিত্তিক আর্থিক সেবা)",
+    "NFC":"Near Field Communication (স্বল্প দূরত্বের wireless communication)",
+    "NPSB":"National Payment Switch Bangladesh (বাংলাদেশের আন্তঃব্যাংক payment switch)",
+    "TakaPay":"বাংলাদেশের জাতীয় card scheme (চালু সেবা ও routing নিয়ম সময়ে বদলাতে পারে)",
+    "CBS":"Core Banking System/Solution (শাখাভিত্তিক ব্যাংকিংকে কেন্দ্রীয় ব্যবস্থায় যুক্ত করে)",
+    "POS":"Point of Sale (বিক্রয়স্থলের card/payment terminal)",
+    "BEFTN":"Bangladesh Electronic Funds Transfer Network (inter-bank electronic funds transfer)",
+    "RTGS":"Real-Time Gross Settlement (তাৎক্ষণিক gross payment settlement)",
+    "SWIFT":"Society for Worldwide Interbank Financial Telecommunication (আন্তর্জাতিক financial messaging cooperative)",
+    "MICR":"Magnetic Ink Character Recognition (চেকে magnetic ink-এ লেখা অক্ষর পড়ার প্রযুক্তি)",
+    "PKI":"Public Key Infrastructure (public/private key ও certificate ব্যবস্থাপনা)",
+    "VR":"Virtual Reality (সম্পূর্ণ virtual পরিবেশ)",
+    "AR":"Augmented Reality (বাস্তব দৃশ্যে digital overlay)",
+    "5G":"Fifth Generation Mobile Network (মোবাইল নেটওয়ার্কের পঞ্চম প্রজন্ম)",
+    "DR":"Disaster Recovery (বিপর্যয়ের পরে system/data পুনরুদ্ধার)",
+    "BCP":"Business Continuity Plan (বিপর্যয়েও জরুরি সেবা চালুর পরিকল্পনা)",
+
   };
   const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const keys = Object.keys(terms).sort((a,b)=>b.length-a.length);
