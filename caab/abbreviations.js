@@ -241,7 +241,7 @@
     "বিমসটেক":"Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
     "জিডিপি":"Gross Domestic Product",
     "ভ্যাট":"Value Added Tax",
-    "ইইউ":"European Union"
+    "ইইউ":"European Union",
     "IT":"Information Technology (তথ্যপ্রযুক্তি)",
     "CPU":"Central Processing Unit (কেন্দ্রীয় প্রক্রিয়াকরণ একক)",
     "ALU":"Arithmetic Logic Unit (গাণিতিক ও যৌক্তিক একক)",
