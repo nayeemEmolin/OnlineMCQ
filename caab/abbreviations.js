@@ -375,6 +375,26 @@
     "DR":"Disaster Recovery (বিপর্যয়ের পরে system/data পুনরুদ্ধার)",
     "BCP":"Business Continuity Plan (বিপর্যয়েও জরুরি সেবা চালুর পরিকল্পনা)",
 
+    "MoE":"Ministry of Education (শিক্ষা মন্ত্রণালয়, বাংলাদেশ)",
+    "MOPME":"Ministry of Primary and Mass Education (প্রাথমিক ও গণশিক্ষা মন্ত্রণালয়)",
+    "DPE":"Directorate of Primary Education (প্রাথমিক শিক্ষা অধিদপ্তর)",
+    "DSHE":"Directorate of Secondary and Higher Education (মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর)",
+    "NCTB":"National Curriculum and Textbook Board (জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ড)",
+    "UGC":"University Grants Commission of Bangladesh (বাংলাদেশ বিশ্ববিদ্যালয় মঞ্জুরি কমিশন)",
+    "NTRCA":"Non-Government Teachers’ Registration and Certification Authority (বেসরকারি শিক্ষক নিবন্ধন ও প্রত্যয়ন কর্তৃপক্ষ)",
+    "BTEB":"Bangladesh Technical Education Board (বাংলাদেশ কারিগরি শিক্ষা বোর্ড)",
+    "DTE":"Directorate of Technical Education (কারিগরি শিক্ষা অধিদপ্তর)",
+    "TVET":"Technical and Vocational Education and Training (কারিগরি ও বৃত্তিমূলক শিক্ষা ও প্রশিক্ষণ)",
+    "GER":"Gross Enrolment Ratio (মোট ভর্তি অনুপাত)",
+    "NER":"Net Enrolment Ratio (নিট ভর্তি অনুপাত)",
+    "SDG4":"Sustainable Development Goal 4 (মানসম্মত শিক্ষা ও জীবনব্যাপী শেখার লক্ষ্য)",
+    "UIS":"UNESCO Institute for Statistics (ইউনেস্কো পরিসংখ্যান ইনস্টিটিউট)",
+    "OER":"Open Educational Resources (উন্মুক্ত শিক্ষাসম্পদ)",
+    "MOOC":"Massive Open Online Course (বৃহৎ উন্মুক্ত অনলাইন কোর্স)",
+    "LMS":"Learning Management System (শিক্ষণ ব্যবস্থাপনা পদ্ধতি)",
+    "BAC":"Bangladesh Accreditation Council (বাংলাদেশ অ্যাক্রেডিটেশন কাউন্সিল)",
+    "UDHR":"Universal Declaration of Human Rights (সর্বজনীন মানবাধিকার ঘোষণা)",
+    "AI":"Artificial Intelligence (কৃত্রিম বুদ্ধিমত্তা)",
   };
   const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const keys = Object.keys(terms).sort((a,b)=>b.length-a.length);
