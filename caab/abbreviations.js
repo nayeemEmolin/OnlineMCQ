@@ -395,6 +395,23 @@
     "BAC":"Bangladesh Accreditation Council (বাংলাদেশ অ্যাক্রেডিটেশন কাউন্সিল)",
     "UDHR":"Universal Declaration of Human Rights (সর্বজনীন মানবাধিকার ঘোষণা)",
     "AI":"Artificial Intelligence (কৃত্রিম বুদ্ধিমত্তা)",
+    "IOC":"International Olympic Committee (আন্তর্জাতিক অলিম্পিক কমিটি)",
+    "BOA":"Bangladesh Olympic Association (বাংলাদেশ অলিম্পিক অ্যাসোসিয়েশন)",
+    "OCA":"Olympic Council of Asia (এশিয়ার অলিম্পিক কাউন্সিল)",
+    "BFF":"Bangladesh Football Federation (বাংলাদেশ ফুটবল ফেডারেশন)",
+    "IFAB":"International Football Association Board (ফুটবলের Laws of the Game নির্ধারণকারী সংস্থা)",
+    "ODI":"One Day International (একদিনের আন্তর্জাতিক ক্রিকেট)",
+    "T20I":"Twenty20 International (২০ ওভারের আন্তর্জাতিক ক্রিকেট)",
+    "WTC":"World Test Championship (টেস্ট ক্রিকেটের বিশ্ব চ্যাম্পিয়নশিপ)",
+    "DRS":"Decision Review System (ক্রিকেটে সিদ্ধান্ত পুনর্বিবেচনা ব্যবস্থা)",
+    "DLS":"Duckworth–Lewis–Stern method (বৃষ্টিবিঘ্নিত সীমিত ওভারের ক্রিকেটে লক্ষ্য নির্ধারণ পদ্ধতি)",
+    "BPL":"Bangladesh Premier League (বাংলাদেশের ফ্র্যাঞ্চাইজি টি-টোয়েন্টি লিগ)",
+    "IPL":"Indian Premier League (ভারতের ফ্র্যাঞ্চাইজি টি-টোয়েন্টি লিগ)",
+    "VAR":"Video Assistant Referee (ভিডিও সহায়তায় রেফারির সিদ্ধান্ত পর্যালোচনা)",
+    "SAFF":"South Asian Football Federation (দক্ষিণ এশীয় ফুটবল ফেডারেশন)",
+    "WADA":"World Anti-Doping Agency (বিশ্ব ডোপিংবিরোধী সংস্থা)",
+    "TUE":"Therapeutic Use Exemption (চিকিৎসাগত কারণে নিষিদ্ধ পদার্থে অনুমোদিত ব্যতিক্রম)",
+    "NOC":"National Olympic Committee (জাতীয় অলিম্পিক কমিটি)",
   };
   const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const keys = Object.keys(terms).sort((a,b)=>b.length-a.length);
