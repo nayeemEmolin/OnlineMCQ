@@ -244,4 +244,5 @@ theme.addEventListener("click",function(){setTheme(document.body.dataset.theme==
 const readSet=new Set();document.querySelectorAll(".chapter").forEach(function(ch){ch.addEventListener("toggle",function(){if(ch.open)readSet.add(ch.id);document.getElementById("readProgress").textContent="পড়া: "+readSet.size+" / "+chapters.length+" অধ্যায়";document.getElementById("readBar").style.width=(readSet.size*100/chapters.length)+"%"})});
 const toTop=document.getElementById("toTop");window.addEventListener("scroll",function(){toTop.classList.toggle("show",window.scrollY>500)});toTop.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"})});
 </script>
+<script src="abbreviations.js"></script>
 </body></html>
