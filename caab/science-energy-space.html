@@ -401,10 +401,10 @@ const finalTopUp = [
 ]
 ];
 lessons.forEach((lesson,i)=>{if(finalTopUp[i])lesson.qs.push(...finalTopUp[i])});
-document.getElementById('chapterCount').textContent=`${bn(lessons.length)}টি অধ্যায়`;
-document.getElementById('questionCount').textContent=`${bn(lessons.reduce((n,l)=>n+l.qs.length,0))}টি অনুশীলন MCQ`;
 const labels=['ক','খ','গ','ঘ'];
 const bn=n=>String(n).replace(/\d/g,d=>'০১২৩৪৫৬৭৮৯'[d]);
+document.getElementById('chapterCount').textContent=`${bn(lessons.length)}টি অধ্যায়`;
+document.getElementById('questionCount').textContent=`${bn(lessons.reduce((n,l)=>n+l.qs.length,0))}টি অনুশীলন MCQ`;
 const nav=document.getElementById('chapterNav'),select=document.getElementById('chapterSelect'),book=document.getElementById('book');
 function render(){lessons.forEach((l,li)=>{const id='chapter-'+li;const b=document.createElement('button');b.type='button';b.className='chapter-link';b.textContent=l.title;b.onclick=()=>show(li);nav.appendChild(b);const o=document.createElement('option');o.value=li;o.textContent=l.title;select.appendChild(o);const article=document.createElement('article');article.className='chapter';article.id=id;article.hidden=li!==0;let qhtml=l.qs.map((q,qi)=>`<div class="qcard" data-q="${li}-${qi}"><div class="qtext">${bn(qi+1)}. ${q[0]}</div><div class="opts">${q[1].map((v,oi)=>`<button class="opt" data-li="${li}" data-qi="${qi}" data-oi="${oi}"><span class="letter">${labels[oi]}.</span><span>${v}</span></button>`).join('')}</div><div class="feedback" id="fb-${li}-${qi}"></div></div>`).join('');article.innerHTML=`<header class="chapter-head"><h2>${l.title}</h2><p>${l.lead} · ${bn(l.qs.length)}টি MCQ</p></header><div class="chapter-body">${l.notes}<section class="quiz"><div class="quiz-title"><h3>অনুশীলন MCQ</h3><span class="score-pill" id="score-${li}">০ / ${bn(l.qs.length)} সঠিক</span></div><div class="progress"><i id="progress-${li}"></i></div><div>${qhtml}</div><div class="quiz-actions"><button class="reset" type="button" data-reset="${li}">এই অধ্যায়ের উত্তর মুছুন</button><span class="muted" id="done-${li}">০ / ${bn(l.qs.length)} উত্তর</span></div></section></div>`;book.appendChild(article)});document.querySelectorAll('.chapter-link')[0].classList.add('active');document.querySelectorAll('.opt').forEach(b=>b.onclick=()=>answer(+b.dataset.li,+b.dataset.qi,+b.dataset.oi));document.querySelectorAll('[data-reset]').forEach(b=>b.onclick=()=>reset(+b.dataset.reset));select.onchange=()=>show(+select.value)}
 const answers=lessons.map(l=>Array(l.qs.length).fill(null));
