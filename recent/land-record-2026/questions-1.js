@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 10613)
-Total output lines: 105
-
 window.BANK_Q1=[
 {id:1,subject:"English",topic:"Vocabulary",text:"A synonym for ‘vigilant’ is—",opts:["Careful","Watchful","Wakeful","Mindful"],key:1,why:"Vigilant means watchful or alert."},
 {id:2,subject:"গণিত",topic:"বীজগণিত",text:"p + q = 5 এবং p − q = 3 হলে p² + q²-এর মান কত?",opts:["17","19","8","34"],key:0,why:"দুটি সমীকরণ যোগ করলে p = 4 এবং q = 1। তাই p² + q² = 16 + 1 = 17."},
@@ -52,7 +49,12 @@ window.BANK_Q1=[
 {id:48,subject:"সাধারণ জ্ঞান",topic:"আন্তর্জাতিক ভূগোল",text:"পানামা খাল কোন দুটি মহাসাগরকে যুক্ত করেছে?",opts:["ভারত ও প্রশান্ত","আটলান্টিক ও প্রশান্ত","আটলান্টিক ও ভারত","আর্কটিক ও অ্যান্টার্কটিক"],key:1,why:"পানামা খাল আটলান্টিক মহাসাগরকে প্রশান্ত মহাসাগরের সঙ্গে যুক্ত করে।"},
 {id:49,subject:"গণিত",topic:"ধারা",text:"ধারাটির পরবর্তী সংখ্যা কত: ৫, ৯, ১৭, ৩৩, ___?",opts:["৬৫","৬৬","৬৭","৬৮"],key:0,why:"প্রতিবার আগের সংখ্যাকে ২ দিয়ে গুণ করে ১ বিয়োগ করা হয়েছে; পরের সংখ্যা ৩৩ × ২ − ১ = ৬৫।"},
 {id:50,subject:"সাধারণ জ্ঞান",topic:"কম্পিউটার",text:"আধুনিক কম্পিউটারের জনক কে?",opts:["আলবার্ট আইনস্টাইন","চার্লস ব্যাবেজ","জন বেয়ার্ড","গ্যালিলিও"],key:1,why:"চার্লস ব্যাবেজকে আধুনিক কম্পিউটারের জনক বলা হয়।"},
-{id:51,subject:"English",topic:"Phrasal Verbs",text:"She ___ a new idea for increasing sales.",opts:["came up","came up on","came upon","came up with"],key:3,why:"‘Come up with an idea’ means to produce or suggest an i…613 tokens truncated…",text:"১২০ কেজি চাল ১০ জনের ২৭ দিন চলে। ১০ জনের ৪৫ দিন চলতে কত কেজি চাল লাগবে?",opts:["২০০ কেজি","৪০০ কেজি","৩০০ কেজি","৫০০ কেজি"],key:0,why:"লোকসংখ্যা সমান; চাল ∝ দিন। প্রয়োজন = ১২০ × ৪৫/২৭ = ২০০ কেজি।"},
+{id:51,subject:"English",topic:"Phrasal Verbs",text:"She ___ a new idea for increasing sales.",opts:["came up","came up on","came upon","came up with"],key:3,why:"‘Come up with an idea’ means to produce or suggest an idea."},
+{id:52,subject:"গণিত",topic:"ভগ্নাংশ",text:"p > q হলে p/q ভগ্নাংশটি কোন ধরনের?",opts:["প্রকৃত ভগ্নাংশ","স্বাভাবিক সংখ্যা","পূর্ণ সংখ্যা","অপ্রকৃত ভগ্নাংশ"],key:3,why:"ধনাত্মক p ও q-এর ক্ষেত্রে p > q হলে p/q > 1; এটি অপ্রকৃত ভগ্নাংশ।"},
+{id:53,subject:"সাধারণ জ্ঞান",topic:"আন্তর্জাতিক ভূগোল",text:"‘আফ্রিকার মুক্তা’ কোন দেশকে বলা হয়?",opts:["উগান্ডা","দক্ষিণ আফ্রিকা","কেনিয়া","মিশর"],key:0,why:"উগান্ডাকে ‘Pearl of Africa’ বলা হয়।"},
+{id:54,subject:"গণিত",topic:"জ্যামিতি",text:"একটি আয়তক্ষেত্র ও একটি বর্গক্ষেত্রের পরিসীমা সমান। ক্ষেত্রফলের বিচারে কোনটি সঠিক?",opts:["আয়তক্ষেত্র > বর্গক্ষেত্র","আয়তক্ষেত্র = বর্গক্ষেত্র","আয়তক্ষেত্র < বর্গক্ষেত্র","আয়তক্ষেত্র ≅ বর্গক্ষেত্র"],key:2,why:"সমান পরিসীমায় বর্গক্ষেত্রের ক্ষেত্রফল সর্বাধিক; তাই আয়তক্ষেত্রের ক্ষেত্রফল বর্গক্ষেত্রের চেয়ে ছোট (আয়তক্ষেত্রটি বর্গ না হলে)।"},
+{id:55,subject:"বাংলা",topic:"শুদ্ধ বাক্য",text:"কোনটি শুদ্ধ বাক্য/প্রয়োগ?",opts:["ইহার আবশ্যক নাই","বুনো ওল, বাঘা তেঁতুল","ইহা প্রমাণ হইয়াছে","বুনো কচু, বাঘা তেঁতুল"],key:1,why:"‘বুনো ওল, বাঘা তেঁতুল’ প্রচলিত শুদ্ধ প্রবাদপ্রয়োগ।"},
+{id:56,subject:"গণিত",topic:"ঐকিক নিয়ম",text:"১২০ কেজি চাল ১০ জনের ২৭ দিন চলে। ১০ জনের ৪৫ দিন চলতে কত কেজি চাল লাগবে?",opts:["২০০ কেজি","৪০০ কেজি","৩০০ কেজি","৫০০ কেজি"],key:0,why:"লোকসংখ্যা সমান; চাল ∝ দিন। প্রয়োজন = ১২০ × ৪৫/২৭ = ২০০ কেজি।"},
 {id:57,subject:"English",topic:"Conditionals",text:"If I had money, I ___ it now.",opts:["will purchase","would purchase","would have purchased","have purchased"],key:1,why:"এটি second conditional: If + past simple, would + base verb."},
 {id:58,subject:"English",topic:"Subject–Verb Agreement",text:"Either he or his friends ___ done it.",opts:["has","are","is","have"],key:3,why:"Either…or-এ verb নিকটবর্তী subject-এর সঙ্গে মেলে; friends plural, তাই have।"},
 {id:59,subject:"বাংলা",topic:"শুদ্ধ বানান",text:"নিচের কোন বানানটি অশুদ্ধ? (প্রশ্নপত্রের উত্তরসূচিতে একাধিক বিকল্প চিহ্নিত)",opts:["কর্ণেল","মুমুর্ষ","সংগীত","আড়ষ্ট"],key:[0,1],why:"উৎসের ব্যাখ্যায় শুদ্ধ বানান দেওয়া হয়েছে ‘কর্নেল’ ও ‘মুমূর্ষু’; তাই A এবং B—দুটিই অশুদ্ধ। উভয় উত্তরই গ্রহণযোগ্য।",flag:"মূল প্রশ্নে দুটি সঠিক উত্তর রয়েছে।"},
