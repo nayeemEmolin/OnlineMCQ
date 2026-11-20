@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "description": "Recent exam catalog. Add one record per paper; include subject/topic/subtopic counts and link its existing interactive test or source paper.",
+  "description": "Recent exam catalog with OCR-digitized question sets and interactive mocks.",
   "papers": [
     {
       "id": "caab-mock-1",
@@ -1694,34 +1694,552 @@
       }
     },
     {
-      "id": "bpsc-mod-ad-2026-set-3",
-      "exam": "BPSC · Assistant Director (Non-Technical)",
-      "name": "বাছাই পরীক্ষা ২০২৬ · Set 3",
-      "type": "source-pdf",
-      "questions": 100,
+      "id": "bpsc-ad-2026-set-3",
+      "exam": "BPSC Assistant Director",
+      "name": "সহকারী পরিচালক (নন-টেকনিক্যাল) · Set 3 · ২০২৬",
+      "type": "interactive",
+      "questions": 99,
       "minutes": 60,
-      "marks": 100,
-      "negativeMark": "ভুল উত্তরে ০.২৫ নম্বর কর্তন",
-      "href": "./bpsc-paper.html",
-      "pdf": "./papers/bpsc-assistant-director-2026-set-3.pdf",
-      "sections": [
-        {
-          "name": "প্রশ্নপত্র",
-          "pdfStart": 1,
-          "pdfEnd": 2
+      "marks": 99,
+      "negativeMark": "ভুল উত্তরে −০.২৫",
+      "href": "./bpsc/",
+      "topics": {
+        "বাংলা": {
+          "count": 24,
+          "topics": {
+            "ধ্বনি ও বর্ণ": {
+              "count": 1,
+              "subtopics": {
+                "ধ্বনি ও বর্ণ": 1
+              }
+            },
+            "সমাস": {
+              "count": 2,
+              "subtopics": {
+                "সমাস": 2
+              }
+            },
+            "এক কথায় প্রকাশ": {
+              "count": 1,
+              "subtopics": {
+                "এক কথায় প্রকাশ": 1
+              }
+            },
+            "প্রাচীন সাহিত্য": {
+              "count": 1,
+              "subtopics": {
+                "প্রাচীন সাহিত্য": 1
+              }
+            },
+            "শুদ্ধ বানান": {
+              "count": 1,
+              "subtopics": {
+                "শুদ্ধ বানান": 1
+              }
+            },
+            "বাক্য": {
+              "count": 1,
+              "subtopics": {
+                "বাক্য": 1
+              }
+            },
+            "শব্দার্থ": {
+              "count": 3,
+              "subtopics": {
+                "শব্দার্থ": 3
+              }
+            },
+            "শব্দসংক্ষেপ": {
+              "count": 1,
+              "subtopics": {
+                "শব্দসংক্ষেপ": 1
+              }
+            },
+            "গ্রন্থ ও লেখক": {
+              "count": 3,
+              "subtopics": {
+                "গ্রন্থ ও লেখক": 3
+              }
+            },
+            "সাহিত্যকর্ম": {
+              "count": 1,
+              "subtopics": {
+                "সাহিত্যকর্ম": 1
+              }
+            },
+            "সন্ধি": {
+              "count": 1,
+              "subtopics": {
+                "সন্ধি": 1
+              }
+            },
+            "শব্দগঠন": {
+              "count": 1,
+              "subtopics": {
+                "শব্দগঠন": 1
+              }
+            },
+            "স্বরবর্ণ": {
+              "count": 1,
+              "subtopics": {
+                "স্বরবর্ণ": 1
+              }
+            },
+            "পদ ও সর্বনাম": {
+              "count": 1,
+              "subtopics": {
+                "পদ ও সর্বনাম": 1
+              }
+            },
+            "শব্দের উৎস": {
+              "count": 1,
+              "subtopics": {
+                "শব্দের উৎস": 1
+              }
+            },
+            "বাগধারা": {
+              "count": 1,
+              "subtopics": {
+                "বাগধারা": 1
+              }
+            },
+            "কারক": {
+              "count": 1,
+              "subtopics": {
+                "কারক": 1
+              }
+            },
+            "বিপরীত শব্দ": {
+              "count": 1,
+              "subtopics": {
+                "বিপরীত শব্দ": 1
+              }
+            },
+            "সমার্থক শব্দ": {
+              "count": 1,
+              "subtopics": {
+                "সমার্থক শব্দ": 1
+              }
+            }
+          }
         },
-        {
-          "name": "উত্তরসূচি",
-          "pdfStart": 3,
-          "pdfEnd": 3
+        "English": {
+          "count": 25,
+          "topics": {
+            "Gender": {
+              "count": 1,
+              "subtopics": {
+                "Gender": 1
+              }
+            },
+            "Phrasal verbs": {
+              "count": 1,
+              "subtopics": {
+                "Phrasal verbs": 1
+              }
+            },
+            "Antonym": {
+              "count": 1,
+              "subtopics": {
+                "Antonym": 1
+              }
+            },
+            "Proverb": {
+              "count": 1,
+              "subtopics": {
+                "Proverb": 1
+              }
+            },
+            "Synonym": {
+              "count": 1,
+              "subtopics": {
+                "Synonym": 1
+              }
+            },
+            "Clauses": {
+              "count": 1,
+              "subtopics": {
+                "Clauses": 1
+              }
+            },
+            "Articles": {
+              "count": 1,
+              "subtopics": {
+                "Articles": 1
+              }
+            },
+            "Vocabulary": {
+              "count": 2,
+              "subtopics": {
+                "Vocabulary": 2
+              }
+            },
+            "Agreement / Responses": {
+              "count": 1,
+              "subtopics": {
+                "Agreement / Responses": 1
+              }
+            },
+            "Collocation": {
+              "count": 1,
+              "subtopics": {
+                "Collocation": 1
+              }
+            },
+            "Literature": {
+              "count": 1,
+              "subtopics": {
+                "Literature": 1
+              }
+            },
+            "Spelling": {
+              "count": 1,
+              "subtopics": {
+                "Spelling": 1
+              }
+            },
+            "Analogy": {
+              "count": 2,
+              "subtopics": {
+                "Analogy": 2
+              }
+            },
+            "Voice": {
+              "count": 1,
+              "subtopics": {
+                "Voice": 1
+              }
+            },
+            "Causative structure": {
+              "count": 1,
+              "subtopics": {
+                "Causative structure": 1
+              }
+            },
+            "Transformation": {
+              "count": 1,
+              "subtopics": {
+                "Transformation": 1
+              }
+            },
+            "Error detection": {
+              "count": 1,
+              "subtopics": {
+                "Error detection": 1
+              }
+            },
+            "Narration": {
+              "count": 1,
+              "subtopics": {
+                "Narration": 1
+              }
+            },
+            "Collective nouns": {
+              "count": 1,
+              "subtopics": {
+                "Collective nouns": 1
+              }
+            },
+            "Gerund": {
+              "count": 1,
+              "subtopics": {
+                "Gerund": 1
+              }
+            },
+            "Correct sentence": {
+              "count": 1,
+              "subtopics": {
+                "Correct sentence": 1
+              }
+            },
+            "Idiom": {
+              "count": 1,
+              "subtopics": {
+                "Idiom": 1
+              }
+            },
+            "Plural forms": {
+              "count": 1,
+              "subtopics": {
+                "Plural forms": 1
+              }
+            }
+          }
         },
-        {
-          "name": "সমাধান",
-          "pdfStart": 4,
-          "pdfEnd": 7
+        "সাধারণ জ্ঞান": {
+          "count": 23,
+          "topics": {
+            "বাংলাদেশের ভূগোল": {
+              "count": 4,
+              "subtopics": {
+                "বাংলাদেশের ভূগোল": 4
+              }
+            },
+            "বাংলাদেশের সংবিধান": {
+              "count": 2,
+              "subtopics": {
+                "বাংলাদেশের সংবিধান": 2
+              }
+            },
+            "আন্তর্জাতিক সংস্থা": {
+              "count": 2,
+              "subtopics": {
+                "আন্তর্জাতিক সংস্থা": 2
+              }
+            },
+            "বিশ্ব ভূগোল": {
+              "count": 1,
+              "subtopics": {
+                "বিশ্ব ভূগোল": 1
+              }
+            },
+            "বাংলাদেশের নীতি": {
+              "count": 1,
+              "subtopics": {
+                "বাংলাদেশের নীতি": 1
+              }
+            },
+            "স্থানীয় সরকার": {
+              "count": 1,
+              "subtopics": {
+                "স্থানীয় সরকার": 1
+              }
+            },
+            "প্রাচীন জনপদ": {
+              "count": 1,
+              "subtopics": {
+                "প্রাচীন জনপদ": 1
+              }
+            },
+            "গ্রন্থ ও লেখক": {
+              "count": 1,
+              "subtopics": {
+                "গ্রন্থ ও লেখক": 1
+              }
+            },
+            "জলবায়ু ও সম্মেলন": {
+              "count": 1,
+              "subtopics": {
+                "জলবায়ু ও সম্মেলন": 1
+              }
+            },
+            "বাংলাদেশের পরিবেশ": {
+              "count": 1,
+              "subtopics": {
+                "বাংলাদেশের পরিবেশ": 1
+              }
+            },
+            "বিশ্ব ইতিহাস": {
+              "count": 1,
+              "subtopics": {
+                "বিশ্ব ইতিহাস": 1
+              }
+            },
+            "রাষ্ট্রবিজ্ঞান": {
+              "count": 1,
+              "subtopics": {
+                "রাষ্ট্রবিজ্ঞান": 1
+              }
+            },
+            "খেলাধুলা": {
+              "count": 1,
+              "subtopics": {
+                "খেলাধুলা": 1
+              }
+            },
+            "আন্তর্জাতিক উদ্যোগ": {
+              "count": 1,
+              "subtopics": {
+                "আন্তর্জাতিক উদ্যোগ": 1
+              }
+            },
+            "বাংলাদেশের বিজ্ঞান ও প্রযুক্তি": {
+              "count": 2,
+              "subtopics": {
+                "বাংলাদেশের বিজ্ঞান ও প্রযুক্তি": 2
+              }
+            },
+            "প্রত্নতত্ত্ব": {
+              "count": 1,
+              "subtopics": {
+                "প্রত্নতত্ত্ব": 1
+              }
+            },
+            "প্রাচীন সভ্যতা": {
+              "count": 1,
+              "subtopics": {
+                "প্রাচীন সভ্যতা": 1
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 12,
+          "topics": {
+            "ধারা ও যোগফল": {
+              "count": 1,
+              "subtopics": {
+                "ধারা ও যোগফল": 1
+              }
+            },
+            "বীজগণিত": {
+              "count": 1,
+              "subtopics": {
+                "বীজগণিত": 1
+              }
+            },
+            "জ্যামিতি": {
+              "count": 2,
+              "subtopics": {
+                "জ্যামিতি": 2
+              }
+            },
+            "ভগ্নাংশ": {
+              "count": 1,
+              "subtopics": {
+                "ভগ্নাংশ": 1
+              }
+            },
+            "লাভ-ক্ষতি": {
+              "count": 1,
+              "subtopics": {
+                "লাভ-ক্ষতি": 1
+              }
+            },
+            "ভগ্নাংশ ও তুলনা": {
+              "count": 1,
+              "subtopics": {
+                "ভগ্নাংশ ও তুলনা": 1
+              }
+            },
+            "নৌকা ও স্রোত": {
+              "count": 1,
+              "subtopics": {
+                "নৌকা ও স্রোত": 1
+              }
+            },
+            "বীজগণিত ও শব্দসমস্যা": {
+              "count": 1,
+              "subtopics": {
+                "বীজগণিত ও শব্দসমস্যা": 1
+              }
+            },
+            "ত্রিকোণমিতি": {
+              "count": 1,
+              "subtopics": {
+                "ত্রিকোণমিতি": 1
+              }
+            },
+            "গসাগু ও লসাগু": {
+              "count": 1,
+              "subtopics": {
+                "গসাগু ও লসাগু": 1
+              }
+            },
+            "ত্রিভুজ": {
+              "count": 1,
+              "subtopics": {
+                "ত্রিভুজ": 1
+              }
+            }
+          }
+        },
+        "বিজ্ঞান": {
+          "count": 12,
+          "topics": {
+            "বিদ্যুৎ": {
+              "count": 1,
+              "subtopics": {
+                "বিদ্যুৎ": 1
+              }
+            },
+            "তাপ ও যন্ত্র": {
+              "count": 1,
+              "subtopics": {
+                "তাপ ও যন্ত্র": 1
+              }
+            },
+            "বিদ্যুৎ ও উপাদান": {
+              "count": 1,
+              "subtopics": {
+                "বিদ্যুৎ ও উপাদান": 1
+              }
+            },
+            "মানবদেহ": {
+              "count": 2,
+              "subtopics": {
+                "মানবদেহ": 2
+              }
+            },
+            "পৃথিবী ও জ্যোতির্বিজ্ঞান": {
+              "count": 1,
+              "subtopics": {
+                "পৃথিবী ও জ্যোতির্বিজ্ঞান": 1
+              }
+            },
+            "চিকিৎসাবিজ্ঞান": {
+              "count": 1,
+              "subtopics": {
+                "চিকিৎসাবিজ্ঞান": 1
+              }
+            },
+            "খাদ্য ও জৈব রসায়ন": {
+              "count": 1,
+              "subtopics": {
+                "খাদ্য ও জৈব রসায়ন": 1
+              }
+            },
+            "চুম্বকত্ব": {
+              "count": 1,
+              "subtopics": {
+                "চুম্বকত্ব": 1
+              }
+            },
+            "আলোকবিজ্ঞান": {
+              "count": 1,
+              "subtopics": {
+                "আলোকবিজ্ঞান": 1
+              }
+            },
+            "মহাকাশ": {
+              "count": 1,
+              "subtopics": {
+                "মহাকাশ": 1
+              }
+            },
+            "রসায়ন": {
+              "count": 1,
+              "subtopics": {
+                "রসায়ন": 1
+              }
+            }
+          }
+        },
+        "ICT": {
+          "count": 3,
+          "topics": {
+            "ইনপুট ও আউটপুট": {
+              "count": 1,
+              "subtopics": {
+                "ইনপুট ও আউটপুট": 1
+              }
+            },
+            "ইনপুট ডিভাইস": {
+              "count": 1,
+              "subtopics": {
+                "ইনপুট ডিভাইস": 1
+              }
+            },
+            "প্রোগ্রামিং": {
+              "count": 1,
+              "subtopics": {
+                "প্রোগ্রামিং": 1
+              }
+            }
+          }
         }
-      ],
-      "topics": {}
+      },
+      "note": "মূল PDF-এর ১০০ নম্বর প্রশ্নটি অস্পষ্ট বলে বাদ; বাকি ৯৯টি প্রশ্ন OCR করে ডিজিটালাইজড।"
     }
   ]
 }
