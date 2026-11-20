@@ -256,6 +256,223 @@ const pronounTopic=topics.find(t=>t.id==="pronoun");pronounTopic.chapters=pronou
 const prepositionTopic=topics.find(t=>t.id==="preposition");prepositionTopic.chapters=prepositionChapterNotes.map((notes,i)=>({title:(i+1)+". "+["Preposition: ধারণা, ব্যবহার ও Time","Since, For, During, By, Until ও সময়ের সম্পর্ক","Preposition of Place: At, In ও On","অবস্থান ও দিক: Between, Among, Into, Across","Verb + Preposition Collocation","Adjective + Preposition Collocation","Noun + Preposition Collocation","Fixed Phrase ও Prepositional Expression","Preposition-এর পরে Gerund","কারণ, বৈপরীত্য ও শর্ত বোঝানো Expression","Competitive Exam Traps: ভুল ও সঠিক ব্যবহার","MCQ কৌশল ও Mixed Practice"][i],lead:["Preposition-এর কাজ, phrase-এর ধরন এবং at/on/in-এর সময়-ব্যবহার।","Starting point, duration, deadline, সময় পর্যন্ত এবং clause-এর সঙ্গে ব্যবহৃত connector।","Point, ঘেরা স্থান, পৃষ্ঠ, ঠিকানা, শহর ও প্রতিষ্ঠানের স্থান-ব্যবহার।","অবস্থান, দুই/একাধিক পক্ষ, চলাচল, প্রবেশ, অতিক্রম ও দিক নির্দেশ।","গুরুত্বপূর্ণ verb–preposition pair এবং preposition ছাড়া ব্যবহৃত verb।","প্রচলিত adjective–preposition pair, তুলনামূলক expression ও অর্থভেদ।","Noun–preposition collocation ও পরীক্ষায় বেশি ব্যবহৃত fixed pair।","সময়, পরিস্থিতি, কারণ, দায়িত্ব, মত ও অবস্থার fixed expression।","Preposition-এর পরে gerund এবং infinitive-marker to-এর সঙ্গে পার্থক্য।","Because/because of, although/despite, during/while ও in case patterns।","বহুল দেখা ভুল preposition, verb pattern ও বাক্য সংশোধনের নিয়ম।","সময়, স্থান, collocation, gerund ও connector মিলিয়ে পরীক্ষামুখী অনুশীলন।"][i],notes:notes,qs:prepositionQuestionBank[i].map(q=>[q[0],q[1].split("|"),q[2],q[3]])}));
 const sentenceTopic=topics.find(t=>t.id==="sentence");sentenceTopic.chapters=sentenceChapterNotes.map((notes,i)=>({title:(i+1)+". "+["Sentence-এর মৌলিক উপাদান ও Basic Patterns","Phrase, Clause, Finite ও Non-finite Verb","Sentence-এর ধরন: Meaning ও Structure","Conjunction, Connector ও Punctuation","Parallel Structure ও Coordination","Modifier: Misplaced ও Dangling Modifier","Adjective: ধরন, অবস্থান ও Order","Comparative ও Superlative Degree","Adjective ও Adverb-এর পার্থক্য","Participial Adjective: -ed ও -ing","So, Such, Too ও Enough","Competitive Exam Traps ও Mixed Practice"][i],lead:["Subject, verb, object, complement এবং পাঁচটি মৌলিক sentence pattern।","Phrase/clause-এর পার্থক্য, clause-এর ধরন এবং finite/non-finite verb।","অর্থ অনুযায়ী পাঁচ ধরন—assertive, interrogative, imperative, optative, exclamatory; গঠন অনুযায়ী sentence type।","FANBOYS, subordinators, conjunctive adverb, comma ও semicolon-এর ব্যবহার।","And/or, paired conjunction, parallel verb, noun phrase ও comparison।","Modifier-এর অবস্থান, only/almost, dangling modifier ও স্পষ্ট অর্থ।","Adjective-এর ধরন, attributive/predicative position, adjective order ও coordinate adjectives।","-er/-est, more/most, irregular forms, comparative patterns ও superlative।","Adjective/adverb, linking verbs, good/well, hard/hardly ও অনুরূপ জোড়া।","অনুভূতি প্রকাশকারী -ed এবং অনুভূতি সৃষ্টিকারী -ing adjective।","So/such structure, too/enough-এর অবস্থান ও অর্থের পার্থক্য।","গুরুত্বপূর্ণ grammar traps এবং sentence analysis-ভিত্তিক সমন্বিত অনুশীলন।"][i],notes:notes,qs:sentenceQuestionBank[i].map(q=>[q[0],q[1].split("|"),q[2],q[3]])}));
 sentenceTopic.chapters.push(...sentenceTransformationNotes.map((notes,i)=>({title:(i+13)+". "+["Transformation of Sentence: Simple, Complex & Compound","Transformation by Meaning: Assertive, Interrogative, Imperative, Optative & Exclamatory","Transformation of Degree: Positive, Comparative & Superlative","Transformation of Voice: Active & Passive"][i],lead:["অর্থ অক্ষুণ্ণ রেখে phrase, clause ও independent clause-এর গঠন বদলানোর নিয়ম।","পাঁচ ধরনের sentence-এর বক্তব্য, প্রশ্ন, নির্দেশ, কামনা ও আবেগ রূপান্তর।","একই তুলনাকে positive, comparative ও superlative degree-তে প্রকাশ।","Tense বজায় রেখে active object-কে passive subject করা, be + V3 এবং voice-এর সীমা।"][i],notes:notes,qs:sentenceTransformationQuestionBank[i].map(q=>[q[0],q[1].split("|"),q[2],q[3]])})));
+
+const translationChapterNotes=[
+"<h3>Translation: লক্ষ্য ও পরীক্ষার ধরন</h3><p>Translation-এ একটি ভাষার বক্তব্যকে অন্য ভাষায় <strong>অর্থ, কাল, ভঙ্গি ও স্বাভাবিক প্রকাশ</strong> অক্ষুণ্ণ রেখে প্রকাশ করতে হয়। প্রতিযোগিতামূলক পরীক্ষায় সাধারণত বাংলা থেকে ইংরেজি, শুদ্ধ বাক্য নির্বাচন, ভুল অনুবাদ শনাক্তকরণ এবং grammar-based translation আসে।</p><h3>শব্দে-শব্দে নয়, অর্থ ধরে</h3><p>বাংলা ও ইংরেজির শব্দক্রম ও expression আলাদা। “আমার ক্ষুধা লেগেছে” হবে <em>I am hungry</em>; আক্ষরিক অনুবাদ নয়। আগে বক্তব্য, তারপর English structure নির্বাচন করুন।</p><h3>অনুবাদের আগে ছয়টি প্রশ্ন</h3><ul><li>কর্তা কে বা কী?</li><li>মূল verb ও object কী?</li><li>ঘটনাটি কখন এবং চলমান/সম্পন্ন/অভ্যাসগত কি?</li><li>বাক্যটি প্রশ্ন, নেতিবাচক, আদেশ, শর্ত নাকি বর্ণনা?</li><li>কোন clause বা connector সম্পর্ক দেখাচ্ছে?</li><li>কোন article, pronoun, preposition বা collocation দরকার?</li></ul><div class='important'>পরীক্ষার মূলনীতি: first understand the meaning, then rebuild the sentence naturally.</div>",
+"<h3>English word order</h3><p>সাধারণ statement-এর কাঠামো <strong>Subject + Verb + Object/Complement + adverbial</strong>। বাংলা সাধারণত কর্তা–কর্ম–ক্রিয়া; ইংরেজিতে finite verb সাধারণত subject-এর পরে আসে।</p><div class='table-wrap'><table class='study-table'><tbody><tr><th>Pattern</th><td>Example</td></tr><tr><th>S + V</th><td>The child slept.</td></tr><tr><th>S + V + O</th><td>She reads books.</td></tr><tr><th>S + linking verb + complement</th><td>The sky is clear.</td></tr><tr><th>S + V + IO + DO</th><td>He gave me a pen.</td></tr></tbody></table></div><h3>Dummy subject</h3><p>আবহাওয়া, সময় ও দূরত্বে English-এ প্রায়ই <strong>it</strong> subject লাগে: <em>It is raining. It is five o’clock. It is a long way.</em> বাংলায় subject উহ্য থাকলে প্রসঙ্গ অনুযায়ী I/he/she/they যোগ করুন।</p><div class='important'>বাংলা বাক্যক্রম নকল করবেন না: “আমি তাকে চিনি” → <em>I know him/her.</em></div>",
+"<h3>Present Simple</h3><p>অভ্যাস, নিয়মিত কাজ, সাধারণ সত্য ও স্থায়ী অবস্থা বোঝায়। Structure: <strong>S + V1</strong>; he/she/it বা singular subject হলে verb-এ সাধারণত <strong>-s/-es</strong> যোগ হয়।</p><ul><li>I walk every morning.</li><li>She knows English.</li><li>The sun rises in the east.</li></ul><h3>Negative ও question</h3><p><strong>do/does + not + V1</strong>; প্রশ্নে <strong>Do/Does + subject + V1?</strong> Does থাকলে main verb-এ -s থাকে না: <em>She does not work.</em></p><h3>Present Continuous ও stative verbs</h3><p>এখন চলমান কাজ: <strong>am/is/are + V-ing</strong>। know, believe, understand, own, need সাধারণত stative অর্থে continuous হয় না: <em>I understand.</em> তবে <em>I am thinking</em> কাজ বোঝাতে পারে।</p><div class='important'>Habit/general truth = Present Simple; happening now = Present Continuous.</div>",
+"<h3>Past Simple</h3><p>অতীতে নির্দিষ্ট সময়ে শেষ হওয়া কাজ: <strong>S + V2</strong>। yesterday, last year, ago-এর মতো finished-time clue দেখুন। Negative/question-এ <strong>did + V1</strong>: <em>Did she go?</em></p><h3>Past Continuous</h3><p>অতীতের কোনো সময়ে চলমান কাজ: <strong>was/were + V-ing</strong>। চলমান কাজের মধ্যে ছোট ঘটনা ঘটলে সাধারণত Past Simple: <em>They were working when I arrived.</em></p><h3>Future Simple ও time clause</h3><p>ভবিষ্যৎ সিদ্ধান্ত/পূর্বাভাসে <strong>will + V1</strong>। When, before, after, until, as soon as-এর future time clause-এ সাধারণত Present Simple: <em>I will call when you arrive.</em></p><div class='important'>Did-এর পরে V1; future meaning থাকলেও when-clause-এ সাধারণত will বসে না.</div>",
+"<h3>Present Perfect</h3><p><strong>have/has + V3</strong>—বর্তমান ফল, অভিজ্ঞতা বা অসমাপ্ত সময়ের কাজ। নির্দিষ্ট finished past time (yesterday, in 2020) থাকলে Past Simple ব্যবহার করুন।</p><h3>Perfect Continuous</h3><p>অতীতে শুরু হয়ে এখনো চলা কাজের duration/চলমানতা: <strong>have/has been + V-ing</strong>।</p><h3>Since ও for</h3><ul><li><strong>since</strong> + শুরুর সময়: since Monday, since 2021</li><li><strong>for</strong> + সময়ের দৈর্ঘ্য: for two hours, for five years</li></ul><h3>Past Perfect</h3><p>অতীতের আরেক ঘটনার আগে সম্পন্ন কাজ বোঝাতে <strong>had + V3</strong>: <em>The train had left before we arrived.</em> দুইটি past event থাকলেই Past Perfect নয়—আগে ঘটেছে কোনটি দেখুন।</p><div class='important'>Present Perfect-এর সঙ্গে yesterday/last year-এর মতো finished-time সাধারণত ব্যবহার হয় না.</div>",
+"<h3>Negative sentence</h3><p>সাধারণ verb-এ do/does/did + not এবং main verb V1: <em>She does not know me; I did not see him.</em> Be verb ও modal-এর পরে সরাসরি not: <em>is not ready; cannot go</em>।</p><h3>Yes/No ও Wh-question</h3><p>Auxiliary/be subject-এর আগে: <em>Are you ready? Have they arrived?</em> Wh-word-এর পরেও প্রশ্নের সঠিক inversion রাখুন: <em>Where do you live?</em></p><h3>Imperative</h3><p>আদেশ/অনুরোধে সাধারণত base verb দিয়ে শুরু; উহ্য subject you: <em>Close the door.</em> নিষেধে <strong>Do not + V1</strong>; ভদ্র অনুরোধে please ব্যবহার করা যায়।</p><div class='important'>Indirect question-এ inversion হবে না: Do you know where he lives?</div>",
+"<h3>Modal-এর অর্থ</h3><div class='table-wrap'><table class='study-table'><tbody><tr><th>Can/Could</th><td>সক্ষমতা, অনুমতি, ভদ্র অনুরোধ</td></tr><tr><th>May/Might</th><td>অনুমতি বা সম্ভাবনা</td></tr><tr><th>Should/Ought to</th><td>পরামর্শ/কর্তব্য</td></tr><tr><th>Must/Have to</th><td>বাধ্যবাধকতা</td></tr><tr><th>Would</th><td>ভদ্র অনুরোধ, hypothetical অর্থ</td></tr></tbody></table></div><p>বাংলা “পারে”, “উচিত”, “অবশ্যই”, “হতে পারে” অর্থ ও প্রসঙ্গ দেখে যথাক্রমে can, should, must, may/might হতে পারে।</p><h3>Verb form</h3><p>Modal-এর পরে base verb; সাধারণত to নয়: <em>can swim, should practise, must follow</em>। ব্যতিক্রম: <em>ought to, have to, be able to</em>।</p><div class='important'>Modal + V1; ভুল: can speaks, should to go, must went.</div>",
+"<h3>Article</h3><p><strong>a/an</strong> নির্দিষ্ট নয় এমন singular countable noun-এর আগে; বানান নয়, প্রথম ধ্বনি দেখুন: <em>a university</em> (ইউ ধ্বনি), <em>an hour</em> (h নীরব)। <strong>the</strong> নির্দিষ্ট/আগে উল্লেখিত বা এককভাবে চিহ্নিত বস্তুতে: <em>a dog … the dog</em>।</p><h3>Pronoun case</h3><p>Subject: I/he/she/we/they; object: me/him/her/us/them; possessive determiner: my/his/her; possessive pronoun: mine/his/hers।</p><h3>Subject–verb agreement</h3><p>Head subject দেখে verb দিন: <em>The quality of the products is good.</em> এখানে subject quality। Third-person singular present-এ verb + s/es।</p><div class='important'>বাংলায় article বা pronoun form স্পষ্ট নাও থাকতে পারে; English-এ grammatical role অনুযায়ী বসান.</div>",
+"<h3>Collocation শিখুন</h3><p>অনেক preposition অর্থ থেকে অনুমান করা যায় না; শব্দের সঙ্গে জোড়া হিসেবে শিখতে হয়: <strong>depend on, interested in, good at, responsible for, listen to, belong to</strong>।</p><h3>যেসব verb-এ অতিরিক্ত preposition নয়</h3><ul><li>discuss the issue (discuss about নয়)</li><li>enter the room (সাধারণ অর্থে enter into নয়)</li><li>reach the station (reach to নয়)</li><li>resemble his father (resemble with নয়)</li><li>mention the matter (mention about নয়)</li></ul><h3>Natural collocation</h3><p>make a decision, take responsibility, pay attention, heavy rain, strong argument, do homework।</p><div class='important'>বাংলা “উপর/তে/জন্য” দেখে সরাসরি preposition বসাবেন না—English collocation যাচাই করুন.</div>",
+"<h3>Cause ও contrast</h3><p><strong>because + clause</strong>; <strong>because of + noun phrase</strong>। <strong>although/though + clause</strong>; <strong>despite/in spite of + noun/gerund</strong>।</p><h3>Condition ও result</h3><p>First conditional: <em>If you work hard, you will succeed.</em> Ordinary future condition-এ if-clause-এ Present Simple। Unless প্রায়ই if…not-এর সমতুল্য।</p><h3>Relative clause</h3><p>মানুষের ক্ষেত্রে who/that, বস্তুর ক্ষেত্রে which/that, মালিকানায় whose: <em>The person who helped me is my teacher.</em></p><h3>সময় ও form</h3><p>while + clause; during + noun phrase; because + clause; because of + noun phrase।</p><div class='important'>Connector-এর পরে clause নাকি noun/gerund লাগবে—এই পার্থক্যই পরীক্ষার সাধারণ ফাঁদ.</div>",
+"<h3>Passive voice</h3><p>Passive গঠন: <strong>object + be verb-এর যথাযথ tense + V3</strong>। Active-এর object passive subject হয়: <em>The police caught the thief.</em> → <em>The thief was caught.</em></p><h3>Tense অনুযায়ী be</h3><ul><li>Present Simple: is/are made</li><li>Past Simple: was/were made</li><li>Present Perfect: has/have been made</li><li>Modal: can/must be made</li></ul><p>Object নেই এমন intransitive verb (arrive, sleep, happen) সাধারণত passive হয় না।</p><h3>Conditional meaning</h3><p>Zero: If + present, present. First: If + present, will + V1. Second: If + past, would + V1. Third: If + past perfect, would have + V3.</p><div class='important'>Voice বদলালেও tense ও মূল অর্থ অক্ষুণ্ণ রাখুন; conditional-এ বাস্তবতা/সম্ভাবনা/অতীতের অসম্ভবতা বুঝুন.</div>",
+"<h3>বাংলা-প্রভাবিত সাধারণ ভুল</h3><div class='table-wrap'><table class='study-table'><tbody><tr><th>ভুল</th><th>সঠিক</th></tr><tr><td>I am agree.</td><td>I agree.</td></tr><tr><td>Did not went.</td><td>Did not go.</td></tr><tr><td>discuss about it</td><td>discuss it</td></tr><tr><td>reach to the station</td><td>reach the station</td></tr><tr><td>an advice</td><td>a piece of advice</td></tr><tr><td>open/close the light</td><td>turn on/turn off the light</td></tr></tbody></table></div><h3>শব্দের context</h3><p>“জানা” = know/learn/find out; “হওয়া” = be/become/happen/take place; “দেওয়া” = give/provide/allow/submit—অর্থ অনুযায়ী বাছুন। Natural English-এ idiom ও collocation ব্যবহার করুন।</p><div class='important'>শেষে নিজের অনুবাদ ইংরেজি হিসেবে স্বাভাবিক শোনায় কি না পড়ুন; বাংলা বাক্যক্রমের ছাপ থাকলে পুনর্গঠন করুন.</div>",
+"<h3>পরীক্ষার ধাপে ধাপে কৌশল</h3><ol><li>বাক্যটি সম্পূর্ণ পড়ে মূল বক্তব্য ধরুন।</li><li>Subject, finite verb, object ও complement চিহ্নিত করুন।</li><li>সময়চিহ্ন এবং কাজের aspect দেখে tense নির্ধারণ করুন।</li><li>Statement/question/negative/command/condition/comparison শনাক্ত করুন।</li><li>কারণ, সময়, শর্ত, ফল বা contrast-এর clause relation ঠিক করুন।</li><li>Article, pronoun, agreement, preposition ও collocation যাচাই করুন।</li><li>ভুল auxiliary/verb-form ও word-for-word distractor বাদ দিন।</li><li>শেষে পূর্ণ ইংরেজি বাক্য পড়ে অর্থ ও স্বাভাবিকতা যাচাই করুন।</li></ol><h3>দ্রুত স্মরণ</h3><p>Did + V1; modal + V1; since + starting point; for + duration; because + clause; because of + noun; despite + noun/gerund; passive = be + V3.</p><div class='important'>সময় কম হলে আগে tense/verb agreement, clause structure ও collocation-এর ভুলগুলো বাদ দিয়ে option elimination করুন.</div>"
+];
+const translationTitles=[
+"Translation: অর্থ, উদ্দেশ্য ও মৌলিক নীতি","English Sentence Structure ও Word Order","Present Time: Present Simple, Continuous ও Stative Verbs","Past, Future ও Future Time Clauses","Perfect Tense, Since ও For","Negative, Question ও Imperative Translation","Modal Verb: Ability, Advice, Obligation ও Permission","Article, Pronoun ও Subject–Verb Agreement","Preposition, Collocation ও Natural English","Clause, Connector ও Complex Translation","Voice ও Conditional Translation","Common Translation Traps ও Natural Expressions","Competitive Exam Strategy ও Final Revision"
+];
+const translationLeads=[
+"অর্থভিত্তিক অনুবাদ, বাক্য বিশ্লেষণ, tense ও পরীক্ষার অনুবাদ প্রশ্নের ধরন।",
+"Subject–verb–object ক্রম, sentence patterns, dummy subject ও বাংলা থেকে English word order।",
+"অভ্যাস, সাধারণ সত্য, চলমান কাজ এবং stative verb-এর ব্যবহার।",
+"Past Simple/Continuous, Future Simple ও future time clause-এর নিয়ম।",
+"Present Perfect, Perfect Continuous, Past Perfect এবং since/for-এর পার্থক্য।",
+"Negative, yes/no question, wh-question, indirect question ও imperative-এর গঠন।",
+"সক্ষমতা, অনুমতি, সম্ভাবনা, পরামর্শ, বাধ্যবাধকতা এবং modal-এর পর verb form।",
+"A/An/The, pronoun case, possessive form এবং subject–verb agreement।",
+"Verb/adjective/noun collocation, fixed preposition ও natural English phrase।",
+"কারণ, contrast, condition, relative clause এবং connector-এর পর clause বা phrase।",
+"Active-passive conversion এবং Zero থেকে Third Conditional-এর অর্থভিত্তিক ব্যবহার।",
+"বাংলা-প্রভাবিত ভুল, literal translation, ভুল collocation এবং context অনুযায়ী শব্দ নির্বাচন।",
+"অনুবাদ সমাধানের ধাপ, দ্রুত error check, distractor elimination ও mixed practice।"
+];
+const translationRows=[
+[
+["সে প্রতিদিন বই পড়ে।","She reads books every day.","She read books every day.","She is read books every day.","She has read books every day.","অভ্যাস বোঝাতে Present Simple; singular she-এর সঙ্গে reads।"],
+["সূর্য পূর্ব দিকে ওঠে।","The sun rises in the east.","The sun is rising in the east every day.","The sun rise in the east.","A sun rises at east.","সাধারণ সত্যে Present Simple; নির্দিষ্ট একমাত্র সূর্যের আগে the।"],
+["আমি তাকে চিনি।","I know him.","I am knowing him.","I knows him.","I knew him every day.","Know stative অর্থে সাধারণত continuous নয়; object pronoun him।"],
+["সে ইংরেজি বোঝে।","She understands English.","She is understanding English.","She understand English.","She has understand English.","Singular subject-এর সঙ্গে understands; understand stative verb।"],
+["তারা প্রতিদিন কাজ করে।","They work every day.","They works every day.","They are work every day.","They worked every day now.","Plural they-এর সঙ্গে Present Simple base form work।"],
+["আমার ক্ষুধা লেগেছে।","I am hungry.","Hunger has caught me.","I have hunger.","I hungry am.","বাংলা idiom আক্ষরিক নয়; natural expression I am hungry।"],
+["সে একজন ডাক্তার।","She is a doctor.","She doctor is.","She is doctor.","She has a doctor.","পেশার singular countable noun-এর আগে a লাগে।"],
+["আজ খুব ঠান্ডা।","It is very cold today.","Is very cold today.","Today very cold it.","It very cold today.","আবহাওয়া বোঝাতে dummy subject it এবং be verb লাগে।"],
+["সে গান গায়।","He sings songs.","He sing songs.","He is sing songs.","He sang songs now.","Third-person singular present verb-এ -s যোগ হয়।"],
+["আমি প্রতিদিন সকালে হাঁটি।","I walk every morning.","I am walk every morning.","I walks every morning.","I walked every morning now.","নিয়মিত অভ্যাসে Present Simple; I-এর সঙ্গে walk।"]
+],
+[
+["আমি তাকে চিনি।","I know him.","I him know.","I am know him.","Me know he.","English statement-এ Subject + Verb + Object: I + know + him।"],
+["সে আমাকে একটি কলম দিয়েছে।","She gave me a pen.","She me gave a pen.","She gave to me a pen yesterday now.","Her gave I a pen.","সাধারণ ক্রম S+V+indirect object+direct object।"],
+["আজ বৃষ্টি হচ্ছে।","It is raining today.","Today raining is.","It raining today.","It rains now yesterday.","আবহাওয়ার বাক্যে dummy subject it এবং is raining লাগে।"],
+["ঘরটি পরিষ্কার।","The room is clean.","The room clean is.","Is clean the room.","The room cleans.","Linking verb is-এর পরে subject complement clean।"],
+["শিশুটি ঘুমাল।","The child slept.","Slept the child.","The child sleep.","It slept the child.","সাধারণ statement-এ subject verb-এর আগে; sleep-এর past slept।"],
+["সে বই পড়ে।","She reads books.","She books reads.","Reads she books.","Her reads books.","বাংলা verb-final order English SVO-তে রূপান্তরিত হয়।"],
+["আমরা প্রস্তুত।","We are ready.","We ready are.","Are ready we.","Us are ready.","Subject pronoun we-এর পরে be verb are।"],
+["এখন পাঁচটা বাজে।","It is five o’clock.","Five o’clock it.","It has five o’clock.","Is five o’clock.","সময় বলার impersonal construction-এ It is ব্যবহৃত হয়।"],
+["স্টেশনে যেতে অনেক দূর।","It is a long way to the station.","A long way is station.","It a long way to station.","There is long way the station.","দূরত্ব/অভিজ্ঞতা বোঝাতে It is a long way to... স্বাভাবিক।"],
+["আমি তাকে একটি বই দিলাম।","I gave him a book.","I him a book gave.","I gave he a book.","I was gave him book.","S+V+IO+DO pattern: I gave him a book।"]
+],
+[
+["সে প্রতিদিন সকালে হাঁটে।","She walks every morning.","She walk every morning.","She is walking every morning.","She walked every morning.","অভ্যাসে Present Simple; she walks।"],
+["তুমি কি তাকে চেনো?","Do you know him?","Are you know him?","Do you knows him?","You do know him?","সাধারণ verb-এর yes/no question-এ Do + subject + V1।"],
+["সে কাজটি করে না।","She does not do the work.","She do not does the work.","She does not does the work.","She is not do the work.","Does not-এর পরে main verb base form do।"],
+["পানি ১০০° সেলসিয়াসে ফুটে।","Water boils at 100°C.","Water boil at 100°C.","Water is boiling at 100°C always.","The water boiled at 100°C now.","বৈজ্ঞানিক সাধারণ সত্যে Present Simple; water uncountable singular।"],
+["সে এখন পড়ছে।","She is studying now.","She studies now at this moment.","She studying now.","She has study now.","এখন চলমান কাজে is + V-ing।"],
+["তারা মাঠে খেলছে।","They are playing in the field.","They is playing in the field.","They playing in the field.","They play in the field now yesterday.","Plural they-এর সঙ্গে are + V-ing।"],
+["আমি প্রশ্নটি বুঝি।","I understand the question.","I am understanding the question.","I understands the question.","I understood the question every day.","Stative understand সাধারণত Present Simple-এ ব্যবহৃত হয়।"],
+["সে নিজের গাড়ির মালিক।","She owns a car.","She is owning a car.","She own a car.","She has own a car.","মালিকানা বোঝানো own সাধারণত continuous হয় না।"],
+["সে এখন সমস্যাটি নিয়ে ভাবছে।","She is thinking about the problem.","She thinks about the problem now at this moment.","She is think about the problem.","She thinking the problem.","চলমান মানসিক কাজ বোঝালে think continuous হতে পারে; think about।"],
+["তোমার ভাই কি ইংরেজি জানে?","Does your brother know English?","Do your brother knows English?","Does your brother knows English?","Is your brother know English?","Singular subject-এর প্রশ্নে Does + subject + V1।"]
+],
+[
+["আমি গতকাল বাজারে গিয়েছিলাম।","I went to the market yesterday.","I have gone to the market yesterday.","I go to the market yesterday.","I had went to the market yesterday.","গতকাল finished past time; Past Simple went।"],
+["সে কাজটি করেনি।","She did not do the work.","She did not did the work.","She does not did the work.","She was not do the work.","Did not-এর পরে V1 do।"],
+["তুমি কি তাকে দেখেছিলে?","Did you see him?","Did you saw him?","Have you saw him?","Were you see him?","Did-এর পরে base form see।"],
+["আমি পড়ছিলাম, তখন ফোনটি বেজে উঠল।","I was studying when the phone rang.","I studied when the phone was ring.","I was study when the phone rang.","I had studying when the phone rings.","চলমান past কাজে was studying; interrupting event rang।"],
+["আমি পৌঁছালে তারা কাজ করছিল।","They were working when I arrived.","They worked when I was arrive.","They were work when I arrived.","They are working when I arrived.","Past continuous চলমান পটভূমি, Past Simple-এ arrived ঘটনা।"],
+["আগামীকাল আমি তোমাকে সাহায্য করব।","I will help you tomorrow.","I will helped you tomorrow.","I help you tomorrow yesterday.","I am will help you.","Future Simple: will + base form help।"],
+["তুমি এলে আমি ফোন করব।","I will call you when you arrive.","I will call you when you will arrive.","I call you when you arrived.","I would call when you will arrive.","Future time clause after when সাধারণত Present Simple arrive।"],
+["সে গত বছর ঢাকা গিয়েছিল।","She went to Dhaka last year.","She has gone to Dhaka last year.","She goes to Dhaka last year.","She had went to Dhaka last year.","Last year finished time; Past Simple went।"],
+["ট্রেনটি রাত আটটায় ছাড়বে।","The train will leave at eight tonight.","The train will leaves at eight tonight.","The train leave at eight last night.","The train is leave at eight tonight.","Will-এর পরে base verb leave।"],
+["বৃষ্টি হচ্ছিল যখন আমরা বের হলাম।","It was raining when we went out.","It rained when we were go out.","It was rain when we went out.","It is raining when we went out.","চলমান past weather: was raining; completed event: went out।"]
+],
+[
+["আমি কাজটি শেষ করেছি।","I have finished the work.","I finished the work yesterday now.","I have finish the work.","I am finished the work.","Present Perfect গঠন have + V3 finished।"],
+["সে কখনো কক্সবাজার যায়নি।","She has never been to Cox’s Bazar.","She never has went to Cox’s Bazar.","She has never went to Cox’s Bazar.","She did never been to Cox’s Bazar.","অভিজ্ঞতা বোঝাতে has been; been to মানে সেখানে গিয়েছে/গিয়েছিল।"],
+["আমি গতকাল তাকে দেখেছি।","I saw him yesterday.","I have seen him yesterday.","I had seen him yesterday now.","I see him yesterday.","Yesterday নির্দিষ্ট finished past; Past Simple saw।"],
+["সে দুই ঘণ্টা ধরে পড়ছে।","She has been studying for two hours.","She is studying since two hours.","She has studied since two hours.","She have been studying for two hours.","অতীত থেকে চলমান duration: has been studying; for + duration।"],
+["আমি ২০২১ সাল থেকে এখানে কাজ করছি।","I have been working here since 2021.","I am working here since 2021.","I have been working here for 2021.","I worked here since 2021 now.","Since-এর পরে starting point 2021।"],
+["ট্রেনটি আমাদের পৌঁছানোর আগেই ছেড়ে গিয়েছিল।","The train had left before we arrived.","The train has left before we had arrived yesterday.","The train had leave before we arrived.","The train left before we had arrive.","আগের past action had + V3; পরেরটি Past Simple arrived।"],
+["তুমি কি কখনো লন্ডনে গিয়েছ?","Have you ever been to London?","Did you ever been to London?","Have you ever went to London?","Are you ever been to London?","জীবনের অভিজ্ঞতায় Have + subject + V3; been to।"],
+["সে ২০১৯ সাল থেকে এখানে থাকে।","She has lived here since 2019.","She lives here since 2019.","She has lived here for 2019.","She had live here since 2019.","Since + নির্দিষ্ট শুরুর সময়; has lived একটি natural perfect form।"],
+["তারা তিন মাস ধরে অপেক্ষা করছে।","They have been waiting for three months.","They are waiting since three months.","They has been waiting for three months.","They have waited since three months ago continuously.","Plural they + have been; duration-এর আগে for।"],
+["আমি পৌঁছানোর আগে সে চলে গিয়েছিল।","She had left before I arrived.","She has left before I arrived yesterday.","She had leave before I arrived.","She left before I had arrive.","আগে সম্পন্ন leave: had left; পরবর্তী ঘটনা arrived।"]
+],
+[
+["তুমি কি প্রস্তুত?","Are you ready?","Do you ready?","You are ready?","Are ready you?","Be verb প্রশ্নে subject-এর আগে আসে: Are you...?"],
+["সে আমাকে চেনে না।","She does not know me.","She do not knows me.","She does not knows me.","She is not know me.","Does not-এর পরে V1 know; object case me।"],
+["তুমি কোথায় থাকো?","Where do you live?","Where you do live?","Where does you live?","Where do you lives?","Wh-question: where + do + subject + V1।"],
+["সে কেন দেরি করেছিল?","Why was she late?","Why she was late?","Why did she late?","Why was late she?","Be verb past question-এ subject-এর আগে: was she।"],
+["তারা কি কাজটি শেষ করেছে?","Have they finished the work?","Did they finished the work?","Have they finish the work?","Are they finished the work?","Present Perfect question: Have + subject + V3।"],
+["দরজাটি বন্ধ করো।","Close the door.","You closes the door.","Closing the door.","Closed the door.","Imperative-এ base verb দিয়ে শুরু; উহ্য subject you।"],
+["দয়া করে আমাকে সাহায্য করুন।","Please help me.","Please to help I.","You please helped me.","Please helping me.","ভদ্র imperative: please + base verb; object pronoun me।"],
+["এখানে ধূমপান করো না।","Do not smoke here.","Not smoke here do.","Do not smoked here.","You are not smoke here.","Negative imperative: Do not + V1।"],
+["তুমি কি জানো সে কোথায় থাকে?","Do you know where he lives?","Do you know where does he live?","Do you know where he live?","Do you know where is he lives?","Embedded indirect question uses statement order: he lives।"],
+["সে কখন আসবে?","When will she come?","When she will come?","When will she comes?","When does she came?","Wh-word + will + subject + base verb।"]
+],
+[
+["সে সাঁতার কাটতে পারে।","She can swim.","She can swims.","She cans swim.","She can to swim.","Can-এর পরে base verb swim।"],
+["তোমার বিশ্রাম নেওয়া উচিত।","You should take rest.","You should to take rest.","You should took rest.","You are should take rest.","Advice: should + base verb।"],
+["তোমাকে নিয়ম মানতেই হবে।","You must follow the rules.","You must to follow the rules.","You must followed the rules.","You are must follow the rules.","Must-এর পরে to ছাড়া base verb follow।"],
+["সে আজ আসতে পারে।","She may come today.","She may comes today.","She may to come today.","She is may come today.","সম্ভাবনায় may + base verb।"],
+["আপনি কি দরজাটি খুলবেন?","Could you open the door?","Could you opened the door?","Could you to open the door?","Do you could open the door?","ভদ্র অনুরোধে Could + subject + V1।"],
+["তুমি এখন যেতে পারো।","You may leave now.","You may left now.","You may to leave now.","You are may leave now.","অনুমতির অর্থে may + base verb।"],
+["তাকে আরও সতর্ক হওয়া উচিত।","He should be more careful.","He should is more careful.","He should to be more careful.","He should was more careful.","Modal-এর পরে be-এর base form।"],
+["তাদের আবেদন করতে হবে।","They have to apply.","They has to apply.","They have apply.","They have to applied.","Have to-এর পরে base form apply; plural subject have।"],
+["আমি কি এখানে বসতে পারি?","May I sit here?","May I to sit here?","Do I may sit here?","May I sat here?","অনুমতির প্রশ্ন: May + subject + base verb।"],
+["তুমি চাইলে আমাকে ফোন করতে পারো।","You can call me if you want.","You can to call me if you want.","You can calls me if you want.","You could called me if you want.","Can-এর পরে call; condition clause-এর present form want।"]
+],
+[
+["সে একজন ডাক্তার।","She is a doctor.","She is an doctor.","She is doctor.","She has a doctor.","Doctor উচ্চারণে consonant sound; singular profession-এর আগে a।"],
+["এটি একটি বিশ্ববিদ্যালয়।","It is a university.","It is an university.","It is university.","It a university is.","University শুরুতে /juː/ consonant-like sound; তাই a।"],
+["এক ঘণ্টা অপেক্ষা করো।","Wait for an hour.","Wait for a hour.","Wait an hour for the.","Wait during hour.","Hour-এ h উচ্চারিত হয় না; vowel sound-এর আগে an।"],
+["আমি একটি কুকুর দেখেছি। কুকুরটি কালো ছিল।","I saw a dog. The dog was black.","I saw the dog. A dog was black.","I saw dog. Dog was black.","I saw an dog. The dog black.","প্রথম উল্লেখে a; পরের নির্দিষ্ট উল্লেখে the।"],
+["সে আমাকে সাহায্য করেছে।","She helped me.","She helped I.","Her helped me.","She helped mine.","Verb helped-এর object case me।"],
+["এটি আমার বই।","This is my book.","This is mine book.","This is me book.","This my is book.","Noun-এর আগে possessive determiner my।"],
+["বইটি আমার।","The book is mine.","The book is my.","The book is me.","Mine book is the.","Noun ছাড়া possessive pronoun mine।"],
+["পণ্যের মান ভালো।","The quality of the products is good.","The quality of the products are good.","The products quality are good.","The quality of products be good.","Head subject quality singular; তাই is।"],
+["সে প্রতিদিন কাজ করে।","He works every day.","He work every day.","He is work every day.","He does works every day.","Third-person singular present: works; does + V1 হলে does work।"],
+["তারা প্রস্তুত।","They are ready.","They is ready.","Them are ready.","They am ready.","Plural subject they-এর সঙ্গে are।"]
+],
+[
+["সাফল্য কঠোর পরিশ্রমের ওপর নির্ভর করে।","Success depends on hard work.","Success depends of hard work.","Success depends from hard work.","Success is depend on hard work.","সঠিক collocation: depend on।"],
+["সে গবেষণায় আগ্রহী।","She is interested in research.","She is interested on research.","She is interesting in research.","She interested at research.","Adjective collocation: interested in।"],
+["সে গণিতে ভালো।","He is good at mathematics.","He is good in mathematics.","He is good on mathematics.","He is well at mathematics.","দক্ষতা বোঝাতে good at।"],
+["সে প্রকল্পটির জন্য দায়ী।","She is responsible for the project.","She is responsible of the project.","She is responsible to the project.","She responsible for project is.","Collocation: responsible for।"],
+["আমার কথা শোনো।","Listen to me.","Listen me.","Listen at me.","Hear to me.","Listen-এর পরে to লাগে; object me।"],
+["বইটি লাইব্রেরির।","The book belongs to the library.","The book belongs in the library's.","The book belong to library.","The book is belong to the library.","Belong to; third-person singular belongs।"],
+["আমরা বিষয়টি আলোচনা করেছি।","We discussed the issue.","We discussed about the issue.","We discussed on the issue.","We were discussed the issue.","Discuss transitive verb; object-এর আগে about নয়।"],
+["সে স্টেশনে পৌঁছেছে।","She reached the station.","She reached to the station.","She reached at the station.","She was reached the station.","Reach-এর পরে destination-এর আগে সাধারণত preposition নয়।"],
+["তারা সিদ্ধান্ত নিয়েছে।","They made a decision.","They did a decision.","They took a decision of.","They made decisioning.","প্রচলিত collocation: make a decision।"],
+["মনোযোগ দাও।","Pay attention.","Give attention on.","Do attention.","Pay an attention to.","প্রচলিত expression: pay attention।"]
+],
+[
+["বৃষ্টি হচ্ছিল বলে আমরা ঘরে ছিলাম।","We stayed inside because it was raining.","We stayed inside because of it was raining.","We stayed inside although it was raining.","We stayed inside because raining.","Because-এর পরে পূর্ণ clause it was raining।"],
+["বৃষ্টির কারণে আমরা ঘরে ছিলাম।","We stayed inside because of the rain.","We stayed inside because the rain.","We stayed inside despite the rain.","We stayed inside because of it rained.","Because of-এর পরে noun phrase the rain।"],
+["ক্লান্ত হলেও সে কাজ শেষ করেছে।","Although she was tired, she finished the work.","Despite she was tired, she finished the work.","Although she was tired, but she finished the work.","In spite she was tired, she finished the work.","Although + clause; একই clause-এ although ও but একসঙ্গে নয়।"],
+["ক্লান্তি সত্ত্বেও সে কাজ শেষ করেছে।","Despite being tired, she finished the work.","Despite she was tired, she finished the work.","Although being tired, but she finished the work.","Despite of tired, she finished work.","Despite-এর পরে noun/gerund phrase; despite of নয়।"],
+["তুমি পরিশ্রম করলে সফল হবে।","If you work hard, you will succeed.","If you will work hard, you will succeed.","If you worked hard, you will succeeded.","Unless you work hard, you will succeed.","First conditional: if + Present Simple, will + V1।"],
+["তুমি তাড়াতাড়ি না করলে ট্রেন মিস করবে।","Unless you hurry, you will miss the train.","Unless you will hurry, you will miss the train.","Unless you hurry, you would missed the train.","If you hurry, you will miss the train.","Unless = if…not; if-clause-এ Present Simple।"],
+["যে ব্যক্তি আমাকে সাহায্য করেছে, তিনি আমার শিক্ষক।","The person who helped me is my teacher.","The person which helped me is my teacher.","The person who helped me are my teacher.","The person helped me who is my teacher.","মানুষের antecedent-এর জন্য relative pronoun who।"],
+["আমি যে বইটি কিনেছি, সেটি উপকারী।","The book that I bought is useful.","The book who I bought is useful.","The book which I bought are useful.","The book that I buy was useful now.","বস্তুর antecedent-এ that/which; singular book-এর সঙ্গে is।"],
+["সে পড়াশোনা করেছে যাতে পরীক্ষায় পাস করতে পারে।","She studied so that she could pass the exam.","She studied because of she could pass.","She studied so that she can passed.","She studied although she could pass.","উদ্দেশ্য clause: so that + subject + modal + base verb।"],
+["সভা শেষ হলে সবাই চলে গেল।","When the meeting ended, everyone left.","During the meeting ended, everyone left.","When the meeting was end, everyone leave.","While the meeting ended, everyone had leave.","When-এর পরে clause; ended ও left—দুটিই past event।"]
+],
+[
+["পুলিশ চোরটিকে ধরেছে।","The police have caught the thief.","The thief has caught by police.","The thief have been caught by police.","The police has been caught the thief.","Active sentence-এ police subject, caught object; plural sense-এ have caught।"],
+["চোরটিকে ধরা হয়েছে।","The thief has been caught.","The thief has caught.","The thief is caught yesterday.","The thief have been catch.","Present Perfect Passive: has been + V3।"],
+["এই সেতুটি ২০০১ সালে নির্মিত হয়েছিল।","This bridge was built in 2001.","This bridge built in 2001.","This bridge is build in 2001.","This bridge has been build in 2001.","Past passive: was + V3 built।"],
+["কাজটি এখন করা হচ্ছে।","The work is being done now.","The work is done now by doing.","The work has being done now.","The work was do now.","Present Continuous Passive: is being + V3।"],
+["তোমাকে নিয়ম মানতেই হবে।","The rules must be followed.","The rules must followed.","The rules must to be followed.","The rules are must follow.","Modal passive: modal + be + V3।"],
+["বরফ গরম করলে গলে যায়।","If you heat ice, it melts.","If you will heat ice, it will melts.","If you heated ice, it melted tomorrow.","If heat ice, it will melted.","Zero conditional: If + present, present; সাধারণ সত্য।"],
+["তুমি পড়লে পাস করবে।","If you study, you will pass.","If you will study, you will pass.","If you studied, you will passed.","If you study, you would passed.","First conditional: present in if-clause, will + V1 in result।"],
+["আমার সময় থাকলে আমি সাহায্য করতাম।","If I had time, I would help.","If I have time, I would helped.","If I had time, I will helped.","If I would have time, I help.","Second conditional: if + past, would + V1।"],
+["সে আগে বের হলে বাসটি ধরতে পারত।","If she had left early, she would have caught the bus.","If she left early, she would have catch the bus.","If she had leave early, she will catch the bus.","If she would leave early, she caught the bus.","Third conditional: if + past perfect; would have + V3।"],
+["ঘটনাটি গত রাতে ঘটেছিল।","The incident happened last night.","The incident was happened last night.","The incident has happen last night.","The incident did happened last night.","Happen intransitive; সাধারণত passive হয় না।"]
+],
+[
+["আমি তোমার সঙ্গে একমত।","I agree with you.","I am agree with you.","I agree to you.","I am agreeing you always.","Agree একটি verb; সাধারণত am agree নয়, agree with someone।"],
+["সে গতকাল পরীক্ষা দিয়েছে।","She took the examination yesterday.","She gave examination yesterday.","She did an examination yesterday.","She has taken the examination yesterday.","পরীক্ষায় অংশ নেওয়ার natural expression take an examination।"],
+["সে সমস্যাটি আলোচনা করেছে।","She discussed the problem.","She discussed about the problem.","She discussed on the problem.","She was discussed the problem.","Discuss-এর পরে সরাসরি object আসে।"],
+["সে উত্তরটি জানে।","She knows the answer.","She is knowing the answer.","She know the answer.","She has know the answer.","Know stative verb; third-person singular knows।"],
+["আমি সোমবার থেকে এখানে আছি।","I have been here since Monday.","I am here since Monday.","I have been here for Monday.","I was here since Monday now.","Since Monday = শুরুর সময়; বর্তমান পর্যন্ত অবস্থায় have been।"],
+["সে ইংরেজিতে ভালো।","She is good at English.","She is good in English.","She is well at English.","She good at English is.","দক্ষতা/বিষয়ে পারদর্শিতা: good at।"],
+["আমি তাকে একটি পরামর্শ দিয়েছি।","I gave him a piece of advice.","I gave him an advice.","I gave an advice to him.","I gave him advice piece.","Advice uncountable; a piece of advice বলা হয়।"],
+["আলো জ্বালাও।","Turn on the light.","Open the light.","Start the light on.","Switch the light open.","Natural phrasal verb: turn on the light।"],
+["ফ্যানটি বন্ধ করো।","Turn off the fan.","Close the fan.","Shut down the fan.","Turn the fan closed.","যন্ত্র বন্ধ করতে turn off ব্যবহৃত হয়।"],
+["সে আমার চাচাতো ভাই।","He is my cousin.","He is my cousin brother.","He is my cousin's brother necessarily.","He is brother cousin of mine.","English-এ cousin-ই যথেষ্ট; cousin brother অপ্রমিত।"]
+],
+[
+["প্রথমে বাক্যের মূল বক্তব্য ধরুন, তারপর শব্দক্রম ঠিক করুন—এটি কোন কৌশল?","Translate the meaning, not each word mechanically.","Translate every Bengali word in the same order.","Choose a tense before reading the sentence.","Ignore the subject and use a dictionary.","Natural translation অর্থ ও English structure ধরে, শব্দে-শব্দে নয়।"],
+["অনুবাদের শুরুতে কোন উপাদান শনাক্ত করা সবচেয়ে কার্যকর?","Subject, main verb and object.","Only the final Bengali word.","Only the article.","The longest English option.","কর্তা-ক্রিয়া-কর্ম শনাক্ত করলে sentence structure ও tense ঠিক করা সহজ।"],
+["“গতকাল” থাকলে সাধারণত কোন tense clue পাওয়া যায়?","A completed past-time reference.","An unfinished present perfect period.","A future time clause.","A habitual present action.","Yesterday finished past time; সাধারণত Past Simple।"],
+["Modal-এর পরে কোন verb form বসে তা কীভাবে যাচাই করবেন?","Use the base form after a modal.","Add -s after every modal.","Use V2 after every modal.","Always place to after a modal.","Can/should/must-এর পরে base verb; ought to আলাদা pattern।"],
+["Since-এর পরে কী বসে তা মনে রাখার সঠিক উপায় কোনটি?","A starting point in time.","A duration such as two hours.","A noun describing quantity only.","A past participle in every case.","Since Monday/2021 শুরুর বিন্দু বোঝায়; duration-এ for।"],
+["Because-এর পরে কী থাকে?","A clause with a subject and verb.","Only a bare noun in every use.","A gerund only.","A comparative adjective.","Because + clause; because of + noun phrase।"],
+["Passive sentence বানাতে কী প্রয়োজন?","Be in the required tense + past participle.","Do + base verb only.","Have + V-ing only.","A modal followed by V2.","Passive-এর মূল pattern be + V3; tense অনুযায়ী be বদলায়।"],
+["Indirect question-এ embedded clause-এর word order কেমন?","Statement word order.","Question inversion in every clause.","Object before subject always.","Auxiliary omitted in all cases.","Do you know where he lives—embedded অংশে subject আগে, তারপর verb।"],
+["দুটি option-ই grammar-wise সম্ভব হলে কোনটি বাছবেন?","The one that matches the Bengali meaning and context.","The longer option automatically.","The option with the most prepositions.","The literal word-for-word version.","Translation-এ অর্থ ও context-ই final choice নির্ধারণ করে।"],
+["শেষে কোন কাজটি করলে ভুল কমে?","Reread the full English sentence for grammar and naturalness.","Check only spelling of the first word.","Translate back word-for-word only.","Ignore agreement if meaning is clear.","পূর্ণ বাক্য পড়ে tense, agreement, collocation ও naturalness যাচাই করুন।"]
+]
+];
+function translationQuiz(rows,ci){
+ const out=[];
+ rows.forEach((r,i)=>{
+  const [bnSentence,correct,...rest]=r,wrong=rest.slice(0,3),why=rest[3];
+  const variants=[
+   "Choose the best English translation: “"+bnSentence+"”",
+   "Which option correctly expresses this meaning in English? “"+bnSentence+"”"
+  ];
+  variants.forEach((stem,v)=>{
+   const ws=v?[wrong[1],wrong[2],wrong[0]]:wrong;
+   const opts=[correct,...ws],rotation=(i+ci+v)%4;
+   const mixed=opts.map((_,j)=>opts[(j+rotation)%4]),answer=(4-rotation)%4;
+   out.push([stem,mixed,answer,why]);
+  });
+ });
+ return out;
+}
+const translationTopic=topics.find(t=>t.id==="translation");
+translationTopic.chapters=translationChapterNotes.map((notes,i)=>({
+ title:(i+1)+". "+translationTitles[i],
+ lead:translationLeads[i],
+ notes:notes,
+ qs:translationQuiz(translationRows[i],i)
+}));
+
 window.ENGLISH_TOPICS=topics;
 window.ENGLISH_TOPIC_MCQ=topics.reduce((n,t)=>n+t.chapters.reduce((m,c)=>m+c.qs.length,0),0);
 })();
