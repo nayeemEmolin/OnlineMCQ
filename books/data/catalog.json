@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "books": [
+    {
+      "id": "math-classes-9-10-2018",
+      "title": "Mathematics · Classes Nine–Ten",
+      "edition": "2018 Academic Year",
+      "publisher": "National Curriculum and Textbook Board, Bangladesh",
+      "language": "English",
+      "classLevel": "Classes 9–10",
+      "pageCount": 390,
+      "chapterCount": 17,
+      "url": "./reader.html?book=math-classes-9-10-2018",
+      "description": "Complete scanned textbook with chapter, topic and subtopic navigation, OCR search, and original-page reader."
+    }
+  ]
+}
