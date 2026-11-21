@@ -4359,12 +4359,12 @@
       "href": "./mock.html?paper=minlaw-sub-registrar-2012-05-26",
       "topics": {
         "বাংলা": {
-          "count": 30,
+          "count": 27,
           "topics": {
             "বাংলা ভাষা ও সাহিত্য": {
-              "count": 26,
+              "count": 23,
               "subtopics": {
-                "সাহিত্য ও ব্যাকরণ": 25,
+                "সাহিত্য ও ব্যাকরণ": 22,
                 "বাংলা ভাষা ও সাহিত্য": 1
               }
             },
@@ -4377,72 +4377,72 @@
           }
         },
         "English": {
-          "count": 12,
+          "count": 14,
           "topics": {
             "Grammar & Vocabulary": {
-              "count": 8,
+              "count": 9,
               "subtopics": {
                 "Grammar and vocabulary": 7,
-                "Grammar & Vocabulary": 1
+                "Grammar & Vocabulary": 2
               }
             },
             "English grammar and vocabulary": {
-              "count": 4,
+              "count": 5,
               "subtopics": {
-                "English grammar and vocabulary": 4
+                "English grammar and vocabulary": 5
               }
             }
           }
         },
         "সাধারণ জ্ঞান": {
-          "count": 25,
+          "count": 27,
           "topics": {
             "সাধারণ জ্ঞান": {
-              "count": 22,
+              "count": 25,
               "subtopics": {
-                "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": 21,
-                "সাধারণ জ্ঞান": 1
+                "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": 20,
+                "সাধারণ জ্ঞান": 5
               }
             },
             "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
-              "count": 3,
+              "count": 2,
               "subtopics": {
-                "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": 3
+                "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": 2
               }
             }
           }
         },
         "গণিত": {
-          "count": 17,
+          "count": 20,
           "topics": {
             "গাণিতিক সমস্যা": {
-              "count": 17,
+              "count": 20,
               "subtopics": {
                 "গণিত": 13,
-                "গাণিতিক সমস্যা": 4
+                "গাণিতিক সমস্যা": 7
               }
             }
           }
         },
         "বিজ্ঞান": {
-          "count": 12,
+          "count": 9,
           "topics": {
             "সাধারণ বিজ্ঞান": {
-              "count": 12,
+              "count": 9,
               "subtopics": {
                 "জীববিজ্ঞান ও স্বাস্থ্য": 4,
-                "সাধারণ বিজ্ঞান": 8
+                "সাধারণ বিজ্ঞান": 5
               }
             }
           }
         },
         "ICT": {
-          "count": 4,
+          "count": 3,
           "topics": {
             "তথ্য ও যোগাযোগ প্রযুক্তি": {
-              "count": 4,
+              "count": 3,
               "subtopics": {
-                "তথ্য ও যোগাযোগ প্রযুক্তি": 4
+                "তথ্য ও যোগাযোগ প্রযুক্তি": 3
               }
             }
           }
@@ -4450,9 +4450,9 @@
       },
       "yearLabel": "২৬.০৫.২০১২",
       "setLabel": "পূর্ণাঙ্গ ১০০ MCQ",
-      "sourceReadableCount": 70,
-      "supplementCount": 30,
-      "note": "PDF থেকে 70টি যাচাইকৃত প্রশ্ন; বাকি 30টি সম্পূরক অনুশীলনী।"
+      "sourceReadableCount": 66,
+      "supplementCount": 34,
+      "note": "PDF থেকে 66টি যাচাইকৃত প্রশ্ন; 34টি সম্পূরক অনুশীলনী।"
     },
     {
       "id": "bpsc-coast-guard-senior-staff-nurse-2026-11-19",
@@ -4466,97 +4466,210 @@
       "href": "./mock.html?paper=bpsc-coast-guard-senior-staff-nurse-2026-11-19",
       "topics": {
         "বাংলা": {
-          "count": 15,
+          "count": 19,
           "topics": {
-            "বাংলা ভাষা ও সাহিত্য": {
-              "count": 5,
+            "বাংলা ব্যাকরণ": {
+              "count": 6,
               "subtopics": {
-                "ভাষা ও সাধারণ জ্ঞান": 2,
-                "বাংলা ভাষা ও সাহিত্য": 3
+                "ধ্বনিতত্ত্ব": 1,
+                "শুদ্ধ বানান": 1,
+                "এক কথায় প্রকাশ": 2,
+                "বর্ণ ও ধ্বনি": 1,
+                "অনুসর্গ": 1
+              }
+            },
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 8,
+              "subtopics": {
+                "ভাষা ও সাধারণ জ্ঞান": 1,
+                "গ্রন্থ ও লেখক": 4,
+                "প্রাচীন সাহিত্য": 1,
+                "কবিতা ও সাহিত্যিক": 1,
+                "বাংলা ভাষা ও সাহিত্য": 1
               }
             },
             "বাংলা ব্যাকরণ ও সাহিত্য": {
-              "count": 10,
+              "count": 5,
               "subtopics": {
-                "বাংলা ব্যাকরণ ও সাহিত্য": 10
+                "বাংলা ব্যাকরণ ও সাহিত্য": 5
               }
             }
           }
         },
         "সাধারণ বিজ্ঞান": {
-          "count": 12,
+          "count": 26,
           "topics": {
-            "সাধারণ বিজ্ঞান": {
-              "count": 12,
+            "নার্সিং ও স্বাস্থ্যবিজ্ঞান": {
+              "count": 16,
               "subtopics": {
-                "স্বাস্থ্য ও সাধারণ বিজ্ঞান": 12
-              }
-            }
-          }
-        },
-        "English": {
-          "count": 13,
-          "topics": {
-            "Grammar & Vocabulary": {
-              "count": 5,
-              "subtopics": {
-                "Grammar & Vocabulary": 5
+                "জরুরি স্বাস্থ্যসেবা": 1,
+                "রক্ত সঞ্চালন": 1,
+                "টিকাদান": 1,
+                "জীবনচিহ্ন": 1,
+                "রক্তে গ্লুকোজ": 2,
+                "মূত্রতন্ত্র": 1,
+                "রক্ত": 2,
+                "শ্বসনতন্ত্র": 2,
+                "জরুরি লক্ষণ": 1,
+                "হৃদ্‌যন্ত্র": 1,
+                "বর্জ্য নিষ্কাশন": 1,
+                "সংক্রমণ প্রতিরোধ": 2
               }
             },
-            "English grammar and vocabulary": {
-              "count": 8,
+            "সাধারণ বিজ্ঞান": {
+              "count": 9,
               "subtopics": {
-                "English grammar and vocabulary": 8
+                "স্বাস্থ্য ও সাধারণ বিজ্ঞান": 9
+              }
+            },
+            "মানবদেহ": {
+              "count": 1,
+              "subtopics": {
+                "অস্থি": 1
               }
             }
           }
         },
         "সাধারণ জ্ঞান": {
-          "count": 12,
+          "count": 20,
           "topics": {
-            "সাধারণ জ্ঞান": {
-              "count": 3,
+            "বাংলাদেশের ইতিহাস": {
+              "count": 2,
               "subtopics": {
-                "সাধারণ জ্ঞান": 3
+                "প্রাচীন জনপদ": 1,
+                "মধ্যযুগ": 1
+              }
+            },
+            "বিশ্বভূগোল": {
+              "count": 1,
+              "subtopics": {
+                "মহাদেশ": 1
+              }
+            },
+            "আন্তর্জাতিক বিষয়াবলি": {
+              "count": 4,
+              "subtopics": {
+                "আইনব্যবস্থা": 1,
+                "জাতিসংঘ": 1,
+                "আন্তর্জাতিক আর্থিক প্রতিষ্ঠান": 1,
+                "বিশ্ব ইতিহাস": 1
+              }
+            },
+            "বাংলাদেশের বিজ্ঞান ও প্রযুক্তি": {
+              "count": 1,
+              "subtopics": {
+                "যোগাযোগ অবকাঠামো": 1
+              }
+            },
+            "বাংলাদেশ বিষয়াবলি": {
+              "count": 2,
+              "subtopics": {
+                "অর্থনীতি ও প্রতিষ্ঠান": 1,
+                "অর্থনীতি": 1
+              }
+            },
+            "বাংলাদেশ ও উপমহাদেশের ইতিহাস": {
+              "count": 1,
+              "subtopics": {
+                "দুর্ভিক্ষ": 1
+              }
+            },
+            "সাধারণ জ্ঞান": {
+              "count": 5,
+              "subtopics": {
+                "সাধারণ জ্ঞান": 5
               }
             },
             "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
-              "count": 9,
+              "count": 4,
               "subtopics": {
-                "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": 9
+                "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": 4
+              }
+            }
+          }
+        },
+        "English": {
+          "count": 19,
+          "topics": {
+            "Idioms and expressions": {
+              "count": 1,
+              "subtopics": {
+                "Idiom meaning": 1
+              }
+            },
+            "Grammar & Vocabulary": {
+              "count": 7,
+              "subtopics": {
+                "Gerund": 1,
+                "Parts of speech": 1,
+                "Verb forms": 1,
+                "Collective adjective": 1,
+                "Gender": 1,
+                "Grammar & Vocabulary": 2
+              }
+            },
+            "Vocabulary": {
+              "count": 2,
+              "subtopics": {
+                "Synonym": 1,
+                "Antonym": 1
+              }
+            },
+            "Sentence structure": {
+              "count": 1,
+              "subtopics": {
+                "Sentence type": 1
+              }
+            },
+            "Spelling": {
+              "count": 1,
+              "subtopics": {
+                "Frequently confused spelling": 1
+              }
+            },
+            "English Literature": {
+              "count": 1,
+              "subtopics": {
+                "Shakespeare": 1
+              }
+            },
+            "English grammar and vocabulary": {
+              "count": 6,
+              "subtopics": {
+                "English grammar and vocabulary": 6
               }
             }
           }
         },
         "গণিত": {
-          "count": 12,
+          "count": 7,
           "topics": {
             "গাণিতিক সমস্যা": {
-              "count": 12,
+              "count": 7,
               "subtopics": {
-                "গাণিতিক সমস্যা": 12
+                "গাণিতিক সমস্যা": 7
               }
             }
           }
         },
         "বিজ্ঞান": {
-          "count": 24,
+          "count": 6,
           "topics": {
             "সাধারণ বিজ্ঞান": {
-              "count": 24,
+              "count": 6,
               "subtopics": {
-                "সাধারণ বিজ্ঞান": 24
+                "সাধারণ বিজ্ঞান": 6
               }
             }
           }
         },
         "ICT": {
-          "count": 12,
+          "count": 3,
           "topics": {
             "তথ্য ও যোগাযোগ প্রযুক্তি": {
-              "count": 12,
+              "count": 3,
               "subtopics": {
-                "তথ্য ও যোগাযোগ প্রযুক্তি": 12
+                "তথ্য ও যোগাযোগ প্রযুক্তি": 3
               }
             }
           }
@@ -4564,9 +4677,9 @@
       },
       "yearLabel": "১৯.১১.২০২৬",
       "setLabel": "পূর্ণাঙ্গ ১০০ MCQ",
-      "sourceReadableCount": 14,
-      "supplementCount": 86,
-      "note": "PDF থেকে 14টি যাচাইকৃত প্রশ্ন; বাকি 86টি সম্পূরক অনুশীলনী।"
+      "sourceReadableCount": 61,
+      "supplementCount": 39,
+      "note": "PDF থেকে 61টি যাচাইকৃত প্রশ্ন; 39টি সম্পূরক অনুশীলনী।"
     }
   ]
 }
