@@ -1128,6 +1128,1661 @@
       "setLabel": "সেট 5"
     },
     {
+      "id": "hed-assistant-engineer-2026-08-04",
+      "exam": "স্বাস্থ্য প্রকৌশল অধিদপ্তর",
+      "name": "সহকারী প্রকৌশলী (পুর) · ৪ আগস্ট ২০২৬",
+      "type": "interactive",
+      "questions": 55,
+      "minutes": 60,
+      "marks": 100,
+      "href": "./mock.html?paper=hed-assistant-engineer-2026-08-04",
+      "topics": {
+        "English": {
+          "count": 13,
+          "topics": {
+            "Grammar & Vocabulary": {
+              "count": 13,
+              "subtopics": {
+                "PDF OCR": 13
+              }
+            }
+          }
+        },
+        "সাধারণ জ্ঞান": {
+          "count": 27,
+          "topics": {
+            "সাধারণ জ্ঞান": {
+              "count": 25,
+              "subtopics": {
+                "PDF OCR": 25
+              }
+            },
+            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
+              "count": 2,
+              "subtopics": {
+                "PDF OCR": 2
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 6,
+          "topics": {
+            "গাণিতিক সমস্যা": {
+              "count": 6,
+              "subtopics": {
+                "PDF OCR": 6
+              }
+            }
+          }
+        },
+        "বিজ্ঞান": {
+          "count": 1,
+          "topics": {
+            "সাধারণ বিজ্ঞান": {
+              "count": 1,
+              "subtopics": {
+                "PDF OCR": 1
+              }
+            }
+          }
+        },
+        "বাংলা": {
+          "count": 8,
+          "topics": {
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 8,
+              "subtopics": {
+                "PDF OCR": 8
+              }
+            }
+          }
+        }
+      },
+      "yearLabel": "০৪.০৮.২০২৬",
+      "setLabel": "55টি পাঠযোগ্য প্রশ্ন",
+      "note": "মূল PDF-এর পৃষ্ঠা 23–28 থেকে 55টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
+    },
+    {
+      "id": "land-survey-2026-10-02",
+      "exam": "ভূমি রেকর্ড ও জরিপ অধিদপ্তর",
+      "name": "ঘাঁট মোহরার নিয়োগ পরীক্ষা · ০২ অক্টোবর ২০২৬",
+      "type": "interactive",
+      "questions": 100,
+      "minutes": 60,
+      "marks": 99,
+      "href": "./land-record-2026/",
+      "topics": {
+        "English": {
+          "count": 25,
+          "topics": {
+            "Vocabulary": {
+              "count": 4,
+              "subtopics": {
+                "Synonym: vigilant": 1,
+                "Word meaning: rostrum": 1,
+                "Word meaning: pilgrim": 1,
+                "Word meaning: anarchy": 1
+              }
+            },
+            "Gender": {
+              "count": 1,
+              "subtopics": {
+                "Gender-neutral noun": 1
+              }
+            },
+            "Number": {
+              "count": 1,
+              "subtopics": {
+                "Singular noun": 1
+              }
+            },
+            "Voice": {
+              "count": 2,
+              "subtopics": {
+                "Imperative sentence: passive voice": 1,
+                "Interrogative passive voice": 1
+              }
+            },
+            "Preposition": {
+              "count": 1,
+              "subtopics": {
+                "Verb–preposition collocation": 1
+              }
+            },
+            "Article": {
+              "count": 1,
+              "subtopics": {
+                "Article before initialism": 1
+              }
+            },
+            "Idioms": {
+              "count": 2,
+              "subtopics": {
+                "Idiom meaning": 2
+              }
+            },
+            "Spelling": {
+              "count": 2,
+              "subtopics": {
+                "Correct spelling": 1,
+                "Incorrect spelling": 1
+              }
+            },
+            "Antonym": {
+              "count": 1,
+              "subtopics": {
+                "Antonym": 1
+              }
+            },
+            "Parts of Speech": {
+              "count": 2,
+              "subtopics": {
+                "Parts of Speech": 1,
+                "Adverb identification": 1
+              }
+            },
+            "Verb Patterns": {
+              "count": 1,
+              "subtopics": {
+                "Verb + gerund pattern": 1
+              }
+            },
+            "Phrasal Verbs": {
+              "count": 2,
+              "subtopics": {
+                "Phrasal verb: come up with": 1,
+                "Phrasal verb": 1
+              }
+            },
+            "Conditionals": {
+              "count": 1,
+              "subtopics": {
+                "Second conditional": 1
+              }
+            },
+            "Subject–Verb Agreement": {
+              "count": 1,
+              "subtopics": {
+                "Either…or agreement": 1
+              }
+            },
+            "Literature": {
+              "count": 1,
+              "subtopics": {
+                "Shakespearean drama": 1
+              }
+            },
+            "Sentence Correction": {
+              "count": 1,
+              "subtopics": {
+                "Sentence correction": 1
+              }
+            },
+            "Articles": {
+              "count": 1,
+              "subtopics": {
+                "Article usage": 1
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 27,
+          "topics": {
+            "বীজগণিত": {
+              "count": 3,
+              "subtopics": {
+                "Simultaneous linear equations": 1,
+                "Algebraic identity": 1,
+                "Algebraic expression using roots": 1
+              }
+            },
+            "সেট": {
+              "count": 2,
+              "subtopics": {
+                "Set intersection and union": 1,
+                "Proper subsets": 1
+              }
+            },
+            "পরিমাপ ও একক": {
+              "count": 1,
+              "subtopics": {
+                "Local land-area unit": 1
+              }
+            },
+            "সংখ্যাতত্ত্ব": {
+              "count": 3,
+              "subtopics": {
+                "Consecutive even integers": 1,
+                "Consecutive integers": 1,
+                "Integers between surds and integers": 1
+              }
+            },
+            "শতকরা": {
+              "count": 2,
+              "subtopics": {
+                "Percentage decrease and consumption": 1,
+                "Percentage increase": 1
+              }
+            },
+            "অনুপাত ও উত্তরাধিকার": {
+              "count": 1,
+              "subtopics": {
+                "Inheritance and ratio": 1
+              }
+            },
+            "জ্যামিতি": {
+              "count": 6,
+              "subtopics": {
+                "Clock angle": 1,
+                "Perimeter and area comparison": 1,
+                "Regular polygon": 1,
+                "Square diagonal": 1,
+                "Faces of a cube": 1,
+                "Supplementary angle": 1
+              }
+            },
+            "একক রূপান্তর": {
+              "count": 1,
+              "subtopics": {
+                "Length conversion": 1
+              }
+            },
+            "ধারা": {
+              "count": 1,
+              "subtopics": {
+                "Number series": 1
+              }
+            },
+            "ভগ্নাংশ": {
+              "count": 1,
+              "subtopics": {
+                "Proper and improper fractions": 1
+              }
+            },
+            "ঐকিক নিয়ম": {
+              "count": 1,
+              "subtopics": {
+                "Unitary method: proportional quantities": 1
+              }
+            },
+            "ভগ্নাংশ ও দশমিক": {
+              "count": 1,
+              "subtopics": {
+                "Fraction and decimal addition": 1
+              }
+            },
+            "অনুপাত ও জ্যামিতি": {
+              "count": 1,
+              "subtopics": {
+                "Triangle angle ratio": 1
+              }
+            },
+            "সমীকরণ": {
+              "count": 1,
+              "subtopics": {
+                "Linear equation word problem": 1
+              }
+            },
+            "সময় ও লসাগু": {
+              "count": 1,
+              "subtopics": {
+                "LCM and time interval": 1
+              }
+            },
+            "সূচক": {
+              "count": 1,
+              "subtopics": {
+                "Indices and exponents": 1
+              }
+            }
+          }
+        },
+        "বাংলা": {
+          "count": 24,
+          "topics": {
+            "সাহিত্য": {
+              "count": 2,
+              "subtopics": {
+                "Kavya author": 1,
+                "Modern Bengali poetry": 1
+              }
+            },
+            "উপসর্গ": {
+              "count": 2,
+              "subtopics": {
+                "Prefix meaning": 1,
+                "Foreign prefix": 1
+              }
+            },
+            "সমার্থক শব্দ": {
+              "count": 1,
+              "subtopics": {
+                "Synonym": 1
+              }
+            },
+            "যতিচিহ্ন": {
+              "count": 1,
+              "subtopics": {
+                "Punctuation for abbreviation and order": 1
+              }
+            },
+            "সন্ধি": {
+              "count": 1,
+              "subtopics": {
+                "Sandhi separation": 1
+              }
+            },
+            "শব্দরূপ": {
+              "count": 1,
+              "subtopics": {
+                "Feminine ordinal form": 1
+              }
+            },
+            "পদ ও ক্রিয়া": {
+              "count": 1,
+              "subtopics": {
+                "Part of speech: compound adverb": 1
+              }
+            },
+            "সাহিত্য ও লোকসংগীত": {
+              "count": 1,
+              "subtopics": {
+                "Baul song author": 1
+              }
+            },
+            "শব্দার্থ": {
+              "count": 1,
+              "subtopics": {
+                "Word meaning": 1
+              }
+            },
+            "শব্দগঠন": {
+              "count": 1,
+              "subtopics": {
+                "Suffix identification": 1
+              }
+            },
+            "ব্যাকরণ": {
+              "count": 1,
+              "subtopics": {
+                "Branches of grammar (ambiguous item)": 1
+              }
+            },
+            "কারক": {
+              "count": 1,
+              "subtopics": {
+                "Case and postposition": 1
+              }
+            },
+            "শুদ্ধ বাক্য": {
+              "count": 1,
+              "subtopics": {
+                "Correct Bengali usage": 1
+              }
+            },
+            "শুদ্ধ বানান": {
+              "count": 1,
+              "subtopics": {
+                "Misspelling identification": 1
+              }
+            },
+            "সমাস": {
+              "count": 1,
+              "subtopics": {
+                "Dvandva compound": 1
+              }
+            },
+            "ভাষা ও ব্যাকরণ": {
+              "count": 1,
+              "subtopics": {
+                "Classical languages": 1
+              }
+            },
+            "পদ": {
+              "count": 1,
+              "subtopics": {
+                "Part of speech": 1
+              }
+            },
+            "শব্দের উৎস": {
+              "count": 1,
+              "subtopics": {
+                "Arabic-origin vocabulary": 1
+              }
+            },
+            "বাংলা ভাষারীতি": {
+              "count": 1,
+              "subtopics": {
+                " সাধুভাষারীতি": 1
+              }
+            },
+            "প্রকৃতি ও প্রত্যয়": {
+              "count": 1,
+              "subtopics": {
+                "Word formation: root and suffix": 1
+              }
+            },
+            "ধ্বনি ও বর্ণ": {
+              "count": 1,
+              "subtopics": {
+                "Bengali vowel phonemes": 1
+              }
+            },
+            "সাহিত্য ও লোকসাহিত্য": {
+              "count": 1,
+              "subtopics": {
+                "Folk literature editor": 1
+              }
+            }
+          }
+        },
+        "বিজ্ঞান": {
+          "count": 4,
+          "topics": {
+            "জীববিজ্ঞান": {
+              "count": 1,
+              "subtopics": {
+                "Antibiotics": 1
+              }
+            },
+            "পুষ্টি ও ভিটামিন": {
+              "count": 1,
+              "subtopics": {
+                "Water-soluble vitamins": 1
+              }
+            },
+            "পদার্থবিজ্ঞান": {
+              "count": 1,
+              "subtopics": {
+                "Seismology instrument": 1
+              }
+            },
+            "আলোকবিজ্ঞান": {
+              "count": 1,
+              "subtopics": {
+                "Primary colours of light": 1
+              }
+            }
+          }
+        },
+        "সাধারণ জ্ঞান": {
+          "count": 18,
+          "topics": {
+            "কর ও অর্থনীতি": {
+              "count": 1,
+              "subtopics": {
+                "Tax identification number": 1
+              }
+            },
+            "বাংলাদেশের ভূগোল": {
+              "count": 4,
+              "subtopics": {
+                "Bangladesh–Myanmar border river": 1,
+                "Land port location": 1,
+                "Uttara Ganabhaban location": 1,
+                "Hot spring in Bangladesh": 1
+              }
+            },
+            "বাংলাদেশের ইতিহাস ও ঐতিহ্য": {
+              "count": 1,
+              "subtopics": {
+                "Panam Nagar": 1
+              }
+            },
+            "জ্বালানি ও বিদ্যুৎ": {
+              "count": 1,
+              "subtopics": {
+                "Rooppur nuclear power project": 1
+              }
+            },
+            "ভূমি ও জরিপ": {
+              "count": 2,
+              "subtopics": {
+                "Cadastral land unit": 1,
+                "CS survey map scale": 1
+              }
+            },
+            "আন্তর্জাতিক ভূগোল": {
+              "count": 2,
+              "subtopics": {
+                "Panama Canal": 1,
+                "Pearl of Africa": 1
+              }
+            },
+            "কম্পিউটার": {
+              "count": 1,
+              "subtopics": {
+                "Computer history": 1
+              }
+            },
+            "বিশ্ব অর্থনীতি": {
+              "count": 1,
+              "subtopics": {
+                "Japanese currency": 1
+              }
+            },
+            "বিশ্ব ভূগোল": {
+              "count": 1,
+              "subtopics": {
+                "Gobi Desert": 1
+              }
+            },
+            "আন্তর্জাতিক পুরস্কার": {
+              "count": 1,
+              "subtopics": {
+                "First woman Nobel laureate": 1
+              }
+            },
+            "আন্তর্জাতিক সংস্থা": {
+              "count": 1,
+              "subtopics": {
+                "ICJ bench size": 1
+              }
+            },
+            "প্রাচীন ইতিহাস": {
+              "count": 1,
+              "subtopics": {
+                "Mauryan history": 1
+              }
+            },
+            "বাংলাদেশের ইতিহাস": {
+              "count": 1,
+              "subtopics": {
+                "Liberation War observance": 1
+              }
+            }
+          }
+        },
+        "ICT": {
+          "count": 2,
+          "topics": {
+            "কম্পিউটার হার্ডওয়্যার": {
+              "count": 1,
+              "subtopics": {
+                "Keyboard function keys": 1
+              }
+            },
+            "ই-মেইল": {
+              "count": 1,
+              "subtopics": {
+                "Email terminology: CC": 1
+              }
+            }
+          }
+        }
+      },
+      "note": "PDF থেকে ১০০টি প্রশ্ন ডিজিটালাইজড; প্রশ্ন ৩৮ অস্পষ্ট হওয়ায় স্কোরে গণনা হয় না।",
+      "yearLabel": "২০২৬",
+      "setLabel": "০২ অক্টোবর",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "biwta-ad-2026-10-03",
+      "exam": "বাংলাদেশ অভ্যন্তরীণ নৌপরিবহন কর্তৃপক্ষ (BIWTA)",
+      "name": "সহকারী পরিচালক · ৩ অক্টোবর ২০২৬",
+      "type": "interactive",
+      "questions": 50,
+      "minutes": 60,
+      "marks": 100,
+      "href": "./mock.html?paper=biwta-ad-2026-10-03",
+      "topics": {
+        "বাংলা": {
+          "count": 2,
+          "topics": {
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 2,
+              "subtopics": {
+                "PDF OCR": 2
+              }
+            }
+          }
+        },
+        "সাধারণ জ্ঞান": {
+          "count": 28,
+          "topics": {
+            "সাধারণ জ্ঞান": {
+              "count": 23,
+              "subtopics": {
+                "PDF OCR": 23
+              }
+            },
+            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
+              "count": 5,
+              "subtopics": {
+                "PDF OCR": 5
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 15,
+          "topics": {
+            "গাণিতিক সমস্যা": {
+              "count": 15,
+              "subtopics": {
+                "PDF OCR": 15
+              }
+            }
+          }
+        },
+        "English": {
+          "count": 5,
+          "topics": {
+            "Grammar & Vocabulary": {
+              "count": 5,
+              "subtopics": {
+                "PDF OCR": 5
+              }
+            }
+          }
+        }
+      },
+      "yearLabel": "০৩.১০.২০২৬",
+      "setLabel": "50টি পাঠযোগ্য প্রশ্ন",
+      "note": "মূল PDF-এর পৃষ্ঠা 8–13 থেকে 50টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
+    },
+    {
+      "id": "biwta-exam-2026-10-03",
+      "exam": "বাংলাদেশ অভ্যন্তরীণ নৌপরিবহন কর্তৃপক্ষ (BIWTA)",
+      "name": "নিম্নমান সহকারী/সময় রক্ষক/সহকারী কোষাধ্যক্ষ · ৩ অক্টোবর ২০২৬",
+      "type": "interactive",
+      "questions": 55,
+      "minutes": 60,
+      "marks": 100,
+      "href": "./mock.html?paper=biwta-exam-2026-10-03",
+      "topics": {
+        "সাধারণ জ্ঞান": {
+          "count": 36,
+          "topics": {
+            "সাধারণ জ্ঞান": {
+              "count": 28,
+              "subtopics": {
+                "PDF OCR": 28
+              }
+            },
+            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
+              "count": 8,
+              "subtopics": {
+                "PDF OCR": 8
+              }
+            }
+          }
+        },
+        "বাংলা": {
+          "count": 6,
+          "topics": {
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 6,
+              "subtopics": {
+                "PDF OCR": 6
+              }
+            }
+          }
+        },
+        "English": {
+          "count": 6,
+          "topics": {
+            "Grammar & Vocabulary": {
+              "count": 6,
+              "subtopics": {
+                "PDF OCR": 6
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 6,
+          "topics": {
+            "গাণিতিক সমস্যা": {
+              "count": 6,
+              "subtopics": {
+                "PDF OCR": 6
+              }
+            }
+          }
+        },
+        "ICT": {
+          "count": 1,
+          "topics": {
+            "কম্পিউটার ও তথ্যপ্রযুক্তি": {
+              "count": 1,
+              "subtopics": {
+                "PDF OCR": 1
+              }
+            }
+          }
+        }
+      },
+      "yearLabel": "০৩.১০.২০২৬",
+      "setLabel": "55টি পাঠযোগ্য প্রশ্ন",
+      "note": "মূল PDF-এর পৃষ্ঠা 14–18 থেকে 55টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
+    },
+    {
+      "id": "mlcd-junior-teacher-2026-10-03",
+      "exam": "সামরিক ভূমি ও ক্যান্টনমেন্ট অধিদপ্তর",
+      "name": "জুনিয়র শিক্ষক · ৩ অক্টোবর ২০২৬",
+      "type": "interactive",
+      "questions": 39,
+      "minutes": 60,
+      "marks": 60,
+      "href": "./mock.html?paper=mlcd-junior-teacher-2026-10-03",
+      "topics": {
+        "সাধারণ জ্ঞান": {
+          "count": 19,
+          "topics": {
+            "সাধারণ জ্ঞান": {
+              "count": 17,
+              "subtopics": {
+                "PDF OCR": 17
+              }
+            },
+            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
+              "count": 2,
+              "subtopics": {
+                "PDF OCR": 2
+              }
+            }
+          }
+        },
+        "বাংলা": {
+          "count": 12,
+          "topics": {
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 12,
+              "subtopics": {
+                "PDF OCR": 12
+              }
+            }
+          }
+        },
+        "বিজ্ঞান": {
+          "count": 1,
+          "topics": {
+            "সাধারণ বিজ্ঞান": {
+              "count": 1,
+              "subtopics": {
+                "PDF OCR": 1
+              }
+            }
+          }
+        },
+        "English": {
+          "count": 2,
+          "topics": {
+            "Grammar & Vocabulary": {
+              "count": 2,
+              "subtopics": {
+                "PDF OCR": 2
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 5,
+          "topics": {
+            "গাণিতিক সমস্যা": {
+              "count": 5,
+              "subtopics": {
+                "PDF OCR": 5
+              }
+            }
+          }
+        }
+      },
+      "yearLabel": "০৩.১০.২০২৬",
+      "setLabel": "39টি পাঠযোগ্য প্রশ্ন",
+      "note": "মূল PDF-এর পৃষ্ঠা 19–22 থেকে 39টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 60।"
+    },
+    {
+      "id": "law-drafting-2026-10",
+      "exam": "আইন, বিচার ও সংসদ বিষয়ক মন্ত্রণালয়",
+      "name": "সহকারী সচিব (ড্রাফটিং) · ৭ অক্টোবর ২০২৬",
+      "type": "interactive",
+      "questions": 58,
+      "minutes": 60,
+      "marks": 100,
+      "href": "./mock.html?paper=law-drafting-2026-10",
+      "topics": {
+        "সাধারণ জ্ঞান": {
+          "count": 35,
+          "topics": {
+            "সাধারণ জ্ঞান": {
+              "count": 24,
+              "subtopics": {
+                "PDF OCR": 24
+              }
+            },
+            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
+              "count": 11,
+              "subtopics": {
+                "PDF OCR": 11
+              }
+            }
+          }
+        },
+        "বাংলা": {
+          "count": 9,
+          "topics": {
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 9,
+              "subtopics": {
+                "PDF OCR": 9
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 5,
+          "topics": {
+            "গাণিতিক সমস্যা": {
+              "count": 5,
+              "subtopics": {
+                "PDF OCR": 5
+              }
+            }
+          }
+        },
+        "English": {
+          "count": 6,
+          "topics": {
+            "Grammar & Vocabulary": {
+              "count": 6,
+              "subtopics": {
+                "PDF OCR": 6
+              }
+            }
+          }
+        },
+        "বিজ্ঞান": {
+          "count": 2,
+          "topics": {
+            "সাধারণ বিজ্ঞান": {
+              "count": 2,
+              "subtopics": {
+                "PDF OCR": 2
+              }
+            }
+          }
+        },
+        "ICT": {
+          "count": 1,
+          "topics": {
+            "কম্পিউটার ও তথ্যপ্রযুক্তি": {
+              "count": 1,
+              "subtopics": {
+                "PDF OCR": 1
+              }
+            }
+          }
+        }
+      },
+      "yearLabel": "০৭.১০.২০২৬",
+      "setLabel": "58টি পাঠযোগ্য প্রশ্ন",
+      "note": "মূল PDF-এর পৃষ্ঠা 29–33 থেকে 58টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
+    },
+    {
+      "id": "ydo-2026-10-10",
+      "exam": "যুব উন্নয়ন অধিদপ্তর",
+      "name": "উপজেলা যুব উন্নয়ন কর্মকর্তা · ১০ অক্টোবর ২০২৬",
+      "type": "interactive",
+      "questions": 46,
+      "minutes": 60,
+      "marks": 100,
+      "href": "./mock.html?paper=ydo-2026-10-10",
+      "topics": {
+        "সাধারণ জ্ঞান": {
+          "count": 29,
+          "topics": {
+            "সাধারণ জ্ঞান": {
+              "count": 24,
+              "subtopics": {
+                "PDF OCR": 24
+              }
+            },
+            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
+              "count": 5,
+              "subtopics": {
+                "PDF OCR": 5
+              }
+            }
+          }
+        },
+        "বাংলা": {
+          "count": 4,
+          "topics": {
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 4,
+              "subtopics": {
+                "PDF OCR": 4
+              }
+            }
+          }
+        },
+        "English": {
+          "count": 5,
+          "topics": {
+            "Grammar & Vocabulary": {
+              "count": 5,
+              "subtopics": {
+                "PDF OCR": 5
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 8,
+          "topics": {
+            "গাণিতিক সমস্যা": {
+              "count": 8,
+              "subtopics": {
+                "PDF OCR": 8
+              }
+            }
+          }
+        }
+      },
+      "yearLabel": "১০.১০.২০২৬",
+      "setLabel": "46টি পাঠযোগ্য প্রশ্ন",
+      "note": "মূল PDF-এর পৃষ্ঠা 34–37 থেকে 46টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
+    },
+    {
+      "id": "mofa-personal-officer-2026-10-14",
+      "exam": "পররাষ্ট্র মন্ত্রণালয় (PSC)",
+      "name": "ব্যক্তিগত কর্মকর্তা · ১৪ অক্টোবর ২০২৬",
+      "type": "interactive",
+      "questions": 56,
+      "minutes": 60,
+      "marks": 100,
+      "href": "./mock.html?paper=mofa-personal-officer-2026-10-14",
+      "topics": {
+        "সাধারণ জ্ঞান": {
+          "count": 25,
+          "topics": {
+            "সাধারণ জ্ঞান": {
+              "count": 21,
+              "subtopics": {
+                "PDF OCR": 21
+              }
+            },
+            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
+              "count": 4,
+              "subtopics": {
+                "PDF OCR": 4
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 8,
+          "topics": {
+            "গাণিতিক সমস্যা": {
+              "count": 8,
+              "subtopics": {
+                "PDF OCR": 8
+              }
+            }
+          }
+        },
+        "বাংলা": {
+          "count": 4,
+          "topics": {
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 4,
+              "subtopics": {
+                "PDF OCR": 4
+              }
+            }
+          }
+        },
+        "বিজ্ঞান": {
+          "count": 4,
+          "topics": {
+            "সাধারণ বিজ্ঞান": {
+              "count": 4,
+              "subtopics": {
+                "PDF OCR": 4
+              }
+            }
+          }
+        },
+        "ICT": {
+          "count": 2,
+          "topics": {
+            "কম্পিউটার ও তথ্যপ্রযুক্তি": {
+              "count": 2,
+              "subtopics": {
+                "PDF OCR": 2
+              }
+            }
+          }
+        },
+        "English": {
+          "count": 13,
+          "topics": {
+            "Grammar & Vocabulary": {
+              "count": 13,
+              "subtopics": {
+                "PDF OCR": 13
+              }
+            }
+          }
+        }
+      },
+      "yearLabel": "১৪.১০.২০২৬",
+      "setLabel": "56টি পাঠযোগ্য প্রশ্ন",
+      "note": "মূল PDF-এর পৃষ্ঠা 38–42 থেকে 56টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
+    },
+    {
+      "id": "cultural-sub-assistant-engineer-2026-10-15",
+      "exam": "সংস্কৃতি বিষয়ক মন্ত্রণালয়",
+      "name": "উপ-সহকারী প্রকৌশলী · ১৫ অক্টোবর ২০২৬",
+      "type": "interactive",
+      "questions": 38,
+      "minutes": 60,
+      "marks": 100,
+      "href": "./mock.html?paper=cultural-sub-assistant-engineer-2026-10-15",
+      "topics": {
+        "বাংলা": {
+          "count": 10,
+          "topics": {
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 10,
+              "subtopics": {
+                "PDF OCR": 10
+              }
+            }
+          }
+        },
+        "সাধারণ জ্ঞান": {
+          "count": 20,
+          "topics": {
+            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
+              "count": 6,
+              "subtopics": {
+                "PDF OCR": 6
+              }
+            },
+            "সাধারণ জ্ঞান": {
+              "count": 14,
+              "subtopics": {
+                "PDF OCR": 14
+              }
+            }
+          }
+        },
+        "English": {
+          "count": 6,
+          "topics": {
+            "Grammar & Vocabulary": {
+              "count": 6,
+              "subtopics": {
+                "PDF OCR": 6
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 2,
+          "topics": {
+            "গাণিতিক সমস্যা": {
+              "count": 2,
+              "subtopics": {
+                "PDF OCR": 2
+              }
+            }
+          }
+        }
+      },
+      "yearLabel": "১৫.১০.২০২৬",
+      "setLabel": "38টি পাঠযোগ্য প্রশ্ন",
+      "note": "মূল PDF-এর পৃষ্ঠা 43–46 থেকে 38টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
+    },
+    {
+      "id": "dydo-assistant-ydo-2026-10-16",
+      "exam": "যুব উন্নয়ন অধিদপ্তর",
+      "name": "সহকারী উপজেলা যুব উন্নয়ন কর্মকর্তা · ১৬ অক্টোবর ২০২৬",
+      "type": "interactive",
+      "questions": 57,
+      "minutes": 60,
+      "marks": 100,
+      "href": "./mock.html?paper=dydo-assistant-ydo-2026-10-16",
+      "topics": {
+        "বাংলা": {
+          "count": 10,
+          "topics": {
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 10,
+              "subtopics": {
+                "PDF OCR": 10
+              }
+            }
+          }
+        },
+        "সাধারণ জ্ঞান": {
+          "count": 39,
+          "topics": {
+            "সাধারণ জ্ঞান": {
+              "count": 31,
+              "subtopics": {
+                "PDF OCR": 31
+              }
+            },
+            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
+              "count": 8,
+              "subtopics": {
+                "PDF OCR": 8
+              }
+            }
+          }
+        },
+        "English": {
+          "count": 4,
+          "topics": {
+            "Grammar & Vocabulary": {
+              "count": 4,
+              "subtopics": {
+                "PDF OCR": 4
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 4,
+          "topics": {
+            "গাণিতিক সমস্যা": {
+              "count": 4,
+              "subtopics": {
+                "PDF OCR": 4
+              }
+            }
+          }
+        }
+      },
+      "yearLabel": "১৬.১০.২০২৬",
+      "setLabel": "57টি পাঠযোগ্য প্রশ্ন",
+      "note": "মূল PDF-এর পৃষ্ঠা 47–51 থেকে 57টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
+    },
+    {
+      "id": "mod-assistant-cipher-2026-10-28",
+      "exam": "প্রতিরক্ষা মন্ত্রণালয়",
+      "name": "সহকারী সাইফার অফিসার · ২৮ অক্টোবর ২০২৬",
+      "type": "interactive",
+      "questions": 72,
+      "minutes": 60,
+      "marks": 100,
+      "href": "./mock.html?paper=mod-assistant-cipher-2026-10-28",
+      "topics": {
+        "সাধারণ জ্ঞান": {
+          "count": 30,
+          "topics": {
+            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
+              "count": 3,
+              "subtopics": {
+                "PDF OCR": 3
+              }
+            },
+            "সাধারণ জ্ঞান": {
+              "count": 27,
+              "subtopics": {
+                "PDF OCR": 27
+              }
+            }
+          }
+        },
+        "বাংলা": {
+          "count": 13,
+          "topics": {
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 13,
+              "subtopics": {
+                "PDF OCR": 13
+              }
+            }
+          }
+        },
+        "English": {
+          "count": 12,
+          "topics": {
+            "Grammar & Vocabulary": {
+              "count": 12,
+              "subtopics": {
+                "PDF OCR": 12
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 10,
+          "topics": {
+            "গাণিতিক সমস্যা": {
+              "count": 10,
+              "subtopics": {
+                "PDF OCR": 10
+              }
+            }
+          }
+        },
+        "বিজ্ঞান": {
+          "count": 7,
+          "topics": {
+            "সাধারণ বিজ্ঞান": {
+              "count": 7,
+              "subtopics": {
+                "PDF OCR": 7
+              }
+            }
+          }
+        }
+      },
+      "yearLabel": "২৮.১০.২০২৬",
+      "setLabel": "72টি পাঠযোগ্য প্রশ্ন",
+      "note": "মূল PDF-এর পৃষ্ঠা 52–57 থেকে 72টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
+    },
+    {
+      "id": "mod-cipher-officer-2026-10-28",
+      "exam": "প্রতিরক্ষা মন্ত্রণালয়",
+      "name": "সাইফার অফিসার · ২৮ অক্টোবর ২০২৬",
+      "type": "interactive",
+      "questions": 71,
+      "minutes": 60,
+      "marks": 100,
+      "href": "./mock.html?paper=mod-cipher-officer-2026-10-28",
+      "topics": {
+        "সাধারণ জ্ঞান": {
+          "count": 42,
+          "topics": {
+            "সাধারণ জ্ঞান": {
+              "count": 31,
+              "subtopics": {
+                "PDF OCR": 31
+              }
+            },
+            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
+              "count": 11,
+              "subtopics": {
+                "PDF OCR": 11
+              }
+            }
+          }
+        },
+        "English": {
+          "count": 5,
+          "topics": {
+            "Grammar & Vocabulary": {
+              "count": 5,
+              "subtopics": {
+                "PDF OCR": 5
+              }
+            }
+          }
+        },
+        "বাংলা": {
+          "count": 11,
+          "topics": {
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 11,
+              "subtopics": {
+                "PDF OCR": 11
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 11,
+          "topics": {
+            "গাণিতিক সমস্যা": {
+              "count": 11,
+              "subtopics": {
+                "PDF OCR": 11
+              }
+            }
+          }
+        },
+        "বিজ্ঞান": {
+          "count": 2,
+          "topics": {
+            "সাধারণ বিজ্ঞান": {
+              "count": 2,
+              "subtopics": {
+                "PDF OCR": 2
+              }
+            }
+          }
+        }
+      },
+      "yearLabel": "২৮.১০.২০২৬",
+      "setLabel": "71টি পাঠযোগ্য প্রশ্ন",
+      "note": "মূল PDF-এর পৃষ্ঠা 58–63 থেকে 71টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
+    },
+    {
+      "id": "bpsc-assistant-programmer-2026-10-29",
+      "exam": "BPSC · নন-ক্যাডার",
+      "name": "সহকারী প্রোগ্রামার / সহকারী রক্ষণাবেক্ষণ প্রকৌশলী · ২৯ অক্টোবর ২০২৬",
+      "type": "interactive",
+      "questions": 82,
+      "minutes": 60,
+      "marks": 100,
+      "href": "./mock.html?paper=bpsc-assistant-programmer-2026-10-29",
+      "topics": {
+        "বাংলা": {
+          "count": 11,
+          "topics": {
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 11,
+              "subtopics": {
+                "PDF OCR": 11
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 3,
+          "topics": {
+            "গাণিতিক সমস্যা": {
+              "count": 3,
+              "subtopics": {
+                "PDF OCR": 3
+              }
+            }
+          }
+        },
+        "সাধারণ জ্ঞান": {
+          "count": 30,
+          "topics": {
+            "সাধারণ জ্ঞান": {
+              "count": 25,
+              "subtopics": {
+                "PDF OCR": 25
+              }
+            },
+            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
+              "count": 5,
+              "subtopics": {
+                "PDF OCR": 5
+              }
+            }
+          }
+        },
+        "English": {
+          "count": 35,
+          "topics": {
+            "Grammar & Vocabulary": {
+              "count": 35,
+              "subtopics": {
+                "PDF OCR": 35
+              }
+            }
+          }
+        },
+        "ICT": {
+          "count": 2,
+          "topics": {
+            "কম্পিউটার ও তথ্যপ্রযুক্তি": {
+              "count": 2,
+              "subtopics": {
+                "PDF OCR": 2
+              }
+            }
+          }
+        },
+        "বিজ্ঞান": {
+          "count": 1,
+          "topics": {
+            "সাধারণ বিজ্ঞান": {
+              "count": 1,
+              "subtopics": {
+                "PDF OCR": 1
+              }
+            }
+          }
+        }
+      },
+      "yearLabel": "২৯.১০.২০২৬",
+      "setLabel": "82টি পাঠযোগ্য প্রশ্ন",
+      "note": "মূল PDF-এর পৃষ্ঠা 64–74 থেকে 82টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
+    },
+    {
+      "id": "dpp-office-assistant-computer-2026-10-30",
+      "exam": "মুদ্রণ ও প্রকাশনা অধিদপ্তর",
+      "name": "অফিস সহকারী-কাম-কম্পিউটার মুদ্রাক্ষরিক/অপারেটর · ৩০ অক্টোবর ২০২৬",
+      "type": "interactive",
+      "questions": 57,
+      "minutes": 60,
+      "marks": 80,
+      "href": "./mock.html?paper=dpp-office-assistant-computer-2026-10-30",
+      "topics": {
+        "English": {
+          "count": 5,
+          "topics": {
+            "Grammar & Vocabulary": {
+              "count": 5,
+              "subtopics": {
+                "PDF OCR": 5
+              }
+            }
+          }
+        },
+        "সাধারণ জ্ঞান": {
+          "count": 30,
+          "topics": {
+            "সাধারণ জ্ঞান": {
+              "count": 28,
+              "subtopics": {
+                "PDF OCR": 28
+              }
+            },
+            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
+              "count": 2,
+              "subtopics": {
+                "PDF OCR": 2
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 7,
+          "topics": {
+            "গাণিতিক সমস্যা": {
+              "count": 7,
+              "subtopics": {
+                "PDF OCR": 7
+              }
+            }
+          }
+        },
+        "বাংলা": {
+          "count": 12,
+          "topics": {
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 12,
+              "subtopics": {
+                "PDF OCR": 12
+              }
+            }
+          }
+        },
+        "বিজ্ঞান": {
+          "count": 2,
+          "topics": {
+            "সাধারণ বিজ্ঞান": {
+              "count": 2,
+              "subtopics": {
+                "PDF OCR": 2
+              }
+            }
+          }
+        },
+        "ICT": {
+          "count": 1,
+          "topics": {
+            "কম্পিউটার ও তথ্যপ্রযুক্তি": {
+              "count": 1,
+              "subtopics": {
+                "PDF OCR": 1
+              }
+            }
+          }
+        }
+      },
+      "yearLabel": "৩০.১০.২০২৬",
+      "setLabel": "57টি পাঠযোগ্য প্রশ্ন",
+      "note": "মূল PDF-এর পৃষ্ঠা 75–79 থেকে 57টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 80।"
+    },
+    {
+      "id": "dpp-office-assistant-2026-10-30",
+      "exam": "মুদ্রণ ও প্রকাশনা অধিদপ্তর",
+      "name": "অফিস সহকারী · ৩০ অক্টোবর ২০২৬",
+      "type": "interactive",
+      "questions": 58,
+      "minutes": 60,
+      "marks": 80,
+      "href": "./mock.html?paper=dpp-office-assistant-2026-10-30",
+      "topics": {
+        "সাধারণ জ্ঞান": {
+          "count": 33,
+          "topics": {
+            "সাধারণ জ্ঞান": {
+              "count": 29,
+              "subtopics": {
+                "PDF OCR": 29
+              }
+            },
+            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
+              "count": 4,
+              "subtopics": {
+                "PDF OCR": 4
+              }
+            }
+          }
+        },
+        "English": {
+          "count": 6,
+          "topics": {
+            "Grammar & Vocabulary": {
+              "count": 6,
+              "subtopics": {
+                "PDF OCR": 6
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 7,
+          "topics": {
+            "গাণিতিক সমস্যা": {
+              "count": 7,
+              "subtopics": {
+                "PDF OCR": 7
+              }
+            }
+          }
+        },
+        "ICT": {
+          "count": 2,
+          "topics": {
+            "কম্পিউটার ও তথ্যপ্রযুক্তি": {
+              "count": 2,
+              "subtopics": {
+                "PDF OCR": 2
+              }
+            }
+          }
+        },
+        "বাংলা": {
+          "count": 10,
+          "topics": {
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 10,
+              "subtopics": {
+                "PDF OCR": 10
+              }
+            }
+          }
+        }
+      },
+      "yearLabel": "৩০.১০.২০২৬",
+      "setLabel": "58টি পাঠযোগ্য প্রশ্ন",
+      "note": "মূল PDF-এর পৃষ্ঠা 80–84 থেকে 58টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 80।"
+    },
+    {
+      "id": "bjs-assistant-judge-2026-10-31",
+      "exam": "বাংলাদেশ জুডিশিয়াল সার্ভিস (BJS)",
+      "name": "১৯তম বিজেএস · সহকারী জজ · ৩১ অক্টোবর ২০২৬",
+      "type": "interactive",
+      "questions": 34,
+      "minutes": 60,
+      "marks": 100,
+      "href": "./mock.html?paper=bjs-assistant-judge-2026-10-31",
+      "topics": {
+        "সাধারণ জ্ঞান": {
+          "count": 22,
+          "topics": {
+            "সাধারণ জ্ঞান": {
+              "count": 17,
+              "subtopics": {
+                "PDF OCR": 17
+              }
+            },
+            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
+              "count": 5,
+              "subtopics": {
+                "PDF OCR": 5
+              }
+            }
+          }
+        },
+        "English": {
+          "count": 3,
+          "topics": {
+            "Grammar & Vocabulary": {
+              "count": 3,
+              "subtopics": {
+                "PDF OCR": 3
+              }
+            }
+          }
+        },
+        "ICT": {
+          "count": 1,
+          "topics": {
+            "কম্পিউটার ও তথ্যপ্রযুক্তি": {
+              "count": 1,
+              "subtopics": {
+                "PDF OCR": 1
+              }
+            }
+          }
+        },
+        "বাংলা": {
+          "count": 6,
+          "topics": {
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 6,
+              "subtopics": {
+                "PDF OCR": 6
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 2,
+          "topics": {
+            "গাণিতিক সমস্যা": {
+              "count": 2,
+              "subtopics": {
+                "PDF OCR": 2
+              }
+            }
+          }
+        }
+      },
+      "yearLabel": "৩১.১০.২০২৬",
+      "setLabel": "34টি পাঠযোগ্য প্রশ্ন",
+      "note": "মূল PDF-এর পৃষ্ঠা 87–89 থেকে 34টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
+    },
+    {
       "id": "bank-so-2026",
       "exam": "11 Banks Senior Officer",
       "name": "Senior Officer Recruitment Test · 13 Nov 2026",
@@ -2254,1661 +3909,6 @@
       "note": "মূল PDF-এর ১০০ নম্বর প্রশ্নটি অস্পষ্ট বলে বাদ; বাকি ৯৯টি প্রশ্ন OCR করে ডিজিটালাইজড।",
       "yearLabel": "২০২৬",
       "setLabel": "সেট ৩"
-    },
-    {
-      "id": "land-survey-2026-10-02",
-      "exam": "ভূমি রেকর্ড ও জরিপ অধিদপ্তর",
-      "name": "ঘাঁট মোহরার নিয়োগ পরীক্ষা · ০২ অক্টোবর ২০২৬",
-      "type": "interactive",
-      "questions": 100,
-      "minutes": 60,
-      "marks": 99,
-      "href": "./land-record-2026/",
-      "topics": {
-        "English": {
-          "count": 25,
-          "topics": {
-            "Vocabulary": {
-              "count": 4,
-              "subtopics": {
-                "Synonym: vigilant": 1,
-                "Word meaning: rostrum": 1,
-                "Word meaning: pilgrim": 1,
-                "Word meaning: anarchy": 1
-              }
-            },
-            "Gender": {
-              "count": 1,
-              "subtopics": {
-                "Gender-neutral noun": 1
-              }
-            },
-            "Number": {
-              "count": 1,
-              "subtopics": {
-                "Singular noun": 1
-              }
-            },
-            "Voice": {
-              "count": 2,
-              "subtopics": {
-                "Imperative sentence: passive voice": 1,
-                "Interrogative passive voice": 1
-              }
-            },
-            "Preposition": {
-              "count": 1,
-              "subtopics": {
-                "Verb–preposition collocation": 1
-              }
-            },
-            "Article": {
-              "count": 1,
-              "subtopics": {
-                "Article before initialism": 1
-              }
-            },
-            "Idioms": {
-              "count": 2,
-              "subtopics": {
-                "Idiom meaning": 2
-              }
-            },
-            "Spelling": {
-              "count": 2,
-              "subtopics": {
-                "Correct spelling": 1,
-                "Incorrect spelling": 1
-              }
-            },
-            "Antonym": {
-              "count": 1,
-              "subtopics": {
-                "Antonym": 1
-              }
-            },
-            "Parts of Speech": {
-              "count": 2,
-              "subtopics": {
-                "Parts of Speech": 1,
-                "Adverb identification": 1
-              }
-            },
-            "Verb Patterns": {
-              "count": 1,
-              "subtopics": {
-                "Verb + gerund pattern": 1
-              }
-            },
-            "Phrasal Verbs": {
-              "count": 2,
-              "subtopics": {
-                "Phrasal verb: come up with": 1,
-                "Phrasal verb": 1
-              }
-            },
-            "Conditionals": {
-              "count": 1,
-              "subtopics": {
-                "Second conditional": 1
-              }
-            },
-            "Subject–Verb Agreement": {
-              "count": 1,
-              "subtopics": {
-                "Either…or agreement": 1
-              }
-            },
-            "Literature": {
-              "count": 1,
-              "subtopics": {
-                "Shakespearean drama": 1
-              }
-            },
-            "Sentence Correction": {
-              "count": 1,
-              "subtopics": {
-                "Sentence correction": 1
-              }
-            },
-            "Articles": {
-              "count": 1,
-              "subtopics": {
-                "Article usage": 1
-              }
-            }
-          }
-        },
-        "গণিত": {
-          "count": 27,
-          "topics": {
-            "বীজগণিত": {
-              "count": 3,
-              "subtopics": {
-                "Simultaneous linear equations": 1,
-                "Algebraic identity": 1,
-                "Algebraic expression using roots": 1
-              }
-            },
-            "সেট": {
-              "count": 2,
-              "subtopics": {
-                "Set intersection and union": 1,
-                "Proper subsets": 1
-              }
-            },
-            "পরিমাপ ও একক": {
-              "count": 1,
-              "subtopics": {
-                "Local land-area unit": 1
-              }
-            },
-            "সংখ্যাতত্ত্ব": {
-              "count": 3,
-              "subtopics": {
-                "Consecutive even integers": 1,
-                "Consecutive integers": 1,
-                "Integers between surds and integers": 1
-              }
-            },
-            "শতকরা": {
-              "count": 2,
-              "subtopics": {
-                "Percentage decrease and consumption": 1,
-                "Percentage increase": 1
-              }
-            },
-            "অনুপাত ও উত্তরাধিকার": {
-              "count": 1,
-              "subtopics": {
-                "Inheritance and ratio": 1
-              }
-            },
-            "জ্যামিতি": {
-              "count": 6,
-              "subtopics": {
-                "Clock angle": 1,
-                "Perimeter and area comparison": 1,
-                "Regular polygon": 1,
-                "Square diagonal": 1,
-                "Faces of a cube": 1,
-                "Supplementary angle": 1
-              }
-            },
-            "একক রূপান্তর": {
-              "count": 1,
-              "subtopics": {
-                "Length conversion": 1
-              }
-            },
-            "ধারা": {
-              "count": 1,
-              "subtopics": {
-                "Number series": 1
-              }
-            },
-            "ভগ্নাংশ": {
-              "count": 1,
-              "subtopics": {
-                "Proper and improper fractions": 1
-              }
-            },
-            "ঐকিক নিয়ম": {
-              "count": 1,
-              "subtopics": {
-                "Unitary method: proportional quantities": 1
-              }
-            },
-            "ভগ্নাংশ ও দশমিক": {
-              "count": 1,
-              "subtopics": {
-                "Fraction and decimal addition": 1
-              }
-            },
-            "অনুপাত ও জ্যামিতি": {
-              "count": 1,
-              "subtopics": {
-                "Triangle angle ratio": 1
-              }
-            },
-            "সমীকরণ": {
-              "count": 1,
-              "subtopics": {
-                "Linear equation word problem": 1
-              }
-            },
-            "সময় ও লসাগু": {
-              "count": 1,
-              "subtopics": {
-                "LCM and time interval": 1
-              }
-            },
-            "সূচক": {
-              "count": 1,
-              "subtopics": {
-                "Indices and exponents": 1
-              }
-            }
-          }
-        },
-        "বাংলা": {
-          "count": 24,
-          "topics": {
-            "সাহিত্য": {
-              "count": 2,
-              "subtopics": {
-                "Kavya author": 1,
-                "Modern Bengali poetry": 1
-              }
-            },
-            "উপসর্গ": {
-              "count": 2,
-              "subtopics": {
-                "Prefix meaning": 1,
-                "Foreign prefix": 1
-              }
-            },
-            "সমার্থক শব্দ": {
-              "count": 1,
-              "subtopics": {
-                "Synonym": 1
-              }
-            },
-            "যতিচিহ্ন": {
-              "count": 1,
-              "subtopics": {
-                "Punctuation for abbreviation and order": 1
-              }
-            },
-            "সন্ধি": {
-              "count": 1,
-              "subtopics": {
-                "Sandhi separation": 1
-              }
-            },
-            "শব্দরূপ": {
-              "count": 1,
-              "subtopics": {
-                "Feminine ordinal form": 1
-              }
-            },
-            "পদ ও ক্রিয়া": {
-              "count": 1,
-              "subtopics": {
-                "Part of speech: compound adverb": 1
-              }
-            },
-            "সাহিত্য ও লোকসংগীত": {
-              "count": 1,
-              "subtopics": {
-                "Baul song author": 1
-              }
-            },
-            "শব্দার্থ": {
-              "count": 1,
-              "subtopics": {
-                "Word meaning": 1
-              }
-            },
-            "শব্দগঠন": {
-              "count": 1,
-              "subtopics": {
-                "Suffix identification": 1
-              }
-            },
-            "ব্যাকরণ": {
-              "count": 1,
-              "subtopics": {
-                "Branches of grammar (ambiguous item)": 1
-              }
-            },
-            "কারক": {
-              "count": 1,
-              "subtopics": {
-                "Case and postposition": 1
-              }
-            },
-            "শুদ্ধ বাক্য": {
-              "count": 1,
-              "subtopics": {
-                "Correct Bengali usage": 1
-              }
-            },
-            "শুদ্ধ বানান": {
-              "count": 1,
-              "subtopics": {
-                "Misspelling identification": 1
-              }
-            },
-            "সমাস": {
-              "count": 1,
-              "subtopics": {
-                "Dvandva compound": 1
-              }
-            },
-            "ভাষা ও ব্যাকরণ": {
-              "count": 1,
-              "subtopics": {
-                "Classical languages": 1
-              }
-            },
-            "পদ": {
-              "count": 1,
-              "subtopics": {
-                "Part of speech": 1
-              }
-            },
-            "শব্দের উৎস": {
-              "count": 1,
-              "subtopics": {
-                "Arabic-origin vocabulary": 1
-              }
-            },
-            "বাংলা ভাষারীতি": {
-              "count": 1,
-              "subtopics": {
-                " সাধুভাষারীতি": 1
-              }
-            },
-            "প্রকৃতি ও প্রত্যয়": {
-              "count": 1,
-              "subtopics": {
-                "Word formation: root and suffix": 1
-              }
-            },
-            "ধ্বনি ও বর্ণ": {
-              "count": 1,
-              "subtopics": {
-                "Bengali vowel phonemes": 1
-              }
-            },
-            "সাহিত্য ও লোকসাহিত্য": {
-              "count": 1,
-              "subtopics": {
-                "Folk literature editor": 1
-              }
-            }
-          }
-        },
-        "বিজ্ঞান": {
-          "count": 4,
-          "topics": {
-            "জীববিজ্ঞান": {
-              "count": 1,
-              "subtopics": {
-                "Antibiotics": 1
-              }
-            },
-            "পুষ্টি ও ভিটামিন": {
-              "count": 1,
-              "subtopics": {
-                "Water-soluble vitamins": 1
-              }
-            },
-            "পদার্থবিজ্ঞান": {
-              "count": 1,
-              "subtopics": {
-                "Seismology instrument": 1
-              }
-            },
-            "আলোকবিজ্ঞান": {
-              "count": 1,
-              "subtopics": {
-                "Primary colours of light": 1
-              }
-            }
-          }
-        },
-        "সাধারণ জ্ঞান": {
-          "count": 18,
-          "topics": {
-            "কর ও অর্থনীতি": {
-              "count": 1,
-              "subtopics": {
-                "Tax identification number": 1
-              }
-            },
-            "বাংলাদেশের ভূগোল": {
-              "count": 4,
-              "subtopics": {
-                "Bangladesh–Myanmar border river": 1,
-                "Land port location": 1,
-                "Uttara Ganabhaban location": 1,
-                "Hot spring in Bangladesh": 1
-              }
-            },
-            "বাংলাদেশের ইতিহাস ও ঐতিহ্য": {
-              "count": 1,
-              "subtopics": {
-                "Panam Nagar": 1
-              }
-            },
-            "জ্বালানি ও বিদ্যুৎ": {
-              "count": 1,
-              "subtopics": {
-                "Rooppur nuclear power project": 1
-              }
-            },
-            "ভূমি ও জরিপ": {
-              "count": 2,
-              "subtopics": {
-                "Cadastral land unit": 1,
-                "CS survey map scale": 1
-              }
-            },
-            "আন্তর্জাতিক ভূগোল": {
-              "count": 2,
-              "subtopics": {
-                "Panama Canal": 1,
-                "Pearl of Africa": 1
-              }
-            },
-            "কম্পিউটার": {
-              "count": 1,
-              "subtopics": {
-                "Computer history": 1
-              }
-            },
-            "বিশ্ব অর্থনীতি": {
-              "count": 1,
-              "subtopics": {
-                "Japanese currency": 1
-              }
-            },
-            "বিশ্ব ভূগোল": {
-              "count": 1,
-              "subtopics": {
-                "Gobi Desert": 1
-              }
-            },
-            "আন্তর্জাতিক পুরস্কার": {
-              "count": 1,
-              "subtopics": {
-                "First woman Nobel laureate": 1
-              }
-            },
-            "আন্তর্জাতিক সংস্থা": {
-              "count": 1,
-              "subtopics": {
-                "ICJ bench size": 1
-              }
-            },
-            "প্রাচীন ইতিহাস": {
-              "count": 1,
-              "subtopics": {
-                "Mauryan history": 1
-              }
-            },
-            "বাংলাদেশের ইতিহাস": {
-              "count": 1,
-              "subtopics": {
-                "Liberation War observance": 1
-              }
-            }
-          }
-        },
-        "ICT": {
-          "count": 2,
-          "topics": {
-            "কম্পিউটার হার্ডওয়্যার": {
-              "count": 1,
-              "subtopics": {
-                "Keyboard function keys": 1
-              }
-            },
-            "ই-মেইল": {
-              "count": 1,
-              "subtopics": {
-                "Email terminology: CC": 1
-              }
-            }
-          }
-        }
-      },
-      "note": "PDF থেকে ১০০টি প্রশ্ন ডিজিটালাইজড; প্রশ্ন ৩৮ অস্পষ্ট হওয়ায় স্কোরে গণনা হয় না।",
-      "yearLabel": "২০২৬",
-      "setLabel": "০২ অক্টোবর",
-      "date": "2026-10-02"
-    },
-    {
-      "id": "biwta-ad-2026-10-03",
-      "exam": "বাংলাদেশ অভ্যন্তরীণ নৌপরিবহন কর্তৃপক্ষ (BIWTA)",
-      "name": "সহকারী পরিচালক · ৩ অক্টোবর ২০২৬",
-      "type": "interactive",
-      "questions": 50,
-      "minutes": 60,
-      "marks": 100,
-      "href": "./mock.html?paper=biwta-ad-2026-10-03",
-      "topics": {
-        "বাংলা": {
-          "count": 2,
-          "topics": {
-            "বাংলা ভাষা ও সাহিত্য": {
-              "count": 2,
-              "subtopics": {
-                "PDF OCR": 2
-              }
-            }
-          }
-        },
-        "সাধারণ জ্ঞান": {
-          "count": 28,
-          "topics": {
-            "সাধারণ জ্ঞান": {
-              "count": 23,
-              "subtopics": {
-                "PDF OCR": 23
-              }
-            },
-            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
-              "count": 5,
-              "subtopics": {
-                "PDF OCR": 5
-              }
-            }
-          }
-        },
-        "গণিত": {
-          "count": 15,
-          "topics": {
-            "গাণিতিক সমস্যা": {
-              "count": 15,
-              "subtopics": {
-                "PDF OCR": 15
-              }
-            }
-          }
-        },
-        "English": {
-          "count": 5,
-          "topics": {
-            "Grammar & Vocabulary": {
-              "count": 5,
-              "subtopics": {
-                "PDF OCR": 5
-              }
-            }
-          }
-        }
-      },
-      "yearLabel": "০৩.১০.২০২৬",
-      "setLabel": "50টি পাঠযোগ্য প্রশ্ন",
-      "note": "মূল PDF-এর পৃষ্ঠা 8–13 থেকে 50টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
-    },
-    {
-      "id": "biwta-exam-2026-10-03",
-      "exam": "বাংলাদেশ অভ্যন্তরীণ নৌপরিবহন কর্তৃপক্ষ (BIWTA)",
-      "name": "নিম্নমান সহকারী/সময় রক্ষক/সহকারী কোষাধ্যক্ষ · ৩ অক্টোবর ২০২৬",
-      "type": "interactive",
-      "questions": 55,
-      "minutes": 60,
-      "marks": 100,
-      "href": "./mock.html?paper=biwta-exam-2026-10-03",
-      "topics": {
-        "সাধারণ জ্ঞান": {
-          "count": 36,
-          "topics": {
-            "সাধারণ জ্ঞান": {
-              "count": 28,
-              "subtopics": {
-                "PDF OCR": 28
-              }
-            },
-            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
-              "count": 8,
-              "subtopics": {
-                "PDF OCR": 8
-              }
-            }
-          }
-        },
-        "বাংলা": {
-          "count": 6,
-          "topics": {
-            "বাংলা ভাষা ও সাহিত্য": {
-              "count": 6,
-              "subtopics": {
-                "PDF OCR": 6
-              }
-            }
-          }
-        },
-        "English": {
-          "count": 6,
-          "topics": {
-            "Grammar & Vocabulary": {
-              "count": 6,
-              "subtopics": {
-                "PDF OCR": 6
-              }
-            }
-          }
-        },
-        "গণিত": {
-          "count": 6,
-          "topics": {
-            "গাণিতিক সমস্যা": {
-              "count": 6,
-              "subtopics": {
-                "PDF OCR": 6
-              }
-            }
-          }
-        },
-        "ICT": {
-          "count": 1,
-          "topics": {
-            "কম্পিউটার ও তথ্যপ্রযুক্তি": {
-              "count": 1,
-              "subtopics": {
-                "PDF OCR": 1
-              }
-            }
-          }
-        }
-      },
-      "yearLabel": "০৩.১০.২০২৬",
-      "setLabel": "55টি পাঠযোগ্য প্রশ্ন",
-      "note": "মূল PDF-এর পৃষ্ঠা 14–18 থেকে 55টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
-    },
-    {
-      "id": "mlcd-junior-teacher-2026-10-03",
-      "exam": "সামরিক ভূমি ও ক্যান্টনমেন্ট অধিদপ্তর",
-      "name": "জুনিয়র শিক্ষক · ৩ অক্টোবর ২০২৬",
-      "type": "interactive",
-      "questions": 39,
-      "minutes": 60,
-      "marks": 60,
-      "href": "./mock.html?paper=mlcd-junior-teacher-2026-10-03",
-      "topics": {
-        "সাধারণ জ্ঞান": {
-          "count": 19,
-          "topics": {
-            "সাধারণ জ্ঞান": {
-              "count": 17,
-              "subtopics": {
-                "PDF OCR": 17
-              }
-            },
-            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
-              "count": 2,
-              "subtopics": {
-                "PDF OCR": 2
-              }
-            }
-          }
-        },
-        "বাংলা": {
-          "count": 12,
-          "topics": {
-            "বাংলা ভাষা ও সাহিত্য": {
-              "count": 12,
-              "subtopics": {
-                "PDF OCR": 12
-              }
-            }
-          }
-        },
-        "বিজ্ঞান": {
-          "count": 1,
-          "topics": {
-            "সাধারণ বিজ্ঞান": {
-              "count": 1,
-              "subtopics": {
-                "PDF OCR": 1
-              }
-            }
-          }
-        },
-        "English": {
-          "count": 2,
-          "topics": {
-            "Grammar & Vocabulary": {
-              "count": 2,
-              "subtopics": {
-                "PDF OCR": 2
-              }
-            }
-          }
-        },
-        "গণিত": {
-          "count": 5,
-          "topics": {
-            "গাণিতিক সমস্যা": {
-              "count": 5,
-              "subtopics": {
-                "PDF OCR": 5
-              }
-            }
-          }
-        }
-      },
-      "yearLabel": "০৩.১০.২০২৬",
-      "setLabel": "39টি পাঠযোগ্য প্রশ্ন",
-      "note": "মূল PDF-এর পৃষ্ঠা 19–22 থেকে 39টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 60।"
-    },
-    {
-      "id": "hed-assistant-engineer-2026-08-04",
-      "exam": "স্বাস্থ্য প্রকৌশল অধিদপ্তর",
-      "name": "সহকারী প্রকৌশলী (পুর) · ৪ আগস্ট ২০২৬",
-      "type": "interactive",
-      "questions": 55,
-      "minutes": 60,
-      "marks": 100,
-      "href": "./mock.html?paper=hed-assistant-engineer-2026-08-04",
-      "topics": {
-        "English": {
-          "count": 13,
-          "topics": {
-            "Grammar & Vocabulary": {
-              "count": 13,
-              "subtopics": {
-                "PDF OCR": 13
-              }
-            }
-          }
-        },
-        "সাধারণ জ্ঞান": {
-          "count": 27,
-          "topics": {
-            "সাধারণ জ্ঞান": {
-              "count": 25,
-              "subtopics": {
-                "PDF OCR": 25
-              }
-            },
-            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
-              "count": 2,
-              "subtopics": {
-                "PDF OCR": 2
-              }
-            }
-          }
-        },
-        "গণিত": {
-          "count": 6,
-          "topics": {
-            "গাণিতিক সমস্যা": {
-              "count": 6,
-              "subtopics": {
-                "PDF OCR": 6
-              }
-            }
-          }
-        },
-        "বিজ্ঞান": {
-          "count": 1,
-          "topics": {
-            "সাধারণ বিজ্ঞান": {
-              "count": 1,
-              "subtopics": {
-                "PDF OCR": 1
-              }
-            }
-          }
-        },
-        "বাংলা": {
-          "count": 8,
-          "topics": {
-            "বাংলা ভাষা ও সাহিত্য": {
-              "count": 8,
-              "subtopics": {
-                "PDF OCR": 8
-              }
-            }
-          }
-        }
-      },
-      "yearLabel": "০৪.০৮.২০২৬",
-      "setLabel": "55টি পাঠযোগ্য প্রশ্ন",
-      "note": "মূল PDF-এর পৃষ্ঠা 23–28 থেকে 55টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
-    },
-    {
-      "id": "law-drafting-2026-10",
-      "exam": "আইন, বিচার ও সংসদ বিষয়ক মন্ত্রণালয়",
-      "name": "সহকারী সচিব (ড্রাফটিং) · ২০২৬",
-      "type": "interactive",
-      "questions": 58,
-      "minutes": 60,
-      "marks": 100,
-      "href": "./mock.html?paper=law-drafting-2026-10",
-      "topics": {
-        "সাধারণ জ্ঞান": {
-          "count": 35,
-          "topics": {
-            "সাধারণ জ্ঞান": {
-              "count": 24,
-              "subtopics": {
-                "PDF OCR": 24
-              }
-            },
-            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
-              "count": 11,
-              "subtopics": {
-                "PDF OCR": 11
-              }
-            }
-          }
-        },
-        "বাংলা": {
-          "count": 9,
-          "topics": {
-            "বাংলা ভাষা ও সাহিত্য": {
-              "count": 9,
-              "subtopics": {
-                "PDF OCR": 9
-              }
-            }
-          }
-        },
-        "গণিত": {
-          "count": 5,
-          "topics": {
-            "গাণিতিক সমস্যা": {
-              "count": 5,
-              "subtopics": {
-                "PDF OCR": 5
-              }
-            }
-          }
-        },
-        "English": {
-          "count": 6,
-          "topics": {
-            "Grammar & Vocabulary": {
-              "count": 6,
-              "subtopics": {
-                "PDF OCR": 6
-              }
-            }
-          }
-        },
-        "বিজ্ঞান": {
-          "count": 2,
-          "topics": {
-            "সাধারণ বিজ্ঞান": {
-              "count": 2,
-              "subtopics": {
-                "PDF OCR": 2
-              }
-            }
-          }
-        },
-        "ICT": {
-          "count": 1,
-          "topics": {
-            "কম্পিউটার ও তথ্যপ্রযুক্তি": {
-              "count": 1,
-              "subtopics": {
-                "PDF OCR": 1
-              }
-            }
-          }
-        }
-      },
-      "yearLabel": "২০২৬",
-      "setLabel": "58টি পাঠযোগ্য প্রশ্ন",
-      "note": "মূল PDF-এর পৃষ্ঠা 29–33 থেকে 58টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
-    },
-    {
-      "id": "ydo-2026-10-10",
-      "exam": "যুব উন্নয়ন অধিদপ্তর",
-      "name": "উপজেলা যুব উন্নয়ন কর্মকর্তা · ১০ অক্টোবর ২০২৬",
-      "type": "interactive",
-      "questions": 46,
-      "minutes": 60,
-      "marks": 100,
-      "href": "./mock.html?paper=ydo-2026-10-10",
-      "topics": {
-        "সাধারণ জ্ঞান": {
-          "count": 29,
-          "topics": {
-            "সাধারণ জ্ঞান": {
-              "count": 24,
-              "subtopics": {
-                "PDF OCR": 24
-              }
-            },
-            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
-              "count": 5,
-              "subtopics": {
-                "PDF OCR": 5
-              }
-            }
-          }
-        },
-        "বাংলা": {
-          "count": 4,
-          "topics": {
-            "বাংলা ভাষা ও সাহিত্য": {
-              "count": 4,
-              "subtopics": {
-                "PDF OCR": 4
-              }
-            }
-          }
-        },
-        "English": {
-          "count": 5,
-          "topics": {
-            "Grammar & Vocabulary": {
-              "count": 5,
-              "subtopics": {
-                "PDF OCR": 5
-              }
-            }
-          }
-        },
-        "গণিত": {
-          "count": 8,
-          "topics": {
-            "গাণিতিক সমস্যা": {
-              "count": 8,
-              "subtopics": {
-                "PDF OCR": 8
-              }
-            }
-          }
-        }
-      },
-      "yearLabel": "১০.১০.২০২৬",
-      "setLabel": "46টি পাঠযোগ্য প্রশ্ন",
-      "note": "মূল PDF-এর পৃষ্ঠা 34–37 থেকে 46টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
-    },
-    {
-      "id": "mofa-personal-officer-2026-10-14",
-      "exam": "পররাষ্ট্র মন্ত্রণালয় (PSC)",
-      "name": "ব্যক্তিগত কর্মকর্তা · ১৪ অক্টোবর ২০২৬",
-      "type": "interactive",
-      "questions": 56,
-      "minutes": 60,
-      "marks": 100,
-      "href": "./mock.html?paper=mofa-personal-officer-2026-10-14",
-      "topics": {
-        "সাধারণ জ্ঞান": {
-          "count": 25,
-          "topics": {
-            "সাধারণ জ্ঞান": {
-              "count": 21,
-              "subtopics": {
-                "PDF OCR": 21
-              }
-            },
-            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
-              "count": 4,
-              "subtopics": {
-                "PDF OCR": 4
-              }
-            }
-          }
-        },
-        "গণিত": {
-          "count": 8,
-          "topics": {
-            "গাণিতিক সমস্যা": {
-              "count": 8,
-              "subtopics": {
-                "PDF OCR": 8
-              }
-            }
-          }
-        },
-        "বাংলা": {
-          "count": 4,
-          "topics": {
-            "বাংলা ভাষা ও সাহিত্য": {
-              "count": 4,
-              "subtopics": {
-                "PDF OCR": 4
-              }
-            }
-          }
-        },
-        "বিজ্ঞান": {
-          "count": 4,
-          "topics": {
-            "সাধারণ বিজ্ঞান": {
-              "count": 4,
-              "subtopics": {
-                "PDF OCR": 4
-              }
-            }
-          }
-        },
-        "ICT": {
-          "count": 2,
-          "topics": {
-            "কম্পিউটার ও তথ্যপ্রযুক্তি": {
-              "count": 2,
-              "subtopics": {
-                "PDF OCR": 2
-              }
-            }
-          }
-        },
-        "English": {
-          "count": 13,
-          "topics": {
-            "Grammar & Vocabulary": {
-              "count": 13,
-              "subtopics": {
-                "PDF OCR": 13
-              }
-            }
-          }
-        }
-      },
-      "yearLabel": "১৪.১০.২০২৬",
-      "setLabel": "56টি পাঠযোগ্য প্রশ্ন",
-      "note": "মূল PDF-এর পৃষ্ঠা 38–42 থেকে 56টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
-    },
-    {
-      "id": "cultural-sub-assistant-engineer-2026-10-15",
-      "exam": "সংস্কৃতি বিষয়ক মন্ত্রণালয়",
-      "name": "উপ-সহকারী প্রকৌশলী · ১৫ অক্টোবর ২০২৬",
-      "type": "interactive",
-      "questions": 38,
-      "minutes": 60,
-      "marks": 100,
-      "href": "./mock.html?paper=cultural-sub-assistant-engineer-2026-10-15",
-      "topics": {
-        "বাংলা": {
-          "count": 10,
-          "topics": {
-            "বাংলা ভাষা ও সাহিত্য": {
-              "count": 10,
-              "subtopics": {
-                "PDF OCR": 10
-              }
-            }
-          }
-        },
-        "সাধারণ জ্ঞান": {
-          "count": 20,
-          "topics": {
-            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
-              "count": 6,
-              "subtopics": {
-                "PDF OCR": 6
-              }
-            },
-            "সাধারণ জ্ঞান": {
-              "count": 14,
-              "subtopics": {
-                "PDF OCR": 14
-              }
-            }
-          }
-        },
-        "English": {
-          "count": 6,
-          "topics": {
-            "Grammar & Vocabulary": {
-              "count": 6,
-              "subtopics": {
-                "PDF OCR": 6
-              }
-            }
-          }
-        },
-        "গণিত": {
-          "count": 2,
-          "topics": {
-            "গাণিতিক সমস্যা": {
-              "count": 2,
-              "subtopics": {
-                "PDF OCR": 2
-              }
-            }
-          }
-        }
-      },
-      "yearLabel": "১৫.১০.২০২৬",
-      "setLabel": "38টি পাঠযোগ্য প্রশ্ন",
-      "note": "মূল PDF-এর পৃষ্ঠা 43–46 থেকে 38টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
-    },
-    {
-      "id": "dydo-assistant-ydo-2026-10-16",
-      "exam": "যুব উন্নয়ন অধিদপ্তর",
-      "name": "সহকারী উপজেলা যুব উন্নয়ন কর্মকর্তা · ১৬ অক্টোবর ২০২৬",
-      "type": "interactive",
-      "questions": 57,
-      "minutes": 60,
-      "marks": 100,
-      "href": "./mock.html?paper=dydo-assistant-ydo-2026-10-16",
-      "topics": {
-        "বাংলা": {
-          "count": 10,
-          "topics": {
-            "বাংলা ভাষা ও সাহিত্য": {
-              "count": 10,
-              "subtopics": {
-                "PDF OCR": 10
-              }
-            }
-          }
-        },
-        "সাধারণ জ্ঞান": {
-          "count": 39,
-          "topics": {
-            "সাধারণ জ্ঞান": {
-              "count": 31,
-              "subtopics": {
-                "PDF OCR": 31
-              }
-            },
-            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
-              "count": 8,
-              "subtopics": {
-                "PDF OCR": 8
-              }
-            }
-          }
-        },
-        "English": {
-          "count": 4,
-          "topics": {
-            "Grammar & Vocabulary": {
-              "count": 4,
-              "subtopics": {
-                "PDF OCR": 4
-              }
-            }
-          }
-        },
-        "গণিত": {
-          "count": 4,
-          "topics": {
-            "গাণিতিক সমস্যা": {
-              "count": 4,
-              "subtopics": {
-                "PDF OCR": 4
-              }
-            }
-          }
-        }
-      },
-      "yearLabel": "১৬.১০.২০২৬",
-      "setLabel": "57টি পাঠযোগ্য প্রশ্ন",
-      "note": "মূল PDF-এর পৃষ্ঠা 47–51 থেকে 57টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
-    },
-    {
-      "id": "mod-assistant-cipher-2026-10-28",
-      "exam": "প্রতিরক্ষা মন্ত্রণালয়",
-      "name": "সহকারী সাইফার অফিসার · ২৮ অক্টোবর ২০২৬",
-      "type": "interactive",
-      "questions": 72,
-      "minutes": 60,
-      "marks": 100,
-      "href": "./mock.html?paper=mod-assistant-cipher-2026-10-28",
-      "topics": {
-        "সাধারণ জ্ঞান": {
-          "count": 30,
-          "topics": {
-            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
-              "count": 3,
-              "subtopics": {
-                "PDF OCR": 3
-              }
-            },
-            "সাধারণ জ্ঞান": {
-              "count": 27,
-              "subtopics": {
-                "PDF OCR": 27
-              }
-            }
-          }
-        },
-        "বাংলা": {
-          "count": 13,
-          "topics": {
-            "বাংলা ভাষা ও সাহিত্য": {
-              "count": 13,
-              "subtopics": {
-                "PDF OCR": 13
-              }
-            }
-          }
-        },
-        "English": {
-          "count": 12,
-          "topics": {
-            "Grammar & Vocabulary": {
-              "count": 12,
-              "subtopics": {
-                "PDF OCR": 12
-              }
-            }
-          }
-        },
-        "গণিত": {
-          "count": 10,
-          "topics": {
-            "গাণিতিক সমস্যা": {
-              "count": 10,
-              "subtopics": {
-                "PDF OCR": 10
-              }
-            }
-          }
-        },
-        "বিজ্ঞান": {
-          "count": 7,
-          "topics": {
-            "সাধারণ বিজ্ঞান": {
-              "count": 7,
-              "subtopics": {
-                "PDF OCR": 7
-              }
-            }
-          }
-        }
-      },
-      "yearLabel": "২৮.১০.২০২৬",
-      "setLabel": "72টি পাঠযোগ্য প্রশ্ন",
-      "note": "মূল PDF-এর পৃষ্ঠা 52–57 থেকে 72টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
-    },
-    {
-      "id": "mod-cipher-officer-2026-10-28",
-      "exam": "প্রতিরক্ষা মন্ত্রণালয়",
-      "name": "সাইফার অফিসার · ২৮ অক্টোবর ২০২৬",
-      "type": "interactive",
-      "questions": 71,
-      "minutes": 60,
-      "marks": 100,
-      "href": "./mock.html?paper=mod-cipher-officer-2026-10-28",
-      "topics": {
-        "সাধারণ জ্ঞান": {
-          "count": 42,
-          "topics": {
-            "সাধারণ জ্ঞান": {
-              "count": 31,
-              "subtopics": {
-                "PDF OCR": 31
-              }
-            },
-            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
-              "count": 11,
-              "subtopics": {
-                "PDF OCR": 11
-              }
-            }
-          }
-        },
-        "English": {
-          "count": 5,
-          "topics": {
-            "Grammar & Vocabulary": {
-              "count": 5,
-              "subtopics": {
-                "PDF OCR": 5
-              }
-            }
-          }
-        },
-        "বাংলা": {
-          "count": 11,
-          "topics": {
-            "বাংলা ভাষা ও সাহিত্য": {
-              "count": 11,
-              "subtopics": {
-                "PDF OCR": 11
-              }
-            }
-          }
-        },
-        "গণিত": {
-          "count": 11,
-          "topics": {
-            "গাণিতিক সমস্যা": {
-              "count": 11,
-              "subtopics": {
-                "PDF OCR": 11
-              }
-            }
-          }
-        },
-        "বিজ্ঞান": {
-          "count": 2,
-          "topics": {
-            "সাধারণ বিজ্ঞান": {
-              "count": 2,
-              "subtopics": {
-                "PDF OCR": 2
-              }
-            }
-          }
-        }
-      },
-      "yearLabel": "২৮.১০.২০২৬",
-      "setLabel": "71টি পাঠযোগ্য প্রশ্ন",
-      "note": "মূল PDF-এর পৃষ্ঠা 58–63 থেকে 71টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
-    },
-    {
-      "id": "bpsc-assistant-programmer-2026-10-29",
-      "exam": "BPSC · নন-ক্যাডার",
-      "name": "সহকারী প্রোগ্রামার / সহকারী রক্ষণাবেক্ষণ প্রকৌশলী · ২৯ অক্টোবর ২০২৬",
-      "type": "interactive",
-      "questions": 82,
-      "minutes": 60,
-      "marks": 100,
-      "href": "./mock.html?paper=bpsc-assistant-programmer-2026-10-29",
-      "topics": {
-        "বাংলা": {
-          "count": 11,
-          "topics": {
-            "বাংলা ভাষা ও সাহিত্য": {
-              "count": 11,
-              "subtopics": {
-                "PDF OCR": 11
-              }
-            }
-          }
-        },
-        "গণিত": {
-          "count": 3,
-          "topics": {
-            "গাণিতিক সমস্যা": {
-              "count": 3,
-              "subtopics": {
-                "PDF OCR": 3
-              }
-            }
-          }
-        },
-        "সাধারণ জ্ঞান": {
-          "count": 30,
-          "topics": {
-            "সাধারণ জ্ঞান": {
-              "count": 25,
-              "subtopics": {
-                "PDF OCR": 25
-              }
-            },
-            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
-              "count": 5,
-              "subtopics": {
-                "PDF OCR": 5
-              }
-            }
-          }
-        },
-        "English": {
-          "count": 35,
-          "topics": {
-            "Grammar & Vocabulary": {
-              "count": 35,
-              "subtopics": {
-                "PDF OCR": 35
-              }
-            }
-          }
-        },
-        "ICT": {
-          "count": 2,
-          "topics": {
-            "কম্পিউটার ও তথ্যপ্রযুক্তি": {
-              "count": 2,
-              "subtopics": {
-                "PDF OCR": 2
-              }
-            }
-          }
-        },
-        "বিজ্ঞান": {
-          "count": 1,
-          "topics": {
-            "সাধারণ বিজ্ঞান": {
-              "count": 1,
-              "subtopics": {
-                "PDF OCR": 1
-              }
-            }
-          }
-        }
-      },
-      "yearLabel": "২৯.১০.২০২৬",
-      "setLabel": "82টি পাঠযোগ্য প্রশ্ন",
-      "note": "মূল PDF-এর পৃষ্ঠা 64–74 থেকে 82টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
-    },
-    {
-      "id": "dpp-office-assistant-computer-2026-10-30",
-      "exam": "মুদ্রণ ও প্রকাশনা অধিদপ্তর",
-      "name": "অফিস সহকারী-কাম-কম্পিউটার মুদ্রাক্ষরিক/অপারেটর · ৩০ অক্টোবর ২০২৬",
-      "type": "interactive",
-      "questions": 57,
-      "minutes": 60,
-      "marks": 80,
-      "href": "./mock.html?paper=dpp-office-assistant-computer-2026-10-30",
-      "topics": {
-        "English": {
-          "count": 5,
-          "topics": {
-            "Grammar & Vocabulary": {
-              "count": 5,
-              "subtopics": {
-                "PDF OCR": 5
-              }
-            }
-          }
-        },
-        "সাধারণ জ্ঞান": {
-          "count": 30,
-          "topics": {
-            "সাধারণ জ্ঞান": {
-              "count": 28,
-              "subtopics": {
-                "PDF OCR": 28
-              }
-            },
-            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
-              "count": 2,
-              "subtopics": {
-                "PDF OCR": 2
-              }
-            }
-          }
-        },
-        "গণিত": {
-          "count": 7,
-          "topics": {
-            "গাণিতিক সমস্যা": {
-              "count": 7,
-              "subtopics": {
-                "PDF OCR": 7
-              }
-            }
-          }
-        },
-        "বাংলা": {
-          "count": 12,
-          "topics": {
-            "বাংলা ভাষা ও সাহিত্য": {
-              "count": 12,
-              "subtopics": {
-                "PDF OCR": 12
-              }
-            }
-          }
-        },
-        "বিজ্ঞান": {
-          "count": 2,
-          "topics": {
-            "সাধারণ বিজ্ঞান": {
-              "count": 2,
-              "subtopics": {
-                "PDF OCR": 2
-              }
-            }
-          }
-        },
-        "ICT": {
-          "count": 1,
-          "topics": {
-            "কম্পিউটার ও তথ্যপ্রযুক্তি": {
-              "count": 1,
-              "subtopics": {
-                "PDF OCR": 1
-              }
-            }
-          }
-        }
-      },
-      "yearLabel": "৩০.১০.২০২৬",
-      "setLabel": "57টি পাঠযোগ্য প্রশ্ন",
-      "note": "মূল PDF-এর পৃষ্ঠা 75–79 থেকে 57টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 80।"
-    },
-    {
-      "id": "dpp-office-assistant-2026-10-30",
-      "exam": "মুদ্রণ ও প্রকাশনা অধিদপ্তর",
-      "name": "অফিস সহকারী · ৩০ অক্টোবর ২০২৬",
-      "type": "interactive",
-      "questions": 58,
-      "minutes": 60,
-      "marks": 80,
-      "href": "./mock.html?paper=dpp-office-assistant-2026-10-30",
-      "topics": {
-        "সাধারণ জ্ঞান": {
-          "count": 33,
-          "topics": {
-            "সাধারণ জ্ঞান": {
-              "count": 29,
-              "subtopics": {
-                "PDF OCR": 29
-              }
-            },
-            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
-              "count": 4,
-              "subtopics": {
-                "PDF OCR": 4
-              }
-            }
-          }
-        },
-        "English": {
-          "count": 6,
-          "topics": {
-            "Grammar & Vocabulary": {
-              "count": 6,
-              "subtopics": {
-                "PDF OCR": 6
-              }
-            }
-          }
-        },
-        "গণিত": {
-          "count": 7,
-          "topics": {
-            "গাণিতিক সমস্যা": {
-              "count": 7,
-              "subtopics": {
-                "PDF OCR": 7
-              }
-            }
-          }
-        },
-        "ICT": {
-          "count": 2,
-          "topics": {
-            "কম্পিউটার ও তথ্যপ্রযুক্তি": {
-              "count": 2,
-              "subtopics": {
-                "PDF OCR": 2
-              }
-            }
-          }
-        },
-        "বাংলা": {
-          "count": 10,
-          "topics": {
-            "বাংলা ভাষা ও সাহিত্য": {
-              "count": 10,
-              "subtopics": {
-                "PDF OCR": 10
-              }
-            }
-          }
-        }
-      },
-      "yearLabel": "৩০.১০.২০২৬",
-      "setLabel": "58টি পাঠযোগ্য প্রশ্ন",
-      "note": "মূল PDF-এর পৃষ্ঠা 80–84 থেকে 58টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 80।"
-    },
-    {
-      "id": "bjs-assistant-judge-2026-10-31",
-      "exam": "বাংলাদেশ জুডিশিয়াল সার্ভিস (BJS)",
-      "name": "১৯তম বিজেএস · সহকারী জজ · ৩১ অক্টোবর ২০২৬",
-      "type": "interactive",
-      "questions": 34,
-      "minutes": 60,
-      "marks": 100,
-      "href": "./mock.html?paper=bjs-assistant-judge-2026-10-31",
-      "topics": {
-        "সাধারণ জ্ঞান": {
-          "count": 22,
-          "topics": {
-            "সাধারণ জ্ঞান": {
-              "count": 17,
-              "subtopics": {
-                "PDF OCR": 17
-              }
-            },
-            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
-              "count": 5,
-              "subtopics": {
-                "PDF OCR": 5
-              }
-            }
-          }
-        },
-        "English": {
-          "count": 3,
-          "topics": {
-            "Grammar & Vocabulary": {
-              "count": 3,
-              "subtopics": {
-                "PDF OCR": 3
-              }
-            }
-          }
-        },
-        "ICT": {
-          "count": 1,
-          "topics": {
-            "কম্পিউটার ও তথ্যপ্রযুক্তি": {
-              "count": 1,
-              "subtopics": {
-                "PDF OCR": 1
-              }
-            }
-          }
-        },
-        "বাংলা": {
-          "count": 6,
-          "topics": {
-            "বাংলা ভাষা ও সাহিত্য": {
-              "count": 6,
-              "subtopics": {
-                "PDF OCR": 6
-              }
-            }
-          }
-        },
-        "গণিত": {
-          "count": 2,
-          "topics": {
-            "গাণিতিক সমস্যা": {
-              "count": 2,
-              "subtopics": {
-                "PDF OCR": 2
-              }
-            }
-          }
-        }
-      },
-      "yearLabel": "৩১.১০.২০২৬",
-      "setLabel": "34টি পাঠযোগ্য প্রশ্ন",
-      "note": "মূল PDF-এর পৃষ্ঠা 87–89 থেকে 34টি পাঠযোগ্য প্রশ্ন ডিজিটাইজড। স্ক্যানে অস্পষ্ট/অসম্পূর্ণ প্রশ্ন বাদ; মুদ্রিত পূর্ণমান 100।"
     }
   ]
 }
