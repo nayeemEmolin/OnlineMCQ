@@ -4346,6 +4346,227 @@
       "note": "মূল PDF-এর ১০০ নম্বর প্রশ্নটি অস্পষ্ট বলে বাদ; বাকি ৯৯টি প্রশ্ন OCR করে ডিজিটালাইজড।",
       "yearLabel": "২০২৬",
       "setLabel": "সেট ৩"
+    },
+    {
+      "id": "minlaw-sub-registrar-2012-05-26",
+      "exam": "আইন, বিচার ও সংসদ বিষয়ক মন্ত্রণালয়",
+      "name": "সাব-রেজিস্ট্রার · ২৬ মে ২০১২",
+      "type": "interactive",
+      "questions": 100,
+      "minutes": 60,
+      "marks": 100,
+      "negativeMark": "ভুল উত্তরে −০.২৫",
+      "href": "./mock.html?paper=minlaw-sub-registrar-2012-05-26",
+      "topics": {
+        "বাংলা": {
+          "count": 30,
+          "topics": {
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 26,
+              "subtopics": {
+                "সাহিত্য ও ব্যাকরণ": 25,
+                "বাংলা ভাষা ও সাহিত্য": 1
+              }
+            },
+            "বাংলা ব্যাকরণ ও সাহিত্য": {
+              "count": 4,
+              "subtopics": {
+                "বাংলা ব্যাকরণ ও সাহিত্য": 4
+              }
+            }
+          }
+        },
+        "English": {
+          "count": 12,
+          "topics": {
+            "Grammar & Vocabulary": {
+              "count": 8,
+              "subtopics": {
+                "Grammar and vocabulary": 7,
+                "Grammar & Vocabulary": 1
+              }
+            },
+            "English grammar and vocabulary": {
+              "count": 4,
+              "subtopics": {
+                "English grammar and vocabulary": 4
+              }
+            }
+          }
+        },
+        "সাধারণ জ্ঞান": {
+          "count": 25,
+          "topics": {
+            "সাধারণ জ্ঞান": {
+              "count": 22,
+              "subtopics": {
+                "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": 21,
+                "সাধারণ জ্ঞান": 1
+              }
+            },
+            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
+              "count": 3,
+              "subtopics": {
+                "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": 3
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 17,
+          "topics": {
+            "গাণিতিক সমস্যা": {
+              "count": 17,
+              "subtopics": {
+                "গণিত": 13,
+                "গাণিতিক সমস্যা": 4
+              }
+            }
+          }
+        },
+        "বিজ্ঞান": {
+          "count": 12,
+          "topics": {
+            "সাধারণ বিজ্ঞান": {
+              "count": 12,
+              "subtopics": {
+                "জীববিজ্ঞান ও স্বাস্থ্য": 4,
+                "সাধারণ বিজ্ঞান": 8
+              }
+            }
+          }
+        },
+        "ICT": {
+          "count": 4,
+          "topics": {
+            "তথ্য ও যোগাযোগ প্রযুক্তি": {
+              "count": 4,
+              "subtopics": {
+                "তথ্য ও যোগাযোগ প্রযুক্তি": 4
+              }
+            }
+          }
+        }
+      },
+      "yearLabel": "২৬.০৫.২০১২",
+      "setLabel": "পূর্ণাঙ্গ ১০০ MCQ",
+      "sourceReadableCount": 70,
+      "supplementCount": 30,
+      "note": "PDF থেকে 70টি যাচাইকৃত প্রশ্ন; বাকি 30টি সম্পূরক অনুশীলনী।"
+    },
+    {
+      "id": "bpsc-coast-guard-senior-staff-nurse-2026-11-19",
+      "exam": "বাংলাদেশ কোস্ট গার্ড · সিনিয়র স্টাফ নার্স",
+      "name": "সিনিয়র স্টাফ নার্স · ১৯ নভেম্বর ২০২৬",
+      "type": "interactive",
+      "questions": 100,
+      "minutes": 60,
+      "marks": 100,
+      "negativeMark": "ভুল উত্তরে −০.২৫",
+      "href": "./mock.html?paper=bpsc-coast-guard-senior-staff-nurse-2026-11-19",
+      "topics": {
+        "বাংলা": {
+          "count": 15,
+          "topics": {
+            "বাংলা ভাষা ও সাহিত্য": {
+              "count": 5,
+              "subtopics": {
+                "ভাষা ও সাধারণ জ্ঞান": 2,
+                "বাংলা ভাষা ও সাহিত্য": 3
+              }
+            },
+            "বাংলা ব্যাকরণ ও সাহিত্য": {
+              "count": 10,
+              "subtopics": {
+                "বাংলা ব্যাকরণ ও সাহিত্য": 10
+              }
+            }
+          }
+        },
+        "সাধারণ বিজ্ঞান": {
+          "count": 12,
+          "topics": {
+            "সাধারণ বিজ্ঞান": {
+              "count": 12,
+              "subtopics": {
+                "স্বাস্থ্য ও সাধারণ বিজ্ঞান": 12
+              }
+            }
+          }
+        },
+        "English": {
+          "count": 13,
+          "topics": {
+            "Grammar & Vocabulary": {
+              "count": 5,
+              "subtopics": {
+                "Grammar & Vocabulary": 5
+              }
+            },
+            "English grammar and vocabulary": {
+              "count": 8,
+              "subtopics": {
+                "English grammar and vocabulary": 8
+              }
+            }
+          }
+        },
+        "সাধারণ জ্ঞান": {
+          "count": 12,
+          "topics": {
+            "সাধারণ জ্ঞান": {
+              "count": 3,
+              "subtopics": {
+                "সাধারণ জ্ঞান": 3
+              }
+            },
+            "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": {
+              "count": 9,
+              "subtopics": {
+                "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি": 9
+              }
+            }
+          }
+        },
+        "গণিত": {
+          "count": 12,
+          "topics": {
+            "গাণিতিক সমস্যা": {
+              "count": 12,
+              "subtopics": {
+                "গাণিতিক সমস্যা": 12
+              }
+            }
+          }
+        },
+        "বিজ্ঞান": {
+          "count": 24,
+          "topics": {
+            "সাধারণ বিজ্ঞান": {
+              "count": 24,
+              "subtopics": {
+                "সাধারণ বিজ্ঞান": 24
+              }
+            }
+          }
+        },
+        "ICT": {
+          "count": 12,
+          "topics": {
+            "তথ্য ও যোগাযোগ প্রযুক্তি": {
+              "count": 12,
+              "subtopics": {
+                "তথ্য ও যোগাযোগ প্রযুক্তি": 12
+              }
+            }
+          }
+        }
+      },
+      "yearLabel": "১৯.১১.২০২৬",
+      "setLabel": "পূর্ণাঙ্গ ১০০ MCQ",
+      "sourceReadableCount": 14,
+      "supplementCount": 86,
+      "note": "PDF থেকে 14টি যাচাইকৃত প্রশ্ন; বাকি 86টি সম্পূরক অনুশীলনী।"
     }
   ]
 }
